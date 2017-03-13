@@ -1,0 +1,24 @@
+﻿@using ZYN.BLOG.ViewModel;
+@model List<CategoryViewModel>
+
+
+@if (this.Model != null && this.Model.Count != 0)
+{
+    <aside id="doc_category">
+        <div class="panel panel-zyn hidden-xs">
+            <div class="panel-heading">
+                <span class="glyphicon glyphicon-tags newicon"></span> 文以类聚
+            </div>
+            <div class="d_tags">
+                @foreach (CategoryViewModel item in this.Model)
+                {
+                        <a href="/Home/Index/@item.CategoryId">
+                            @item.CategoryName  (@item.ArticleCount)
+                        </a>
+                }
+            </div>
+        </div>
+    </aside>
+
+}
+

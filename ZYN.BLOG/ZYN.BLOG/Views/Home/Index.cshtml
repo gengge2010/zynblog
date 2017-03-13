@@ -1,0 +1,168 @@
+﻿@model Int32
+@{
+    ViewBag.Title = "Zynblog | 个人博客";
+}
+@section headScript{
+    <script type="text/javascript">
+        $(function () {
+            jQuery('#home').addClass('active');
+
+            //该函数用于更改jQuery中AJAX请求的默认设置选项。之后执行的所有AJAX请求，
+            //如果对应的选项参数没有设置，将使用更改后的默认设置。
+            jQuery.ajaxSetup({ cache: false });
+
+            //1.0 加载博客列表
+            loadArtList("?pageIndex=1&pageSize=7");
+        });
+
+        //2.0 加载首页博客列表
+        function loadArtList(queryParameter) {
+
+            jQuery.ajax({
+                type:"GET",
+                url:"/Home/WrapArtList/"+ @this.Model +queryParameter,
+                dataType:"json",
+                beforeSend:function(){
+                    jQuery('#loading').css("text-align","center");
+                    jQuery('#loading').slideDown(); //缓冲图标缓慢展示
+                },
+                success:function(data){
+                    if (data.Status == "1") {
+                        jQuery('#loading').slideUp('fast');  //缓冲图标向上隐藏
+                        //jQuery('#loading').remove();
+                        //1.0 组装首页博文列表
+                        var len = data.CoreData.length;
+                        for (var i = 0; i < len; i++) {
+			     var strArticle = ' ';
+                             if(i==0){
+			 	strArticle = '<article class="excerpt excerpt-first">';
+			     }else if(i==len-1){
+				strArticle = '<article class="excerpt excerpt-end">';
+			     }else{
+				strArticle = '<article class="excerpt">';
+			     }
+                            
+                            //博文标题
+                            strArticle += '<header>';
+                            strArticle += '<a class="cat" href="#">' + data.CoreData[i].CategoryName + '<i></i></a>';
+                            strArticle += '<h2><a class="gotoArchive" href=\"/Archives/Index/' + data.CoreData[i].Id + '\" title=\"' + data.CoreData[i].Title + '\">' + data.CoreData[i].Title + '</a></h2>';
+                            strArticle += '</header>';
+                            //-标题下的tips小信息
+                            strArticle += '<p class="meta">';
+                            strArticle += '<span class="posttime">' + data.CoreData[i].SubTime + '</span>';
+                            strArticle += '<span class="viewnum">浏览(<a href="#">' + data.CoreData[i].ViewCount + '</a>)</span>';
+                            strArticle += '<span class="commentnum">评论(<a href="/Archives/Index/'+data.CoreData[i].Id+'#comments-title">' + data.CoreData[i].CommentCount + '</a>)</span>';
+                            strArticle += '<span class="praisebtn">  <img width="15" height="15" class="praisenum" src="/Content/images/ico_praise.png" />(<a data-id=\"'+data.CoreData[i].Id+'\" praise-flag="0"  href="/">' + data.CoreData[i].Digg + '</a>)</span>';
+                            strArticle += '</p>';
+                            //正文:默认显示90个汉字或180个英文(后台已处理)
+                            strArticle += '<p class="note">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + data.CoreData[i].Contents + '....</p>';
+                            //关键词：<!--最多显示3个-->
+                            strArticle += '<footer class="entry-footer">';
+                            strArticle += '<span itemprop="keywords" class="tags-links">';//<!--itemprop属性就是方便机器识别的特定的标记-->
+                            //最开始把for里面的变量也写为了i所以浏览器停止运行了；使用前先判断一下keywords是否为空
+                             var keywordslen = data.CoreData[i].Keywords.length;
+                            if (data.CoreData[i].Keywords && keywordslen != 0) {
+                                for (var j = 0; j < keywordslen; j++) {
+                                    strArticle += '<a rel="tag" href="/">' + data.CoreData[i].Keywords[j] + '</a>';
+                                }
+                            }
+                            strArticle += '</span>';
+                            strArticle += '<a class="more-link gotoArchive" rel="nofollow" href=\"/Archives/Index/' + data.CoreData[i].Id + '\">继续阅读 »</a>';
+                            strArticle += '</footer>';
+                            strArticle += '</article>';
+
+                            //附加
+                            jQuery("#article-list").append(strArticle);
+                        }
+
+                        //2.1 组装分页插件
+                        jQuery('.pagination ul').html(data.PageNavStr);
+
+                        //2.2 为分页按钮注册点击事件
+                        jQuery('.pagination ul a').click(function () {
+                            var strHref = jQuery(this).attr("href");
+                            var queryStr = strHref.substr(strHref.indexOf('?'));
+
+                            jQuery("#article-list article").remove();
+                            jQuery(".pagination ul li").remove(); //将li元素全清空
+                            $body.animate({ scrollTop: '0px' }, 500); //65是"n条评论的高度"
+
+                            loadArtList(queryStr);
+
+                            return false;  //不执行href
+                        });
+		       
+			//onload完了之后再去七牛请求这些大图片
+			jQuery('#wxlook').attr('src','/Content/images/weixin.png');
+                        jQuery('.author-avatar img').each(function () {
+                      	 	 var url = jQuery(this).attr('data-url');
+                      		 jQuery(this).attr('src', url);
+                        });
+
+                        //新浪天气
+                        var url = "http://sapi.sina.cn/ls/allasync?ver=3";
+                        jQuery.ajax({
+                            url: url,
+                            type: "get",
+                            timeout: 60000,
+                            dataType: "jsonp",
+                            success: function (record, type) {
+                                var d = eval(record);
+                                var img = d.retData.weather.icon_v3; //图标 icon icon_v3
+                                var city = d.retData.weather.city;
+                                var up = d.retData.weather.up;
+                                var down = d.retData.weather.down;
+
+                                var e = jQuery("#tweather");
+                                if (img){
+				    e.empty();
+			            var tips = "If you don't bird me, I don't bird you, too.";
+				    e.append(tips + "<div id='wicon' class='pull-right' style='margin-right:5px'><img src='" + img + "' width=20 height=20 />&nbsp;" + city + "&nbsp; " + down + "&nbsp;~&nbsp;" + up + "℃</div>");
+				}
+                                     
+                            },
+                            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                            }
+                        });
+                    }
+                }
+            });
+        };
+    </script>
+}
+
+@*第一部分：每日提示：*@
+<div class="well fade in daytips" style="padding:15px;background-color: #f9f9f9;">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    <div id="tweather" style='line-height:20px'>
+         
+    </div>
+</div>
+
+@*第二部分：文章列表*@
+<div id="article-list">
+    <div id="loading">
+        <img width="32" height="32" src="/Content/images/ico_loading2.gif" />
+    </div>
+</div>
+
+@*//第三部分：分页条。有列表数据才创建分页条*@
+<div class="pagination">
+    <!--pagation本来就是BootStrap的类，现在用的是自定义的Bootstrap类-->
+    <ul></ul>
+</div>
+
+
+@*填侧边栏的五部分内容：1.关注我、2.搜索 3.热门文章、4.最新评论、5.标签云或友情链接*@
+
+
+
+@section aside{
+    @{Html.RenderPartial("~/Views/Shared/_CareForMe.cshtml");}@*@加载分部视图（关注我）*@
+    @{Html.RenderAction("DocArchiving", "Home");}  @*加载分部视图（文章归档）*@
+    @{Html.RenderAction("HotArticles", "Home");}  @*加载分部视图（热门文章）*@
+    @{Html.RenderAction("NewComments", "Home");}  @*加载分部视图（最新评论）*@
+    @{Html.RenderAction("TagCloud", "Home");}@*加载分部视图（.标签云或友情链接）*@
+}
+
+

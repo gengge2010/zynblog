@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ZYN.BLOG.Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Article">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CategoryId" Type="Int32" Nullable="false" />
+    <Property Name="Author" Type="String" MaxLength="64" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Title" Type="String" MaxLength="64" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Abstract" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Keywords" Type="String" MaxLength="64" FixedLength="false" Unicode="true" />
+    <Property Name="Contents" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ContentsRaw" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Digg" Type="Int32" Nullable="false" />
+    <Property Name="ViewCount" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="Int16" Nullable="false" />
+    <Property Name="SubTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="AltTime" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Category" Relationship="Self.FK_Article_Category" FromRole="Article" ToRole="Category" />
+    <NavigationProperty Name="Comments" Relationship="Self.FK_Comment_Article" FromRole="Article" ToRole="Comment" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="64" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ParentId" Type="Int32" Nullable="false" />
+    <Property Name="Descn" Type="String" MaxLength="64" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Int16" Nullable="false" />
+    <Property Name="SubTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="AltTime" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Articles" Relationship="Self.FK_Article_Category" FromRole="Category" ToRole="Article" />
+  </EntityType>
+  <EntityType Name="Comment">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CmtArtId" Type="Int32" Nullable="false" />
+    <Property Name="ParentId" Type="Int32" Nullable="false" />
+    <Property Name="VisitorId" Type="Int32" Nullable="false" />
+    <Property Name="CmtText" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Status" Type="Int16" Nullable="false" />
+    <Property Name="SubTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="AltTime" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Article" Relationship="Self.FK_Comment_Article" FromRole="Comment" ToRole="Article" />
+    <NavigationProperty Name="Visitor" Relationship="Self.FK_Comment_Visitor" FromRole="Comment" ToRole="Visitor" />
+  </EntityType>
+  <EntityType Name="HeadIcon">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IconName" Type="String" MaxLength="64" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IconRawName" Type="String" MaxLength="64" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IconURL" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Status" Type="Int16" Nullable="false" />
+    <Property Name="UploadTime" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Visitors" Relationship="Self.FK_Visitor_HeadIcon" FromRole="HeadIcon" ToRole="Visitor" />
+  </EntityType>
+  <EntityType Name="LeaveMsg">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ParentId" Type="Int32" Nullable="false" />
+    <Property Name="VisitorId" Type="Int32" Nullable="false" />
+    <Property Name="LMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Status" Type="Int16" Nullable="false" />
+    <Property Name="SubTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="AltTime" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Visitor" Relationship="Self.FK_LeaveMsg_Visitor" FromRole="LeaveMsg" ToRole="Visitor" />
+  </EntityType>
+  <EntityType Name="PalLink">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LinkName" Type="String" MaxLength="32" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LinkURL" Type="String" MaxLength="64" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Status" Type="Int16" Nullable="false" />
+    <Property Name="SubTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="AltTime" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="SearchDetail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="KeyWord" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="SearchDate" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="SearchRank">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="KeyWord" Type="String" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="SearchTimes" Type="Int32" />
+  </EntityType>
+  <EntityType Name="StaticFile">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FileRawName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FileNowName" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FileLocalPath" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FileOnLineURL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="FromArticleId" Type="Int32" />
+    <Property Name="FileType" Type="Int16" Nullable="false" />
+    <Property Name="UploadTime" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="Visitor">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="VisitorName" Type="String" MaxLength="64" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="VisitorIconId" Type="Int32" />
+    <Property Name="VisitorEmail" Type="String" MaxLength="64" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="VisitorQQ" Type="String" MaxLength="32" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="Int16" Nullable="false" />
+    <Property Name="SubTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="AltTime" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Comments" Relationship="Self.FK_Comment_Visitor" FromRole="Visitor" ToRole="Comment" />
+    <NavigationProperty Name="HeadIcon" Relationship="Self.FK_Visitor_HeadIcon" FromRole="Visitor" ToRole="HeadIcon" />
+    <NavigationProperty Name="LeaveMsgs" Relationship="Self.FK_LeaveMsg_Visitor" FromRole="Visitor" ToRole="LeaveMsg" />
+  </EntityType>
+  <EntityType Name="WebSetting">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ConfigKey" Type="String" MaxLength="64" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ConfigValue" Type="String" MaxLength="256" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BuildTime" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="AltTime" Type="DateTime" Precision="3" />
+  </EntityType>
+  <Association Name="FK_Article_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Article" Type="Self.Article" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Article">
+        <PropertyRef Name="CategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comment_Article">
+    <End Role="Article" Type="Self.Article" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Comment" Type="Self.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Article">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="CmtArtId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Comment_Visitor">
+    <End Role="Visitor" Type="Self.Visitor" Multiplicity="1" />
+    <End Role="Comment" Type="Self.Comment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Visitor">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Comment">
+        <PropertyRef Name="VisitorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Visitor_HeadIcon">
+    <End Role="HeadIcon" Type="Self.HeadIcon" Multiplicity="0..1" />
+    <End Role="Visitor" Type="Self.Visitor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="HeadIcon">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Visitor">
+        <PropertyRef Name="VisitorIconId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LeaveMsg_Visitor">
+    <End Role="Visitor" Type="Self.Visitor" Multiplicity="1" />
+    <End Role="LeaveMsg" Type="Self.LeaveMsg" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Visitor">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="LeaveMsg">
+        <PropertyRef Name="VisitorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BlogDb4ZynEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Articles" EntityType="Self.Article" />
+    <EntitySet Name="Categories" EntityType="Self.Category" />
+    <EntitySet Name="Comments" EntityType="Self.Comment" />
+    <EntitySet Name="HeadIcons" EntityType="Self.HeadIcon" />
+    <EntitySet Name="LeaveMsgs" EntityType="Self.LeaveMsg" />
+    <EntitySet Name="PalLinks" EntityType="Self.PalLink" />
+    <EntitySet Name="SearchDetails" EntityType="Self.SearchDetail" />
+    <EntitySet Name="SearchRanks" EntityType="Self.SearchRank" />
+    <EntitySet Name="StaticFiles" EntityType="Self.StaticFile" />
+    <EntitySet Name="Visitors" EntityType="Self.Visitor" />
+    <EntitySet Name="WebSettings" EntityType="Self.WebSetting" />
+    <AssociationSet Name="FK_Article_Category" Association="Self.FK_Article_Category">
+      <End Role="Category" EntitySet="Categories" />
+      <End Role="Article" EntitySet="Articles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comment_Article" Association="Self.FK_Comment_Article">
+      <End Role="Article" EntitySet="Articles" />
+      <End Role="Comment" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Comment_Visitor" Association="Self.FK_Comment_Visitor">
+      <End Role="Visitor" EntitySet="Visitors" />
+      <End Role="Comment" EntitySet="Comments" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Visitor_HeadIcon" Association="Self.FK_Visitor_HeadIcon">
+      <End Role="HeadIcon" EntitySet="HeadIcons" />
+      <End Role="Visitor" EntitySet="Visitors" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LeaveMsg_Visitor" Association="Self.FK_LeaveMsg_Visitor">
+      <End Role="Visitor" EntitySet="Visitors" />
+      <End Role="LeaveMsg" EntitySet="LeaveMsgs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

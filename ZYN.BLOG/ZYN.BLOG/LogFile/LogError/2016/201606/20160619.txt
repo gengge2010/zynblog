@@ -1,0 +1,21 @@
+
+ 
+记录时间：2016-06-19 20:36:55,547 
+线程ID:[31] 
+日志级别：  ERROR 
+错误描述：在执行 controller[CommentController] 的 action[PostCmt] 时产生异常
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ZYN.BLOG.Controllers.CommentController.SendBlogCmtEmail(Comment cmt, String pageSize) 位置 g:\个人博客项目\ZYN.BLOG\ZYN.BLOG\Controllers\CommentController.cs:行号 510
+   在 ZYN.BLOG.Controllers.CommentController.PostCmt(Comment cmt) 位置 g:\个人博客项目\ZYN.BLOG\ZYN.BLOG\Controllers\CommentController.cs:行号 317
+   在 lambda_method(Closure , ControllerBase , Object[] )
+   在 System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass42.<BeginInvokeSynchronousActionMethod>b__41()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<>c__DisplayClass39.<BeginInvokeActionMethodWithFilters>b__33()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass4f.<InvokeActionMethodFilterAsynchronously>b__49()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<>c__DisplayClass2a.<BeginInvokeAction>b__20()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass25.<BeginInvokeAction>b__22(IAsyncResult asyncResult)

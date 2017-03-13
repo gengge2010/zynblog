@@ -1,0 +1,255 @@
+﻿@{
+    ViewBag.Title = "后台 | 头像管理";
+}
+
+@section headScript{
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('#AdminHeadIcon').addClass('active');
+
+            $('#head-table').dataTable({
+                "oLanguage": {
+                    //国际化
+                    "sProcessing": "<img src='/Content_Admin/img/spinner.gif'>  努力加载数据中...",
+                    "sLengthMenu": "显示_MENU_ 条结果",
+                    "sZeroRecords": "没有匹配结果",
+                    "sInfo": "从第_START_至_END_条数据  | （共_TOTAL_ 条）",
+                    "sInfoEmpty": "没有数据",
+                    "sInfoFiltered": "(从_MAX_条数据中检索)",
+                    "sZeroRecords": "没有检索到数据",
+                    "sSearch": "模糊查询:"
+                },
+
+                "bServerSide": true,  //第二种场景:服务端处理分页后数据,客户端呈现,此时为true.但此时aoColumns要变,将'sName'换成mDataProp,同时自定义列也要有对应的数据
+                "sServerMethod": "GET",
+                "sAjaxSource": "/Admin/AdminHeadIcon/GetHeadiconsJson", //ajax Url地址
+                "bProcessing": true,
+
+                "bPaginate": true,
+                "sPaginationType": "full_numbers",
+                "bJQueryUI": true,  //客户端传给服务器的参数为sSearch
+                'bFilter': false,
+                'bLengthChange': true,
+                'aLengthMenu': [
+                     [10, 15, 20, -1],
+                     [10, 15, 20, "全部"] // change per page values here
+                ],
+
+                'iDisplayLength': 10,  //每页显示7条记录
+                'bAutoWidth': true,
+                "scrollX": true,
+
+                "aoColumns": [
+                     { "sWidth": "2%", "mDataProp": "Id" },
+                     {
+                         "sWidth": "4%",
+                         "mDataProp": "HeadImg",
+                         "mRender": function (data, type, row) {
+                             return '<img src="' + data + ' " width="60px" height="60px" />';
+                         }
+                     },
+                     { "sWidth": "5%", "mDataProp": "RawName", "bStorable": false },
+                     { "sWidth": "5%", "mDataProp": "NowName", "bStorable": false },
+                     { "sWidth": "20%", "mDataProp": "HeadImgUrl", "bStorable": false },
+                     { "sWidth": "7%", "mDataProp": "UploadTime", "bStorable": false },
+                     {
+                         "sWidth": "5%",
+                         "mDataProp": "Status",
+                         "mRender": function (data, type, row) {
+                             var value = "正常";
+                             if (data == "0")
+                                 value = "禁用";
+                             return value;
+                         }
+                     },
+                     { //自定义列 : 启用/禁用
+                         "mDataProp": "null",
+                         "sWidth": "5%",
+                         "bSearchable": false,
+                         "bStorable": false,
+                         "mRender": function (data, type, row) {
+                             var actionstr = '<a id="publichead" class="publicaction" target-id="' + row.Id + '" href="#">启 用</a>';
+                             if (row.Status == "1")
+                                 actionstr = '<a id="delhead" class="delaction" target-id="' + row.Id + '" href="#">禁 用</a>';
+                             return actionstr;
+                         }
+                     },
+					{ //自定义列 : 真删除
+                        "mDataProp": "null",
+                        "sWidth": "6%",
+                        "bSearchable": false,
+                        "bStorable": false,
+                        "mRender": function (data, type, row) {
+                            return '<a id="realdelarticle"  class="tip" target-id="' + row.Id + '" href="#"><i class="icon-remove"></i></a>';
+                        }
+                    }
+                ],
+
+                "aoColumnDefs": [
+                    {
+                        //DataTables warning : Requested unknown parameter '1' from the data source for row 0
+                        //加上这段定义就不出错了。
+                        sDefaultContent: '',
+                        aTargets: ['_all']
+                    }
+                ]
+            });
+
+            //2. 注册软删除(禁用)事件
+            $('#head-table').on('click', '#delhead', function (e) {
+                //异步软删除
+                e.preventDefault();
+
+                var curelement = $(this);  //ajax 闭包
+                var id = curelement.attr('target-id');
+
+                $.post("/Admin/AdminHeadIcon/DeleteHeadIcon/" + id, function (data) {
+                    if (data == 1) {
+                        layer.alert('禁用成功', {
+                            time: 2000
+                        });
+                        //重新加载本页数据
+                        $('#head-table').dataTable().fnDraw(false);
+                    } else if (data) {
+                        layer.alert('禁用失败', 8);
+                    }
+                });
+            });
+
+            //3.0 为启用<a id='publichead'>标签注册启用事件
+            $('#head-table').on('click', '#publichead', function (e) {
+                //异步发布
+                e.preventDefault();
+
+                var curElement = $(this);
+                var id = curElement.attr('target-id');
+
+                $.post("/Admin/AdminHeadIcon/PublicHeadIcon/" + id, function (data) {
+                    if (data == 1) {
+                        layer.alert('启用成功', {
+                            time: 2000
+                        });
+                        //重新加载本页数据
+                        $('#head-table').dataTable().fnDraw(false);
+                    } else if (data) {
+                        layer.alert('启用失败', 8);
+                    }
+                });
+            });
+            //4.0 真删
+            $('#head-table').on('click', '#realdelarticle', function (e) {
+                //异步删除(级联删除)
+                e.preventDefault();
+
+                var curElement = $(this);
+                var id = curElement.attr('target-id');
+
+                //先弹出一个confirm对话框，再发起删除指令
+
+                layer.confirm("此删除操作不可逆，确定删除?", {
+                    btn: ['确定', '取消']
+                }, function () {
+                    $.post("/Admin/AdminHeadIcon/RealDelHIcon/" + id, function (data) {
+                        if (data == "1") {
+                            layer.alert('删除成功', {
+                                time: 2000
+                            });
+                            //重新加载本页数据
+                            $('#head-table').dataTable().fnDraw(false);
+                        } else if (data == "0") {
+                            layer.alert('删除失败', 8);
+                        } else if (data == "2") {
+                            layer.alert("七牛删除失败", 8);
+                        }
+                    });
+                }, function () {
+                    //关闭
+                });
+            });
+			
+            //4.0 无刷新上传头像
+            $('#addheadicon').click(function () {
+                $('#headicon-add').css('display', 'block');
+            });
+
+            $('#fileUp').change(function () {
+                $('#uploadLog').html('正在上传中....');
+                $('#formFile').submit();
+            });
+       
+        });
+
+        function uploadSuccess(msg) {
+            if (msg.split('|').length > 1) {
+                $('#uploadLog').html(msg.split('|')[0]);
+                $('#imgShow').attr('src', msg.split('|')[1]);
+                $('#imgShow').css('display', 'block');
+     
+                //2秒后重新加载本页数据
+                setTimeout(function () {
+                    window.location.href = "/Admin/AdminHeadIcon/Index";
+                },2000);
+            } else {
+                $('#uploadLog').html('返回值错误');
+            }
+        };
+    </script>
+}
+
+
+<div id="content-header">
+    <div id="breadcrumb">
+        <a href="@Url.RouteUrl("Admin_default",new{controller="AdminHome",action="Index"})" title="Go to Home" class="tip-bottom">
+            <i class="icon-home"></i> Home
+        </a>
+        <a href="#" class="current">头像管理</a>
+    </div>
+</div>
+<button id="addheadicon" class="btn btn-info newbuild">添加头像</button>
+
+@*新增区域*@
+<div id="headicon-add" style="display:none">
+    <form id='formFile' name='formFile' method="post" action="/Admin/FileHandler/UploadHeadIcon" target='frameFile'
+          enctype="multipart/form-data">
+        请选择图片: <input type='file' id='fileUp' name='fileUp' value='' />
+        <div id='uploadLog'>
+        </div>
+        <br />
+        <img id='imgShow' src='' style="display:none;margin-left:20px;margin-bottom:20px" width='150' height='200' />
+    </form>
+    <iframe id='frameFile' name='frameFile' style='display: none;'></iframe>
+</div>
+
+<div class="container-fluid">
+    <div class="row-fluid" id="wraplist">
+        <div class="span12">
+            <div class="widget-box">
+                <div class="widget-title">
+                    <span class="icon"><i class="icon-th"></i></span>
+                    <h5>头像列表</h5>
+                </div>
+                <div class="widget-content nopadding">
+                    <table id="head-table" class="table table-bordered data-table mydatatable">
+                        <thead>
+                            <tr>
+                                <th>编号</th>
+                                <th>头像</th>
+                                <th>原名</th>
+                                <th>现名</th>
+                                <th>路径</th>
+                                <th>上传时间</th>
+                                <th>状态</th>
+                                <th>操作</th>
+								<th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

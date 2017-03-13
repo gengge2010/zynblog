@@ -1,0 +1,62 @@
+﻿<!--Header-part-->
+<div id="header">
+    <h1>
+        <a href="@Url.RouteUrl("Admin_default",new{controller="AdminHome",action="Index"})">
+            Zynblog Admin
+        </a>
+    </h1>
+</div>
+<!--close-Header-part-->
+<!--top-Header-menu-->
+<div id="user-nav" class="navbar navbar-default">
+    <ul class="nav">
+        <li class="dropdown" id="profile-messages">
+            <a title="" href="#" data-toggle="dropdown" data-target="#profile-messages" class="dropdown-toggle">
+                <i class="icon icon-user"></i>
+                <span class="text">欢迎您,@ViewBag.AdminUser</span><b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="#"><i class="icon-user"></i>&nbsp;个人资料</a></li>
+                <li class="divider"></li>
+                <li>
+                    <a href="@Url.RouteUrl("Admin_default", new { controller = "Account", action = "Logout" })">
+                        <i class="icon-key"></i>&nbsp; 退出系统
+                    </a>
+                </li>
+            </ul>
+        </li>
+        <li class="dropdown" id="menu-messages">
+            <a href="#" data-toggle="dropdown" data-target="#menu-messages" class="dropdown-toggle"><i class="icon icon-envelope"></i> <span class="text">我的消息</span> <span class="label label-important">5</span> <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+                <li><a class="sAdd" title="" href="#"><i class="icon-plus"></i>&nbsp;新消息</a></li>
+                <li class="divider"></li>
+                <li><a class="sInbox" title="" href="#"><i class="icon-envelope"></i>&nbsp;收件箱</a></li>
+                <li class="divider"></li>
+                <li><a class="sOutbox" title="" href="#"><i class="icon-arrow-up"></i>&nbsp;发件箱</a></li>
+                <li class="divider"></li>
+                <li><a class="sTrash" title="" href="#"><i class="icon-trash"></i>&nbsp;回收站</a></li>
+            </ul>
+        </li>
+        <li class="">
+            <a title="" href="@Url.RouteUrl("Admin_default", new { controller = "AdminSetting", action = "Index" })">
+                <i class="icon icon-cog"></i>
+                <span class="text">设置</span>
+            </a>
+        </li>
+        <li class="">
+            <a href="@Url.RouteUrl("Admin_default", new { controller = "Account", action = "Logout" })">
+                <i class="icon icon-share-alt"></i>
+                <span class="text">退出</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<!--close-top-Header-menu-->
+<!--start-top-serch-->
+<div id="search">
+    <input type="text" placeholder="Search here..." />
+    <button type="submit" class="tip-bottom" title="Search">
+        <i class="icon-search icon-white"></i>
+    </button>
+</div>
+<!--close-top-serch-->

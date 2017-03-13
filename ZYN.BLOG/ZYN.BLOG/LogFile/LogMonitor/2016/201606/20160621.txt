@@ -1,0 +1,518 @@
+
+ 
+记录时间：2016-06-21 00:00:23,019 
+线程ID:[86] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminHomeController
+            ActionName:Index
+            开始时间：2016/6/21 0:00:23
+            结束时间：2016/6/21 0:00:23
+            总 时 间：0.0010195秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:00:23,678 
+线程ID:[86] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminHomeController
+            ViewName:Index
+            开始时间：2016/6/21 0:00:23
+            结束时间：2016/6/21 0:00:23
+            总 时 间：0.6560067秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:00:26,092 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminCommentController
+            ActionName:Index
+            开始时间：2016/6/21 0:00:26
+            结束时间：2016/6/21 0:00:26
+            总 时 间：0.0010693秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:00:26,542 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminCommentController
+            ViewName:Index
+            开始时间：2016/6/21 0:00:26
+            结束时间：2016/6/21 0:00:26
+            总 时 间：0.4499142秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:00:26,952 
+线程ID:[83] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminCommentController
+            ActionName:GetCommentsJson
+            开始时间：2016/6/21 0:00:26
+            结束时间：2016/6/21 0:00:26
+            总 时 间：0.0130577秒
+            Form表单数据：
+            URL参数：sEcho=1&iColumns=10&sColumns=&iDisplayStart=0&iDisplayLength=7&mDataProp_0=Id&mDataProp_1=ArticleId&mDataProp_2=CmtText&mDataProp_3=CmterName&mDataProp_4=CmterEmail&mDataProp_5=SubTime&mDataProp_6=Status&mDataProp_7=null&mDataProp_8=null&mDataProp_9=null&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=true&bSortable_6=true&bSortable_7=true&bSortable_8=true&bSortable_9=true&_=1466438426908
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:00:26,955 
+线程ID:[83] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminCommentController
+            ViewName:GetCommentsJson
+            开始时间：2016/6/21 0:00:26
+            结束时间：2016/6/21 0:00:26
+            总 时 间：0.0020013秒
+            Form表单数据：
+            URL参数：sEcho=1&iColumns=10&sColumns=&iDisplayStart=0&iDisplayLength=7&mDataProp_0=Id&mDataProp_1=ArticleId&mDataProp_2=CmtText&mDataProp_3=CmterName&mDataProp_4=CmterEmail&mDataProp_5=SubTime&mDataProp_6=Status&mDataProp_7=null&mDataProp_8=null&mDataProp_9=null&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=true&bSortable_6=true&bSortable_7=true&bSortable_8=true&bSortable_9=true&_=1466438426908
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:00:28,763 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminArchivesController
+            ActionName:Index
+            开始时间：2016/6/21 0:00:28
+            结束时间：2016/6/21 0:00:28
+            总 时 间：7.53E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:00:28,767 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminArchivesController
+            ViewName:Index
+            开始时间：2016/6/21 0:00:28
+            结束时间：2016/6/21 0:00:28
+            总 时 间：0.0040049秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:00:29,117 
+线程ID:[81] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminArchivesController
+            ActionName:GetArchivesJson
+            开始时间：2016/6/21 0:00:29
+            结束时间：2016/6/21 0:00:29
+            总 时 间：0.0200874秒
+            Form表单数据：
+            URL参数：sEcho=1&iColumns=10&sColumns=&iDisplayStart=0&iDisplayLength=7&mDataProp_0=Id&mDataProp_1=Title&mDataProp_2=CategoryName&mDataProp_3=ViewCount&mDataProp_4=CommentCount&mDataProp_5=Digg&mDataProp_6=Status&mDataProp_7=null&mDataProp_8=null&mDataProp_9=null&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=true&bSortable_6=true&bSortable_7=true&bSortable_8=true&bSortable_9=true&_=1466438429067
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:00:29,118 
+线程ID:[81] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminArchivesController
+            ViewName:GetArchivesJson
+            开始时间：2016/6/21 0:00:29
+            结束时间：2016/6/21 0:00:29
+            总 时 间：0.0009996秒
+            Form表单数据：
+            URL参数：sEcho=1&iColumns=10&sColumns=&iDisplayStart=0&iDisplayLength=7&mDataProp_0=Id&mDataProp_1=Title&mDataProp_2=CategoryName&mDataProp_3=ViewCount&mDataProp_4=CommentCount&mDataProp_5=Digg&mDataProp_6=Status&mDataProp_7=null&mDataProp_8=null&mDataProp_9=null&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=true&bSortable_6=true&bSortable_7=true&bSortable_8=true&bSortable_9=true&_=1466438429067
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:00:33,012 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminArchivesController
+            ActionName:GetArchivesJson
+            开始时间：2016/6/21 0:00:33
+            结束时间：2016/6/21 0:00:33
+            总 时 间：0.0120226秒
+            Form表单数据：
+            URL参数：sEcho=2&iColumns=10&sColumns=&iDisplayStart=14&iDisplayLength=7&mDataProp_0=Id&mDataProp_1=Title&mDataProp_2=CategoryName&mDataProp_3=ViewCount&mDataProp_4=CommentCount&mDataProp_5=Digg&mDataProp_6=Status&mDataProp_7=null&mDataProp_8=null&mDataProp_9=null&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=true&bSortable_6=true&bSortable_7=true&bSortable_8=true&bSortable_9=true&_=1466438432987
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:00:33,012 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminArchivesController
+            ViewName:GetArchivesJson
+            开始时间：2016/6/21 0:00:33
+            结束时间：2016/6/21 0:00:33
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：sEcho=2&iColumns=10&sColumns=&iDisplayStart=14&iDisplayLength=7&mDataProp_0=Id&mDataProp_1=Title&mDataProp_2=CategoryName&mDataProp_3=ViewCount&mDataProp_4=CommentCount&mDataProp_5=Digg&mDataProp_6=Status&mDataProp_7=null&mDataProp_8=null&mDataProp_9=null&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=true&bSortable_6=true&bSortable_7=true&bSortable_8=true&bSortable_9=true&_=1466438432987
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:00:37,109 
+线程ID:[86] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminArchivesController
+            ActionName:EditArchive
+            开始时间：2016/6/21 0:00:37
+            结束时间：2016/6/21 0:00:37
+            总 时 间：0.0050978秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:00:37,114 
+线程ID:[86] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminArchivesController
+            ViewName:EditArchive
+            开始时间：2016/6/21 0:00:37
+            结束时间：2016/6/21 0:00:37
+            总 时 间：0.0050036秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:00:59,767 
+线程ID:[81] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminArchivesController
+            ActionName:EditArchive
+            开始时间：2016/6/21 0:00:59
+            结束时间：2016/6/21 0:00:59
+            总 时 间：0.0150133秒
+            Form表单数据：Id=22&Title=.net 发送邮件&Author=夜无痕&Contents=<p>&nbsp;&nbsp;&nbsp;&nbsp;由于本站不要求访客进行注册后才能进行评论、留言、点赞、转发等操作（评论时只需起个自己中意的昵称/填上邮箱即可），</p><p>因此当游客发表的评论有回复时，需要借助系统邮件来通知该访客(仿博客园)。下面就总结了在.NET平台下如何利用&nbsp;System.Net.Mail命名空间下的相关类进行发送邮件。（收到邮件的访客点击邮件中的链接后可直接定位到具体的评论条目）PS:当然系统邮件也可能静静的躺在你的垃圾箱里，设为白名单即可。<br/></p><pre class="brush:c#;toolbar:false ">public&nbsp;class&nbsp;SendMail
+&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#region&nbsp;1.0&nbsp;发送邮件方法&nbsp;只需填写&nbsp;收件人、内容&nbsp;，根据默认的SMTP地址&nbsp;帐号&nbsp;密码&nbsp;直接发送
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;summary&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;发送邮件方法&nbsp;只需填写&nbsp;收件人&nbsp;内容&nbsp;，&nbsp;根据默认的SMTP地址&nbsp;帐号&nbsp;密码&nbsp;直接发送
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;/summary&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;param&nbsp;name=&quot;strto&quot;&gt;收件人帐号&lt;/param&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;param&nbsp;name=&quot;strSubject&quot;&gt;主题&lt;/param&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;param&nbsp;name=&quot;strBody&quot;&gt;内容&lt;/param&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;return&gt;登录结果&lt;/return&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;void&nbsp;SendEMail(string&nbsp;strTo,&nbsp;string&nbsp;strSubject,&nbsp;string&nbsp;strBody)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SendSMTPEMail(&quot;smtp.126.com&quot;,&nbsp;&quot;zynblog@126.com&quot;,&nbsp;&quot;125126zyn&quot;,&nbsp;strTo,&nbsp;strSubject,&nbsp;strBody);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#endregion
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#region&nbsp;2.0&nbsp;发送邮件方法&nbsp;完整填写SMTP地址&nbsp;帐号&nbsp;密码&nbsp;收件人&nbsp;主题&nbsp;内容&nbsp;发送
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;summary&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;发送邮件方法&nbsp;只需填写&nbsp;收件人&nbsp;内容&nbsp;，&nbsp;根据默认的SMTP地址&nbsp;帐号&nbsp;密码&nbsp;直接发送
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;/summary&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;void&nbsp;SendEMail(string&nbsp;strSmtpService,&nbsp;string&nbsp;strFrom,&nbsp;string&nbsp;strFromPass,&nbsp;string&nbsp;strto,&nbsp;string&nbsp;strSubject,&nbsp;string&nbsp;strBody)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SendSMTPEMail(strSmtpService,&nbsp;strFrom,&nbsp;strFromPass,&nbsp;strto,&nbsp;strSubject,&nbsp;strBody);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#endregion
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#region&nbsp;发送邮件方法&nbsp;需要SMTP地址&nbsp;帐号&nbsp;密码&nbsp;收件人&nbsp;主题&nbsp;内容&nbsp;发送
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;summary&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;发送邮件方法&nbsp;需要SMTP地址&nbsp;帐号&nbsp;密码&nbsp;收件人&nbsp;主题&nbsp;内容&nbsp;发送
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;/summary&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;param&nbsp;name=&quot;strSmtpServer&quot;&gt;SMTP服务器&lt;/param&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;paClass1ram&nbsp;name=&quot;strFrom&quot;&gt;发件人的帐号&lt;/param&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;param&nbsp;name=&quot;strFromPass&quot;&gt;发件人密码&lt;/param&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;param&nbsp;name=&quot;strto&quot;&gt;收件人帐号&lt;/param&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;param&nbsp;name=&quot;strSubject&quot;&gt;主题&lt;/param&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;param&nbsp;name=&quot;strBody&quot;&gt;内容&lt;/param&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;static&nbsp;void&nbsp;SendSMTPEMail(string&nbsp;strSmtpServer,&nbsp;string&nbsp;strFrom,&nbsp;string&nbsp;strFromPass,&nbsp;string&nbsp;strTo,&nbsp;string&nbsp;strSubject,&nbsp;string&nbsp;strBody)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//指定服务器的地址
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.Net.Mail.SmtpClient&nbsp;client&nbsp;=&nbsp;new&nbsp;System.Net.Mail.SmtpClient(strSmtpServer);
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;client.UseDefaultCredentials&nbsp;=&nbsp;false;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//发送者邮箱/密码
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;client.Credentials&nbsp;=&nbsp;new&nbsp;System.Net.NetworkCredential(strFrom,&nbsp;strFromPass);
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;client.DeliveryMethod&nbsp;=&nbsp;System.Net.Mail.SmtpDeliveryMethod.Network;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.Net.Mail.MailMessage&nbsp;mailMsg&nbsp;=&nbsp;new&nbsp;System.Net.Mail.MailMessage();
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mailMsg.From&nbsp;=&nbsp;new&nbsp;System.Net.Mail.MailAddress(strFrom,&nbsp;&quot;zynblog系统通知&quot;);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mailMsg.To.Add(strTo);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mailMsg.Subject&nbsp;=&nbsp;strSubject;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mailMsg.Body&nbsp;=&nbsp;strBody;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mailMsg.BodyEncoding&nbsp;=&nbsp;System.Text.Encoding.UTF8;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//允许有HTML
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mailMsg.IsBodyHtml&nbsp;=&nbsp;true;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;client.Send(mailMsg);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;catch&nbsp;(Exception&nbsp;e)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;str&nbsp;=&nbsp;e.Message;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#endregion
+&nbsp;&nbsp;&nbsp;&nbsp;}</pre><p><br/></p>&CategoryId=1&Abstract=&Keywords=&Status=1&ViewCount=0&Digg=0&SubTime=2016/6/20 11:23:39
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:00:59,768 
+线程ID:[81] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminArchivesController
+            ViewName:EditArchive
+            开始时间：2016/6/21 0:00:59
+            结束时间：2016/6/21 0:00:59
+            总 时 间：0秒
+            Form表单数据：Id=22&Title=.net 发送邮件&Author=夜无痕&Contents=<p>&nbsp;&nbsp;&nbsp;&nbsp;由于本站不要求访客进行注册后才能进行评论、留言、点赞、转发等操作（评论时只需起个自己中意的昵称/填上邮箱即可），</p><p>因此当游客发表的评论有回复时，需要借助系统邮件来通知该访客(仿博客园)。下面就总结了在.NET平台下如何利用&nbsp;System.Net.Mail命名空间下的相关类进行发送邮件。（收到邮件的访客点击邮件中的链接后可直接定位到具体的评论条目）PS:当然系统邮件也可能静静的躺在你的垃圾箱里，设为白名单即可。<br/></p><pre class="brush:c#;toolbar:false ">public&nbsp;class&nbsp;SendMail
+&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#region&nbsp;1.0&nbsp;发送邮件方法&nbsp;只需填写&nbsp;收件人、内容&nbsp;，根据默认的SMTP地址&nbsp;帐号&nbsp;密码&nbsp;直接发送
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;summary&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;发送邮件方法&nbsp;只需填写&nbsp;收件人&nbsp;内容&nbsp;，&nbsp;根据默认的SMTP地址&nbsp;帐号&nbsp;密码&nbsp;直接发送
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;/summary&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;param&nbsp;name=&quot;strto&quot;&gt;收件人帐号&lt;/param&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;param&nbsp;name=&quot;strSubject&quot;&gt;主题&lt;/param&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;param&nbsp;name=&quot;strBody&quot;&gt;内容&lt;/param&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;return&gt;登录结果&lt;/return&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;void&nbsp;SendEMail(string&nbsp;strTo,&nbsp;string&nbsp;strSubject,&nbsp;string&nbsp;strBody)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SendSMTPEMail(&quot;smtp.126.com&quot;,&nbsp;&quot;zynblog@126.com&quot;,&nbsp;&quot;125126zyn&quot;,&nbsp;strTo,&nbsp;strSubject,&nbsp;strBody);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#endregion
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#region&nbsp;2.0&nbsp;发送邮件方法&nbsp;完整填写SMTP地址&nbsp;帐号&nbsp;密码&nbsp;收件人&nbsp;主题&nbsp;内容&nbsp;发送
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;summary&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;发送邮件方法&nbsp;只需填写&nbsp;收件人&nbsp;内容&nbsp;，&nbsp;根据默认的SMTP地址&nbsp;帐号&nbsp;密码&nbsp;直接发送
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;/summary&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;void&nbsp;SendEMail(string&nbsp;strSmtpService,&nbsp;string&nbsp;strFrom,&nbsp;string&nbsp;strFromPass,&nbsp;string&nbsp;strto,&nbsp;string&nbsp;strSubject,&nbsp;string&nbsp;strBody)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SendSMTPEMail(strSmtpService,&nbsp;strFrom,&nbsp;strFromPass,&nbsp;strto,&nbsp;strSubject,&nbsp;strBody);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#endregion
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#region&nbsp;发送邮件方法&nbsp;需要SMTP地址&nbsp;帐号&nbsp;密码&nbsp;收件人&nbsp;主题&nbsp;内容&nbsp;发送
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;summary&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;发送邮件方法&nbsp;需要SMTP地址&nbsp;帐号&nbsp;密码&nbsp;收件人&nbsp;主题&nbsp;内容&nbsp;发送
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;/summary&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;param&nbsp;name=&quot;strSmtpServer&quot;&gt;SMTP服务器&lt;/param&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;paClass1ram&nbsp;name=&quot;strFrom&quot;&gt;发件人的帐号&lt;/param&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;param&nbsp;name=&quot;strFromPass&quot;&gt;发件人密码&lt;/param&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;param&nbsp;name=&quot;strto&quot;&gt;收件人帐号&lt;/param&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;param&nbsp;name=&quot;strSubject&quot;&gt;主题&lt;/param&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;param&nbsp;name=&quot;strBody&quot;&gt;内容&lt;/param&gt;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;private&nbsp;static&nbsp;void&nbsp;SendSMTPEMail(string&nbsp;strSmtpServer,&nbsp;string&nbsp;strFrom,&nbsp;string&nbsp;strFromPass,&nbsp;string&nbsp;strTo,&nbsp;string&nbsp;strSubject,&nbsp;string&nbsp;strBody)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;try
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//指定服务器的地址
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.Net.Mail.SmtpClient&nbsp;client&nbsp;=&nbsp;new&nbsp;System.Net.Mail.SmtpClient(strSmtpServer);
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;client.UseDefaultCredentials&nbsp;=&nbsp;false;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//发送者邮箱/密码
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;client.Credentials&nbsp;=&nbsp;new&nbsp;System.Net.NetworkCredential(strFrom,&nbsp;strFromPass);
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;client.DeliveryMethod&nbsp;=&nbsp;System.Net.Mail.SmtpDeliveryMethod.Network;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.Net.Mail.MailMessage&nbsp;mailMsg&nbsp;=&nbsp;new&nbsp;System.Net.Mail.MailMessage();
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mailMsg.From&nbsp;=&nbsp;new&nbsp;System.Net.Mail.MailAddress(strFrom,&nbsp;&quot;zynblog系统通知&quot;);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mailMsg.To.Add(strTo);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mailMsg.Subject&nbsp;=&nbsp;strSubject;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mailMsg.Body&nbsp;=&nbsp;strBody;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mailMsg.BodyEncoding&nbsp;=&nbsp;System.Text.Encoding.UTF8;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//允许有HTML
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mailMsg.IsBodyHtml&nbsp;=&nbsp;true;
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;client.Send(mailMsg);
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;catch&nbsp;(Exception&nbsp;e)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;string&nbsp;str&nbsp;=&nbsp;e.Message;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#endregion
+&nbsp;&nbsp;&nbsp;&nbsp;}</pre><p><br/></p>&CategoryId=1&Abstract=&Keywords=&Status=1&ViewCount=0&Digg=0&SubTime=2016/6/20 11:23:39
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:01:00,661 
+线程ID:[83] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminArchivesController
+            ActionName:Index
+            开始时间：2016/6/21 0:01:00
+            结束时间：2016/6/21 0:01:00
+            总 时 间：2.68E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:01:00,664 
+线程ID:[83] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminArchivesController
+            ViewName:Index
+            开始时间：2016/6/21 0:01:00
+            结束时间：2016/6/21 0:01:00
+            总 时 间：0.0030049秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:01:01,061 
+线程ID:[81] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminArchivesController
+            ActionName:GetArchivesJson
+            开始时间：2016/6/21 0:01:01
+            结束时间：2016/6/21 0:01:01
+            总 时 间：0.0170343秒
+            Form表单数据：
+            URL参数：sEcho=1&iColumns=10&sColumns=&iDisplayStart=0&iDisplayLength=7&mDataProp_0=Id&mDataProp_1=Title&mDataProp_2=CategoryName&mDataProp_3=ViewCount&mDataProp_4=CommentCount&mDataProp_5=Digg&mDataProp_6=Status&mDataProp_7=null&mDataProp_8=null&mDataProp_9=null&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=true&bSortable_6=true&bSortable_7=true&bSortable_8=true&bSortable_9=true&_=1466438461010
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:01:01,062 
+线程ID:[81] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminArchivesController
+            ViewName:GetArchivesJson
+            开始时间：2016/6/21 0:01:01
+            结束时间：2016/6/21 0:01:01
+            总 时 间：0.0010031秒
+            Form表单数据：
+            URL参数：sEcho=1&iColumns=10&sColumns=&iDisplayStart=0&iDisplayLength=7&mDataProp_0=Id&mDataProp_1=Title&mDataProp_2=CategoryName&mDataProp_3=ViewCount&mDataProp_4=CommentCount&mDataProp_5=Digg&mDataProp_6=Status&mDataProp_7=null&mDataProp_8=null&mDataProp_9=null&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=true&bSortable_6=true&bSortable_7=true&bSortable_8=true&bSortable_9=true&_=1466438461010
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:01:05,418 
+线程ID:[84] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminLvMsgController
+            ActionName:Index
+            开始时间：2016/6/21 0:01:05
+            结束时间：2016/6/21 0:01:05
+            总 时 间：0.0015822秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:01:05,876 
+线程ID:[84] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminLvMsgController
+            ViewName:Index
+            开始时间：2016/6/21 0:01:05
+            结束时间：2016/6/21 0:01:05
+            总 时 间：0.4584202秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:01:06,334 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminLvMsgController
+            ActionName:GetLvMsgsJson
+            开始时间：2016/6/21 0:01:06
+            结束时间：2016/6/21 0:01:06
+            总 时 间：0.0520539秒
+            Form表单数据：
+            URL参数：sEcho=1&iColumns=9&sColumns=&iDisplayStart=0&iDisplayLength=7&mDataProp_0=Id&mDataProp_1=LvmText&mDataProp_2=LvmerName&mDataProp_3=LvmerEmail&mDataProp_4=SubTime&mDataProp_5=Status&mDataProp_6=null&mDataProp_7=null&mDataProp_8=null&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=true&bSortable_6=true&bSortable_7=true&bSortable_8=true&_=1466438466249
+                    
+ 
+
+ 
+记录时间：2016-06-21 00:01:06,334 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminLvMsgController
+            ViewName:GetLvMsgsJson
+            开始时间：2016/6/21 0:01:06
+            结束时间：2016/6/21 0:01:06
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：sEcho=1&iColumns=9&sColumns=&iDisplayStart=0&iDisplayLength=7&mDataProp_0=Id&mDataProp_1=LvmText&mDataProp_2=LvmerName&mDataProp_3=LvmerEmail&mDataProp_4=SubTime&mDataProp_5=Status&mDataProp_6=null&mDataProp_7=null&mDataProp_8=null&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=true&bSortable_6=true&bSortable_7=true&bSortable_8=true&_=1466438466249
+                    
+ 

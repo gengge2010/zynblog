@@ -1,0 +1,70 @@
+﻿@{
+    Layout = null;
+}
+
+@model ZYN.BLOG.ViewModel.LoginUser
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Zynblog Admin</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="~/Content/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="~/Content/images/favicon.ico" type="image/x-icon" />
+    <link href="~/Content_Admin/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content_Admin/css/bootstrap-responsive.min.css" rel="stylesheet" />
+    <link href="~/Content_Admin/css/matrix-login.css" rel="stylesheet" />
+    <link href="~/Content_Admin/font-awesome/css/font-awesome.css" rel="stylesheet" />
+
+    <link href='http://fonts.useso.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <div id="loginbox">
+        <form id="loginform" class="form-vertical" method="post" action="">
+            <div class="control-group normal_text">
+                <h3>
+                    Zynblog Admin
+                </h3>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <div class="main_input_box">
+                        <span class="add-on bg_lg">
+                            <i class="icon-user"></i>
+                        </span>
+                        @Html.EditorFor(u => u.UserName)
+                        @Html.ValidationMessageFor(u => u.UserName)
+                    </div>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <div class="controls">
+                    <div class="main_input_box">
+                        <span class="add-on bg_ly">
+                            <i class="icon-lock"></i>
+                        </span>
+                        @Html.PasswordFor(u => u.PassWord)
+                        @Html.ValidationMessageFor(u => u.PassWord)
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <button id="login-link" type="submit" class=" btn btn-info">Login</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="~/Content_Admin/js/jquery.min.js"></script>
+    <script src="~/Content_Admin/js/matrix.login.js"></script>
+    <script src="~/Scripts/jquery.validate.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Content_Admin/layer/layer.js"></script>
+</body>
+
+</html>

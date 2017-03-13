@@ -1,0 +1,181 @@
+﻿@{
+    ViewBag.Title = "Zynblog | 留言板";
+}
+
+
+@section headScript{
+    <script type="text/javascript">
+        jQuery(function () {
+
+            jQuery('#leavemsg').addClass('active');
+
+            jQuery.ajaxSetup({ cache: false });
+
+            //从邮件链接过来的会用到下面两个参数
+            var rootLvmId = 0;
+            var parentLvmId = 0;
+            var lvmId = 0;
+            //是否是从邮件链接过来
+            var flag = '@ViewBag.Flag';
+
+            if (flag == "1") {
+                //从邮件链接过来;方法内去定位锚点
+                //应该是根据评论的.Id倒着取推断该条评论属于第几页的
+                //至于页数，就固定好了
+                rootLvmId = '@ViewBag.AnchorLvmRootId';
+                parentLvmId = '@ViewBag.AnchorLvmParentId';
+                lvmId = '@ViewBag.AnchorLvmId';  //评论锚点的id
+            }
+
+            GenerateLeaveMsg(flag, rootLvmId, parentLvmId, lvmId);
+           
+        });
+
+        function GenerateLeaveMsg(anchorflag, anchorRootLvmId, anchorParentLvmId, anchorLvmId) {
+            var $ = jQuery.noConflict();
+            //清空<textarea></textarea>
+            $('textarea').each(function () {
+                this.value = ''
+            });
+
+            $.ajax({
+                type: "GET",
+                url: "/LeaveMsg/WrapLeaveMsg",
+
+                dataType: "json",
+                beforeSend: function () {
+                    $('.comments-wrap #comments .pagination').remove();   //去除分页
+                    $('.comments-wrap #comments .commentlist').remove(); //直接将所有留言的大容器去掉
+                    $('#loading-comments').slideDown(); //缓冲图标缓慢展示
+                },
+                dataType: "json",
+                success: function (data) {
+                    if (data.Status == "1") {
+                        $('#loading-comments').slideUp('fast');  //缓冲图标向上隐藏
+                        //留言内容淡入
+                        $('.comments-wrap #comments').append(data.CoreData);
+
+                        var imgshow = $('#comments img');
+                    }
+                   
+                    //加载完留言后, 定位
+                    //ajax加载完页面数据后定位到响应留言锚点
+                    if (anchorflag == "1") {
+                        location.hash = '#comment-' + anchorRootLvmId;//定位到根评论区
+                        $('#comment-' + anchorLvmId).css('border', 'solid 2px #1abc9c');
+                        $('#comment-' + anchorParentLvmId).css('border', 'solid 2px #1abc9c');
+                        $('#comment-' + anchorRootLvmId).css('border', 'solid 2px #1abc9c');
+                    }
+                }
+            });
+        };
+    </script>
+}
+
+<article class="article container well" style="text-align:center;">
+
+    <header class="pageheader clearfix">
+        <h1 class="">
+            <a href="#">留言板</a>
+        </h1>
+    </header>
+    <div id='leavemsg' class="article-content">
+        <p style='margin-bottom:0px;'>
+            <img class="article-emot inline" src="~/Content/images/watermelon.png" style="display: inline;">
+        </p>
+       <p style='margin-bottom:0px;'>嗯，留言板就先做成这样吧，如果你有好的建议和想法可以给我留言。</p>
+        <p style='margin-bottom:0px;'>(本站无需注册,起个昵称,输入正确邮箱即可留言/评论)</p>
+		<p style='margin-bottom:0px;'>(已对Sql注入/XSS做过处理,请不要再alert/or1=1,ok?)</p>
+    </div>
+</article>
+
+<div id="comments-template">
+    <div class="comments-wrap">
+        <div id="comments" data-url="@Url.RouteUrl("Default", new { controller = "LeaveMsg", action = "PostLvm"})">
+            <h3 id="comments-title" class="comments-header alert alert-info">
+                @(ViewBag.lvmCount)条留言&nbsp; &nbsp;  <a style='color:red' href='#submit'>快速留言>>></a>
+            </h3>
+
+            <div id="loading-comments">
+                <img src="/Content/images/ico_loading2.gif" />
+            </div>
+
+            @*留言区域  动态加载的*@  @*首次回复时：点回复按钮→将response区域移动到这个父留言的<article>下，
+                然后让"欢迎留言"后的取消回复的按钮display出来*@
+
+            @*点击提交 ajax判断成功后，先把response区域复位，再把这个临时回复追加到当前被回复的<li><article>下*@
+
+        </div>
+
+        @*临时留言区域*@
+
+        @*临时留言区域*@
+
+        @*留言框区域*******************************************************8*@
+        <div id="respond" class="comment-respond">
+            <h3 id="reply-title" class="comment-reply-title">
+                <i class="fa fa-pencil"></i>
+                欢迎留言
+                <small>
+                    <a rel="nofollow" id="cancel-comment-reply-link" href="" style="display:none;">
+                        取消回复
+                    </a>
+                </small>
+            </h3>
+
+            @*留言框*@
+            <form novalidate="novalidate" action="" method="post" id="commentform" class="comment-form">
+                @*游客基本信息输入框input*@
+                @*游客id   如果ViewBag中有值，那就把这个input给disable掉*@
+                <input id="vid" name="VId" value="@((ViewBag.VisitorId == 0) ? "" : ViewBag.VisitorId)" type="hidden" />
+
+                <div class="row">
+                    <div class="col-md-6">
+                        @*昵称*@
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                                <input type="text" size="20" id="vname" name="VName" class="form-control" placeholder="起个昵称" value="@ViewBag.VisitorName" @(String.IsNullOrEmpty(ViewBag.VisitorName) ? "" : "disabled") required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        @*邮箱*@
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input type="text" size="20" id="vemail" name="VEmail" class="form-control" placeholder="请输入您的邮箱" value="@ViewBag.VisitorEmail" @(String.IsNullOrEmpty(ViewBag.VisitorEmail) ? "" : "disabled") required>
+                                <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <textarea id="comment" class="form-control" placeholder="赶快发表你的见解吧！" name="LMessage" cols="30" rows="3" required>
+                    @*留言输入区*@
+                </textarea>
+
+                <p class="form-submit" style="text-align:center">
+                    <input name="submit" class="hiddeninput" id="submit" value="发表留言" type="submit">  @*博文id在@this.Model.Id中*@
+                    <input name="CmtArtId" class="hiddeninput" value="" id="comment_post_ID" type="hidden">  @*给id为value=856的文章进行评论  这儿没用*@
+                    <input name="ParentId" class="hiddeninput" value="0" id="comment_parent" type="hidden">  @*如果是"回复"，记录回复的哪一条留言*@
+                </p>
+            </form>
+
+        </div><!-- #respond -->
+
+    </div>
+</div>
+
+@section endScript{
+    @*本页面也使用布局页，但侧边栏占的区域不再要，且让左侧main区域铺满屏幕*@
+    <script type="text/javascript">
+        $('#sidebar').remove();
+        $('#mainbody').attr('class', 'col-md-12');
+        var ww = $('#navbar-header').width()- 200 + 'px';
+
+        $('#mainbody').css("padding-top", "10px");
+        $('#mainbody').css("padding-bottom", "10px");
+        $('#mainbody').css("padding-left", ww);
+        $('#mainbody').css("padding-right", ww);
+    </script>
+}

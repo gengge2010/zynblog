@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B20D9511-8E1D-470D-9680-87CABF9D6AC7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZYN.BLOG.Common</RootNamespace>
+    <AssemblyName>ZYN.BLOG.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\library\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CaptchaHelper.cs" />
+    <Compile Include="Captcha\AnimatedGifEncoder.cs" />
+    <Compile Include="Captcha\CaptchaStyle1.cs" />
+    <Compile Include="Captcha\CaptchaStyle10.cs" />
+    <Compile Include="Captcha\CaptchaStyle11.cs" />
+    <Compile Include="Captcha\CaptchaStyle12.cs" />
+    <Compile Include="Captcha\CaptchaStyle13.cs" />
+    <Compile Include="Captcha\CaptchaStyle14.cs" />
+    <Compile Include="Captcha\CaptchaStyle2.cs" />
+    <Compile Include="Captcha\CaptchaStyle3.cs" />
+    <Compile Include="Captcha\CaptchaStyle4.cs" />
+    <Compile Include="Captcha\CaptchaStyle5.cs" />
+    <Compile Include="Captcha\CaptchaStyle6.cs" />
+    <Compile Include="Captcha\CaptchaStyle7.cs" />
+    <Compile Include="Captcha\CaptchaStyle8.cs" />
+    <Compile Include="Captcha\CaptchaStyle9.cs" />
+    <Compile Include="Captcha\CaptchaType.cs" />
+    <Compile Include="Captcha\GifDecoder.cs" />
+    <Compile Include="Captcha\LZWEncoder.cs" />
+    <Compile Include="Captcha\NeuQuant.cs" />
+    <Compile Include="IPHelper.cs" />
+    <Compile Include="IpSearch.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security.cs" />
+    <Compile Include="SendMail.cs" />
+    <Compile Include="StringHelper.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

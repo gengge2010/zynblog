@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ZYNBLOGModelStoreContainer" CdmEntityContainer="BlogDb4ZynEntities">
+    <EntitySetMapping Name="Articles">
+      <EntityTypeMapping TypeName="ZYN.BLOG.Model.Article">
+        <MappingFragment StoreEntitySet="Article">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Abstract" ColumnName="Abstract" />
+          <ScalarProperty Name="Keywords" ColumnName="Keywords" />
+          <ScalarProperty Name="Contents" ColumnName="Contents" />
+          <ScalarProperty Name="ContentsRaw" ColumnName="ContentsRaw" />
+          <ScalarProperty Name="Digg" ColumnName="Digg" />
+          <ScalarProperty Name="ViewCount" ColumnName="ViewCount" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="SubTime" ColumnName="SubTime" />
+          <ScalarProperty Name="AltTime" ColumnName="AltTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="ZYN.BLOG.Model.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+          <ScalarProperty Name="Descn" ColumnName="Descn" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="SubTime" ColumnName="SubTime" />
+          <ScalarProperty Name="AltTime" ColumnName="AltTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Comments">
+      <EntityTypeMapping TypeName="ZYN.BLOG.Model.Comment">
+        <MappingFragment StoreEntitySet="Comment">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="CmtArtId" ColumnName="CmtArtId" />
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+          <ScalarProperty Name="VisitorId" ColumnName="VisitorId" />
+          <ScalarProperty Name="CmtText" ColumnName="CmtText" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="SubTime" ColumnName="SubTime" />
+          <ScalarProperty Name="AltTime" ColumnName="AltTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HeadIcons">
+      <EntityTypeMapping TypeName="ZYN.BLOG.Model.HeadIcon">
+        <MappingFragment StoreEntitySet="HeadIcon">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="IconName" ColumnName="IconName" />
+          <ScalarProperty Name="IconRawName" ColumnName="IconRawName" />
+          <ScalarProperty Name="IconURL" ColumnName="IconURL" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="UploadTime" ColumnName="UploadTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LeaveMsgs">
+      <EntityTypeMapping TypeName="ZYN.BLOG.Model.LeaveMsg">
+        <MappingFragment StoreEntitySet="LeaveMsg">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+          <ScalarProperty Name="VisitorId" ColumnName="VisitorId" />
+          <ScalarProperty Name="LMessage" ColumnName="LMessage" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="SubTime" ColumnName="SubTime" />
+          <ScalarProperty Name="AltTime" ColumnName="AltTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PalLinks">
+      <EntityTypeMapping TypeName="ZYN.BLOG.Model.PalLink">
+        <MappingFragment StoreEntitySet="PalLink">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="LinkName" ColumnName="LinkName" />
+          <ScalarProperty Name="LinkURL" ColumnName="LinkURL" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="SubTime" ColumnName="SubTime" />
+          <ScalarProperty Name="AltTime" ColumnName="AltTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SearchDetails">
+      <EntityTypeMapping TypeName="ZYN.BLOG.Model.SearchDetail">
+        <MappingFragment StoreEntitySet="SearchDetail">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="KeyWord" ColumnName="KeyWord" />
+          <ScalarProperty Name="SearchDate" ColumnName="SearchDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SearchRanks">
+      <EntityTypeMapping TypeName="ZYN.BLOG.Model.SearchRank">
+        <MappingFragment StoreEntitySet="SearchRank">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="KeyWord" ColumnName="KeyWord" />
+          <ScalarProperty Name="SearchTimes" ColumnName="SearchTimes" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StaticFiles">
+      <EntityTypeMapping TypeName="ZYN.BLOG.Model.StaticFile">
+        <MappingFragment StoreEntitySet="StaticFile">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="FileRawName" ColumnName="FileRawName" />
+          <ScalarProperty Name="FileNowName" ColumnName="FileNowName" />
+          <ScalarProperty Name="FileLocalPath" ColumnName="FileLocalPath" />
+          <ScalarProperty Name="FileOnLineURL" ColumnName="FileOnLineURL" />
+          <ScalarProperty Name="FromArticleId" ColumnName="FromArticleId" />
+          <ScalarProperty Name="FileType" ColumnName="FileType" />
+          <ScalarProperty Name="UploadTime" ColumnName="UploadTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Visitors">
+      <EntityTypeMapping TypeName="ZYN.BLOG.Model.Visitor">
+        <MappingFragment StoreEntitySet="Visitor">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="VisitorName" ColumnName="VisitorName" />
+          <ScalarProperty Name="VisitorIconId" ColumnName="VisitorIconId" />
+          <ScalarProperty Name="VisitorEmail" ColumnName="VisitorEmail" />
+          <ScalarProperty Name="VisitorQQ" ColumnName="VisitorQQ" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="SubTime" ColumnName="SubTime" />
+          <ScalarProperty Name="AltTime" ColumnName="AltTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WebSettings">
+      <EntityTypeMapping TypeName="ZYN.BLOG.Model.WebSetting">
+        <MappingFragment StoreEntitySet="WebSetting">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ConfigKey" ColumnName="ConfigKey" />
+          <ScalarProperty Name="ConfigValue" ColumnName="ConfigValue" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="BuildTime" ColumnName="BuildTime" />
+          <ScalarProperty Name="AltTime" ColumnName="AltTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

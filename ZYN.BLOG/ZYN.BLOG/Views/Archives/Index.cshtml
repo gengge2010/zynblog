@@ -1,0 +1,477 @@
+﻿@using ZYN.BLOG.Model
+@model ZYN.BLOG.Model.Article
+
+@{
+    ViewBag.Title = this.Model.Title;
+}
+
+@section headLink{
+    <link href="/Content/css/dashang.css" rel="stylesheet" />
+}
+
+
+@section headScript{
+    <script type="text/javascript">
+        jQuery(function () {
+            jQuery('#home').addClass('active');
+
+	        //onload完了之后再去七牛请求这些大图片
+           jQuery('#wxlook').attr('src','/Content/images/weixin.png');
+           jQuery('.author-avatar img').each(function () {
+                      var url = jQuery(this).attr('data-url');
+                      jQuery(this).attr('src', url);
+            });
+
+            jQuery.ajaxSetup({ cache: false });
+
+            //正常方式浏览文章，默认显示第一页评论，且每页显示5条评论
+            var pageindex = 1;
+            var pagesize = 5;
+            //从邮件链接过来的会用到下面两个参数
+            var rootCmtId = 0;
+            var parentCmtId = 0;
+            var cmtId = 0;
+            //是否是从邮件链接过来
+            var flag = '@ViewBag.Flag';
+
+            if (flag == "1") {
+                //从邮件链接过来;方法内去定位锚点
+                //应该是根据评论的.Id倒着取推断该条评论属于第几页的
+                //至于页数，就固定好了
+                pageindex = '@ViewBag.AnchorIndex';
+                pagesize = '@ViewBag.AnchorSize';
+                rootCmtId = '@ViewBag.AnchorCmtRootId';
+                parentCmtId = '@ViewBag.AnchorCmtParentId';
+                cmtId = '@ViewBag.AnchorCmtId';  //评论锚点的id
+            }
+
+            jQuery("#PageIndex").val(pageindex);
+            jQuery("#PageSize").val(pagesize);
+
+            GenerateComments("?pageIndex=" + pageindex + "&pageSize=" + pagesize, flag, rootCmtId,parentCmtId, cmtId);
+			
+			//打赏
+			jQuery(".pay_item").click(function () {
+              jQuery(this).addClass('checked').siblings('.pay_item').removeClass('checked');
+              var dataid = jQuery(this).attr('data-id');
+			
+             jQuery(".shang_payimg img").attr("src", "/Content/dashangimg/" + dataid + "img.jpg");
+             jQuery("#shang_pay_txt").text(dataid == "alipay" ? "支付宝" : "微信");
+           });
+        });
+
+		//打赏
+		function dashangToggle() {
+           jQuery(".hide_box").fadeToggle();
+           jQuery(".shang_box").fadeToggle();
+        };
+		
+        function GenerateComments(queryData, anchorflag, anchorRootCmtId,anchorParentCmtId, anchorcmtId) {
+            var $ = jQuery.noConflict();
+            //清空<textarea></textarea>
+            $('textarea').each(function () {
+                this.value = ''
+            });
+
+            $.ajax({
+                type: "GET",
+                url: "/Comment/WrapComment/" + @this.Model.Id +queryData,
+                dataType: "json",
+                beforeSend: function () {
+                    $('.comments-wrap #comments .pagination').remove();   //去除分页
+                    $('.comments-wrap #comments .commentlist').remove(); //直接将所有评论的大容器去掉
+                    $('#loading-comments').slideDown(); //缓冲图标缓慢展示
+                },
+                dataType: "json",
+                success: function (data) {
+                    if (data.Status == "1") {
+                        $('#loading-comments').slideUp('fast');  //缓冲图标向上隐藏
+                        //评论内容淡入
+                        $('.comments-wrap #comments').append(data.CoreData);//after()/before()方法在被选元素后/前插入指定的内容。插入评论
+
+                        var imgshow = $('#comments img');
+
+                        //追加分页
+                        if (data.PageNavStr != "") {
+                            $('.comments-wrap #comments').append(data.PageNavStr);  //在<ol class=commentlist>后加入分页html
+                            $('.comments-wrap #comments .pagination').css("text-align", "right");
+
+                            //为评论分页按钮 绑定 click事件
+                            $('.pagination ul a').click(function () {
+                                var strHref = jQuery(this).attr("href");
+                                var queryStr = strHref.substr(strHref.indexOf('?'));
+
+                                $('.comments-wrap #comments .pagination').remove();   //去除分页
+                                $('.comments-wrap #comments .commentlist').remove(); //直接将所有评论的大容器去掉
+
+                                $('#loading-comments').slideDown(); //缓冲图标缓慢展示
+                                $body.animate({ scrollTop: $('#comments-title').offset().top - 80 }, 800); //65是"n条评论的高度"
+                                GenerateComments(queryStr);
+                                return false;//不执行href
+                            });
+                        }
+
+                        //加载完评论和分页后, 定位
+                        //ajax加载完页面数据后定位到相应评论锚点
+                        if (anchorflag == "1") {
+                            location.hash = '#comment-' + anchorRootCmtId;//定位到根评论区
+                            $('#comment-' + anchorcmtId).css('border', 'solid 2px #1abc9c');
+                            $('#comment-' + anchorParentCmtId).css('border', 'solid 2px #1abc9c');
+                            $('#comment-' + anchorRootCmtId).css('border', 'solid 2px #1abc9c');
+                        }
+                    }
+                }
+            });
+        };
+    </script>
+}
+
+@*详情页包含三部分内容：1.0 <article>中：面包屑/文章题目属性及其关键词/文章主体内容
+    2.0 <post-related>相关文章部分：系统推荐算法推荐文章
+    3.0 <comments-template>部分：评论区+评论框*@
+@if (this.Model != null)
+{
+    <article class="article container well">
+
+        <div class="breadcrumb breadset">
+            <!-- 面包屑 -->
+            <span class="glyphicon glyphicon-home"></span>
+            <a title="Go to Zynblog" href="@Url.RouteUrl("Default", new { controller = "Home", action = "Index",id = 0 })" class=" home">Zynblog</a>
+            / <a title="@this.Model.Category.Name" href="@Url.RouteUrl("Default", new { controller = "Home", action = "Index", id = this.Model.CategoryId })"> @this.Model.Category.Name </a>
+            / 
+        </div>
+
+        <header class="article-header">
+            <h1 class="article-title">
+                <a href="">@this.Model.Title</a>
+            </h1>
+            <!--//文章关键词 上面放关键词,文章最下面放阅读、评论、点赞 -->
+            @*关键词需要循环遍历，先判断是否为空*@
+            @{
+                string[] keyStr = ViewData["keywords"] as string[];
+                if (keyStr != null)
+                {
+                    <div class="article-keyword">
+                        关键词：
+                        @foreach (var item in keyStr)
+                        {
+                            <span class="item">@item</span>
+                        }
+                    </div>
+                }
+            }
+        </header>
+
+        <article class="article-content">
+            @*文章摘要，判断是否为空*@
+            @if (!string.IsNullOrEmpty(this.Model.Abstract))
+            {
+                <div class="alert alert-info">
+                   摘要：@this.Model.Abstract
+                </div>
+            }
+            else
+            {
+                <hr style="margin:0px 0px 15px 0px" />
+            }
+
+            @*//正文信息*@
+            @Html.Raw(this.Model.Contents)
+        </article>
+
+        @*放上阅读、评论、赞等meata信息*@
+        <div class="article-meta">
+            <span class="item"><i>posted@@</i> @this.Model.SubTime</span>
+            <span class="item">浏览（<a href="#">@this.Model.ViewCount</a>）</span>
+            <span class="item commentcount">评论（<a href="#">@ViewBag.CmtCount</a>）</span>
+            <span class="praisebtn">
+                <img class="praisenum" src="/Content/images/ico_praise.png" />
+               （<a data-id="@this.Model.Id" praise-flag="0" href="#">@this.Model.Digg</a>）
+            </span>
+        </div>
+
+        <!-- 分页 :逻辑稍微复杂一点点-->
+        @if (ViewBag.PreIndex != 0 || ViewBag.NextIndex != 0)
+        {
+            <div class="article-pager bs-example">
+                <ul class="pager">
+                    @if (ViewBag.PreIndex != 0)
+                    {
+                        <li class="previous">
+                            <a rel="prev" class="gotoArchive" href="/Archives/Index/@ViewBag.PreIndex">上一篇</a>
+                        </li>
+                    }
+                    @if (ViewBag.NextIndex != 0)
+                    {
+                        <li class="next">
+                            <a rel="next" class="gotoArchive" href="/Archives/Index/@ViewBag.NextIndex">下一篇</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        }
+
+        <!-- 文章版权信息 -->
+        <div class="copyright alert alert-success post-copyright">
+            <p>作者：zynblog</p>
+            <p>
+                @{
+                     string id = this.Model.Id.ToString();
+                }
+                原文地址：&nbsp;<a href="#">@Url.Content("http://www.zynblog.com/Archives/Index/" + id)</a>
+            </p>
+            <p>
+                版权归属：&nbsp;<a href="#">zynblog &nbsp; </a> 转载时请以链接形式注明出处
+            </p>
+        </div>
+
+        <!-- 文章分享 -->
+        <div class="clearfix" id="bdshare">
+            <div class="bdsharebuttonbox " data-tag="share_1">
+                <a class="bds_qzone" data-cmd="qzone" href="#"></a>
+                <a class="bds_weixin" data-cmd="weixin"></a>
+                <a class="bds_tsina" data-cmd="tsina"></a>
+                <a class="bds_baidu" data-cmd="baidu"></a>
+                <a class="bds_douban" data-cmd="douban"></a>
+                <a class="bds_ty" data-cmd="ty"></a>
+
+                <a class="bds_kaixin001" data-cmd="kaixin001"></a>
+                <a class="bds_fbook" data-cmd="fbook"></a>
+                <a class="bds_twi" data-cmd="twi"></a>
+                <a class="bds_linkedin" data-cmd="linkedin"></a>
+                <a class="bds_more" data-cmd="more">更多</a>
+                <a class="bds_count" data-cmd="count"></a>
+            </div>
+        </div>
+        <script>
+            window._bd_share_config = {
+                common: {
+                    bdText: '@ViewBag.Share',
+                    bdDesc: '@this.Model.Abstract',
+                    bdUrl: 'http://www.zynblog.com/Archives/Index/@this.Model.Id',
+                    bdSign: 'on', //是否进行回流统计。
+                    bdMini: '2', //下拉浮层中分享按钮的列数
+                    bdMiniList: false  //自定义下拉浮层中的分享按钮类型和排列顺序
+                },
+                share: [{
+                    //此处放置分享按钮设置
+                    "bdSize": 20
+                }],
+                slide: [{
+                    bdImg: 0,
+                    bdPos: "right",
+                    bdTop: 100
+                }],
+                image: [{
+                    //此处放置图片分享设置
+                    viewType: 'list',
+                    viewPos: 'top',
+                    viewColor: 'black',
+                    viewSize: '16',
+                    viewList: ['qzone', 'tsina', 'weixin', 'tqq', 'douban']
+                }],
+                selectShare: [{
+                    //此处放置划词分享设置
+                    "bdselectMiniList": ['qzone', 'tqq', 'weixin', 'bdxc', 'tqf', 'tsina', 'douban']
+                }]
+            }
+            with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion=' + ~(-new Date() / 36e5)];
+        </script>
+        <!-- 文章分享结束 -->
+        <!-- Baidu Button END -->
+    </article>
+	
+	    <!--打赏-->
+		<div style="margin-bottom:20px;">
+	     <a title="打赏，支持一下" class="dashang" onclick="dashangToggle()" href="javascript:void(0)">
+
+		 </a>
+	    </div>
+   <!-- 相关文章 -->
+    <div class="bs-example visible-md visible-lg" id="post-related">
+        <div class="row">
+            <div class="alert alert-danger  related-title text-center">
+                <i class="fa fa-heart"></i> 智能推荐:
+            </div>
+
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <div class="caption clearfix">
+                        <p class="post-related-title">
+                            <a href="" rel="bookmark" title="爬取网上的类似文章">
+                               相似文章
+                            </a>
+                        </p>
+                        <p class="post-related-content">系统推荐...<br />how to do...<br />占位...</p>
+                        <p>
+                            <a class="btn btn-danger pull-right read-more" href="" title="详细阅读！">
+                                阅读全文
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <div class="caption clearfix">
+                        <p class="post-related-title">
+                            <a href="" rel="bookmark" title="爬取csdn类似文章">
+                                相似文章
+                            </a>
+                        </p>
+                        <p class="post-related-content">系统推荐...</p>
+                        <p>
+                            <a class="btn btn-danger pull-right read-more" href="" title="详细阅读！">
+                                阅读全文
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <div class="caption clearfix">
+                        <p class="post-related-title">
+                            <a href="" rel="bookmark" title="爬取csdn类似文章">
+                                相似文章
+                            </a>
+                        </p>
+                        <p class="post-related-content">系统推荐...</p>
+                        <p>
+                            <a class="btn btn-danger pull-right read-more" href="" title="详细阅读！">
+                                阅读全文
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="comments-template">
+        <div class="comments-wrap">
+            <div id="comments" data-url="@Url.RouteUrl("Default", new { controller = "Comment", action = "PostCmt"})">
+
+                <h3 id="comments-title" class="comments-header alert alert-info">
+                    @(ViewBag.CmtCount)条评论   @*允许出现"0条评论"*@
+                </h3>
+
+                <div id="loading-comments">
+                    <img src="/Content/images/ico_loading2.gif" />
+                </div>
+
+                @*评论区域  动态加载的*@  @*首次回复时：点回复按钮→将response区域移动到这个父评论的<article>下，
+                    然后让"欢迎评论"后的取消回复的按钮display出来*@
+
+                @*点击提交 ajax判断成功后，先把response区域复位，再把这个临时回复追加到当前被回复的<li><article>下*@
+
+                @*分页区域紧跟评论区域，动态加载*@
+            </div>
+
+            @*临时评论区域*@
+
+            @*临时评论区域*@
+
+            @*评论框区域*******************************************************8*@
+            <div id="respond" class="comment-respond">
+                <h3 id="reply-title" class="comment-reply-title">
+                    <i class="fa fa-pencil"></i>
+                    快来评论
+                    <small>
+                        <a rel="nofollow" id="cancel-comment-reply-link" href="" style="display:none;">
+                            取消回复
+                        </a>
+                    </small>
+                </h3>
+
+                @*评论框*@
+                <form novalidate="novalidate" action="" method="post" id="commentform" class="comment-form">
+                    @*游客基本信息输入框input*@
+                    @*游客id   如果ViewBag中有值，那就把这个input给disable掉*@
+                    <input id="vid" name="VId" value="@((ViewBag.VisitorId == 0) ? "" : ViewBag.VisitorId)" type="hidden" />
+
+                    <div class="row">
+                        <div class="col-md-6" style="float:none">
+                            @*昵称*@
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+
+                                    <input type="text" size="20" id="vname" name="VName" class="form-control" placeholder="起个昵称吧" value="@ViewBag.VisitorName" @(String.IsNullOrEmpty(ViewBag.VisitorName) ? "" : "disabled") required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            @*邮箱*@
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+
+                                    <input type="text" size="20" id="vemail" name="VEmail" class="form-control" placeholder="请输入您的邮箱" value="@ViewBag.VisitorEmail" @(String.IsNullOrEmpty(ViewBag.VisitorEmail) ? "" : "disabled") required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <textarea id="comment" class="form-control" placeholder="赶快发表你的见解吧！" name="CmtText" cols="30" rows="3" required>
+                        @*评论输入区*@
+                    </textarea>
+
+                    <p class="form-submit">
+                        <input name="submit" class="hiddeninput" id="submit" value="发表评论" type="submit">  @*博文id在@this.Model.Id中*@
+                        <input name="CmtArtId" class="hiddeninput" value="@this.Model.Id" id="comment_post_ID" type="hidden">  @*给id为value=856的文章进行评论*@
+                        <input name="ParentId" class="hiddeninput" value="0" id="comment_parent" type="hidden">  @*如果是"回复"，记录回复的哪一条评论*@
+                        <input name="PageSize" id="PageSize" type="hidden" class="hiddeninput" value=""> @*当前评论的页容量;邮件锚点会用到*@
+                    </p>
+                </form>
+
+            </div><!-- #respond -->
+
+        </div>
+    </div>
+}
+
+@section aside{
+    @{Html.RenderPartial("~/Views/Shared/_CareForMe.cshtml");}@*@加载分部视图（关注我）*@
+    @{Html.RenderAction("DocArchiving", "Home");}  @*加载分部视图（文章归档）*@
+    @{Html.RenderAction("HotArticles", "Home");}  @*加载分部视图（热门文章）*@
+    @{Html.RenderAction("NewComments", "Home");}  @*加载分部视图（最新评论）*@
+    @{Html.RenderAction("TagCloud", "Home");}@*加载分部视图（.标签云或友情链接）*@
+}
+
+<div class="content">
+    <div class="hide_box"><!--遮罩--></div>
+
+    <div class="shang_box">
+        <a class="shang_close" href="javascript:void(0)" onclick="dashangToggle()" title="关闭">
+            <img src="/Content/dashangimg/close.jpg" alt="取消">
+        </a>
+        <div class="shang_tit">
+            <p>感谢您的支持，我会继续努力的!</p>
+        </div>
+
+        <div class="shang_payimg">
+            <img src="/Content/dashangimg/alipayimg.jpg" alt="扫码支持" title="扫一扫">
+        </div>
+        <div class="pay_explain">扫码打赏，你说多少就多少</div>
+
+        <div class="shang_payselect">
+            <div class="pay_item checked" data-id="alipay">
+                <span class="radiobox"></span>
+                <span class="pay_logo">
+                    <img src="/Content/dashangimg/alipay.jpg" alt="支付宝">
+                </span>
+            </div>
+            <div class="pay_item" data-id="weixinpay">
+                <span class="radiobox"></span>
+                <span class="pay_logo">
+                    <img src="/Content/dashangimg/wechat.jpg" alt="微信">
+                </span>
+            </div>
+        </div>
+
+        <div class="shang_info">
+            <p>打开<span id="shang_pay_txt">支付宝</span>扫一扫，即可进行扫码打赏哦</p>
+        </div>
+    </div>
+</div>

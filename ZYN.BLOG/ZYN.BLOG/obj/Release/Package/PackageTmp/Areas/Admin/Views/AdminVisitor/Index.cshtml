@@ -1,0 +1,259 @@
+﻿@{
+    ViewBag.Title = "后台 | 游客管理";
+}
+
+@section headScript{
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('#AdminVisitor').addClass('active');
+
+            $('#visitor-table').dataTable({
+                "oLanguage": {
+                    //国际化
+                    "sProcessing": "<img src='/Content_Admin/img/spinner.gif'>  努力加载数据中...",
+                    "sLengthMenu": "显示_MENU_ 条结果",
+                    "sZeroRecords": "没有匹配结果",
+                    "sInfo": "从第_START_至_END_条数据  | （共_TOTAL_ 条）",
+                    "sInfoEmpty": "没有数据",
+                    "sInfoFiltered": "(从_MAX_条数据中检索)",
+                    "sZeroRecords": "没有检索到数据",
+                    "sSearch": "模糊查询:"
+                },
+
+                "bServerSide": true,  //第二种场景:服务端处理分页后数据,客户端呈现,此时为true.但此时aoColumns要变,将'sName'换成mDataProp,同时自定义列也要有对应的数据
+                "sServerMethod": "GET",
+                "sAjaxSource": "/Admin/AdminVisitor/GetVisitorsJson", //ajax Url地址
+                "bProcessing": true,
+
+                "bPaginate": true,
+                "sPaginationType": "full_numbers",
+                "bJQueryUI": true,  //客户端传给服务器的参数为sSearch
+                'bFilter': false,
+                'bLengthChange': true,
+                'aLengthMenu': [
+                     [10, 15, 20, -1],
+                     [10, 15, 20, "全部"] // change per page values here
+                ],
+
+                'iDisplayLength': 10,  //每页显示7条记录
+                'bAutoWidth': true,
+                "scrollX": true,
+
+                "aoColumns": [
+                     { "sWidth": "5%", "mDataProp": "Id" },
+                     {
+                         "sWidth": "5%",
+                         "mDataProp": "HeadImg",
+                         "mRender": function (data, type, row) {
+                             return '<img src="' + data + '" width="50px" height="50px" />';
+                         }
+                     },
+                     { "sWidth": "10%", "mDataProp": "Name", "bStorable": false },
+                     { "sWidth": "10%", "mDataProp": "Email", "bStorable": false },
+                     { "sWidth": "10%", "mDataProp": "QQ", "bStorable": false },
+                     { "sWidth": "10%", "mDataProp": "SubTime", "bStorable": false },
+                     {
+                         "sWidth": "6%",
+                         "mDataProp": "Status",
+                         "mRender": function (data, type, row) {
+                             var value = "正常";
+                             if (data == "0")
+                                 value = "禁用";
+                             return value;
+                         }
+                     },
+                     { //自定义列 : 启用/禁用
+                         "mDataProp": "null",
+                         "sWidth": "6%",
+                         "bSearchable": false,
+                         "bStorable": false,
+                         "mRender": function (data, type, row) {
+                             var actionstr = '<a id="publicvisitor" class="publicaction" target-id="' + row.Id + '" href="#">启 用</a>';
+                             if (row.Status == "1")
+                                 actionstr = '<a id="delvisitor" class="delaction" target-id="' + row.Id + '" href="#">禁 用</a>';
+                             return actionstr;
+                         }
+                     },
+                     { //自定义列：编辑
+                         "mDataProp": "null",
+                         "sWidth": "6%",
+                         "bSearchable": false,
+                         "bStorable": false,
+                         "mRender": function (data, type, row) {
+                             return '<a id="editvisitor" class="tip" target-id="' + row.Id + '" href="#"><i class="icon-pencil"></i></a>';
+                         }
+                     }
+                ],
+
+                "aoColumnDefs": [
+                    {
+                        //DataTables warning : Requested unknown parameter '1' from the data source for row 0
+                        //加上这段定义就不出错了。
+                        sDefaultContent: '',
+                        aTargets: ['_all']
+                    }
+                ]
+            });
+
+            //2. 注册删除事件
+            $('#visitor-table').on('click', '#delvisitor', function (e) {
+                //异步软删除
+                e.preventDefault();
+
+                var curelement = $(this);  //ajax 闭包
+                var id = curelement.attr('target-id');
+
+                $.post("/Admin/AdminVisitor/DeleteVisitor/" + id, function (data) {
+                    if (data == 1) {
+                        layer.alert('禁用成功', {
+                            time: 2000
+                        });
+                        //重新加载本页数据
+                        $('#visitor-table').dataTable().fnDraw(false);
+                    } else if (data) {
+                        layer.alert('禁用失败', 8);
+                    }
+                });
+            });
+
+            //3.0 为启用<a id='publicvisitor'>标签注册启用事件
+            $('#visitor-table').on('click', '#publicvisitor', function (e) {
+                //异步发布
+                e.preventDefault();
+
+                var curElement = $(this);
+                var id = curElement.attr('target-id');
+
+                $.post("/Admin/AdminVisitor/PublicVisitor/" + id, function (data) {
+                    if (data == 1) {
+                        layer.alert('启用成功', {
+                            time: 2000
+                        });
+                        //重新加载本页数据
+                        $('#visitor-table').dataTable().fnDraw(false);
+                    } else if (data) {
+                        layer.alert('启用失败', 8);
+                    }
+                });
+            });
+
+            //4.0 编辑
+            $('#visitor-table').on('click', '#editvisitor', function (e) {
+                e.preventDefault();
+                var curelement = $(this);  //ajax 闭包
+                var id = curelement.attr('target-id');
+
+                $.getJSON("/Admin/AdminVisitor/GetEditedEntity/" + id, function (data) {
+                    $('#Id').val(data.Id);
+                    $('#QQ').val(data.QQ);
+                    $('#Name').val(data.Name);
+                    $('#Email').val(data.Email);
+                    $('#HeadImg').val(data.HeadImgId);
+                    $('#Status').val(data.Status);
+                    $('#SubTime').val(data.SubTime);
+
+                    //捕获页
+                    layer.open({
+                        type: 1,  //1表示页面层
+                        shift: 'left', //从左动画弹出
+                        area: ['auto', 'auto'],
+                        shade: [0.5, '#000', true],
+                        title: ['编辑访客信息：' + data.Id, true], //不显示标题
+                        content: $('#visitor-editor'), //捕获的元素
+                        btn: ['确定', '取消'],
+                        yes: function (index, layero) {
+                            var postdata = $('#editForm').serialize();
+                            $.post("/Admin/AdminVisitor/SetEditedEntity", postdata, function (data) {
+                                if (data == "1") {
+                                    layer.close(index);
+                                    layer.msg('修改成功', { time: 1000, icon: 6 });
+                                    //重新加载本页数据
+                                    $('#visitor-table').dataTable().fnDraw(false);
+                                } else {
+                                    layer.msg('修改失败,请重试', { time: 1000, icon: 5 });
+                                }
+                            });
+                        },
+                        btn2: function (index, layero) {
+                            layer.close(index);
+                            layer.msg('您已取消修改', { time: 1000, icon: 7 });
+                        },
+                        cancel: function (index) {
+                            layer.close(index);
+                            layer.msg('您已取消修改', { time: 1000, icon: 7 });
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+}
+
+
+<div id="content-header">
+    <div id="breadcrumb">
+        <a href="@Url.RouteUrl("Admin_default",new{controller="AdminHome",action="Index"})" title="Go to Home" class="tip-bottom">
+            <i class="icon-home"></i> Home
+        </a>
+        <a href="#" class="current">访客管理</a>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row-fluid" id="wraplist">
+        <div class="span12">
+            <div class="widget-box">
+                <div class="widget-title">
+                    <span class="icon"><i class="icon-th"></i></span>
+                    <h5>访客记录</h5>
+                </div>
+                <div class="widget-content nopadding">
+                    <table id="visitor-table" class="table table-bordered data-table mydatatable">
+                        <thead>
+                            <tr>
+                                <th>编号</th>
+                                <th>头像</th>
+                                <th>昵称</th>
+                                <th>邮箱</th>
+                                <th>QQ</th>
+                                <th>创建时间</th>
+                                <th>状态</th>
+                                <th>操作</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@*编辑区域*@
+<div id="visitor-editor" style="display:none">
+    <form id="editForm" class="">
+        <table>
+            <tr>
+                <td>游客昵称:</td>
+                <td>
+                    <input type="hidden" id="Id" name="Id" />
+                    <input type="hidden" id="QQ" name="VisitorQQ" />
+                    <input type="hidden" id="Status" name="Status" />
+                    <input type="hidden" id="SubTime" name="SubTime" />
+                    <input type="text" id="Name" name="VisitorName" />
+                </td>
+            </tr>
+            <tr>
+                <td>邮箱：</td>
+                <td><input type="text" id="Email" name="VisitorEmail" /></td>
+            </tr>
+            <tr>
+                <td>头像Id：</td>
+                <td><input type="text" id="HeadImg" name="VisitorIconId" /></td>
+            </tr>
+        </table>
+    </form>
+</div>

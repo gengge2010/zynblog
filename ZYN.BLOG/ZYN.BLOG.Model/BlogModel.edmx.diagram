@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c9c6f39e8ca14fd7a4132a478d4a07ac" Name="Diagram1">
+        <EntityTypeShape EntityType="ZYN.BLOG.Model.Article" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZYN.BLOG.Model.Category" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZYN.BLOG.Model.Comment" Width="1.5" PointX="5.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZYN.BLOG.Model.HeadIcon" Width="1.5" PointX="0.75" PointY="3" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZYN.BLOG.Model.LeaveMsg" Width="1.5" PointX="5.25" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZYN.BLOG.Model.PalLink" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZYN.BLOG.Model.SearchDetail" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZYN.BLOG.Model.SearchRank" Width="1.5" PointX="7.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZYN.BLOG.Model.StaticFile" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZYN.BLOG.Model.Visitor" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ZYN.BLOG.Model.WebSetting" Width="1.5" PointX="9.75" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="ZYN.BLOG.Model.FK_Article_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="ZYN.BLOG.Model.FK_Comment_Article" ManuallyRouted="false" />
+        <AssociationConnector Association="ZYN.BLOG.Model.FK_Comment_Visitor" ManuallyRouted="false" />
+        <AssociationConnector Association="ZYN.BLOG.Model.FK_Visitor_HeadIcon" ManuallyRouted="false" />
+        <AssociationConnector Association="ZYN.BLOG.Model.FK_LeaveMsg_Visitor" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

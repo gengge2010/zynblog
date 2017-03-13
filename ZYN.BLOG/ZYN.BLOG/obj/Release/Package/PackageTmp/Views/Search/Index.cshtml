@@ -1,0 +1,74 @@
+﻿@using ZYN.BLOG.Model
+@using ZYN.BLOG.ViewModel
+@model  List<ArticleViewModel>
+
+@{
+    ViewBag.Title = "搜索结果 | keywords=" + ViewBag.Keyword;
+}
+
+@section headScript{
+    <script type="text/javascript">
+        jQuery(function () {
+	   //onload完了之后再去七牛请求这些大图片
+           jQuery('#wxlook').attr('src','/Content/images/weixin.png');
+           jQuery('.author-avatar img').each(function () {
+                      var url = jQuery(this).attr('data-url');
+                      jQuery(this).attr('src', url);
+            });
+	});
+   </script>
+}
+
+@*第一部分：搜索结果：*@
+<div class="well fade in daytips">
+    <button type="button" class="close" data-dismiss="alert">×</button>
+    <strong>关于<font color="red"><b>"@ViewBag.Keyword"</b></font>的搜索结果：</strong>
+</div>
+
+@*第二部分：搜索列表*@
+<div id="article-list">
+    @if (this.Model != null && this.Model.Count != 0)
+    {
+        int i = 1;
+        foreach (ArticleViewModel item in this.Model)
+        {
+            <article class="excerpt excerpt-1">
+                <header>
+                    <a class="cat" href="#">@i </a>
+                    <h2>
+                        <a class="gotoArchive" href="@Url.RouteUrl("Default", new { controller = "Archives", action = "Index", id = @item.Id })">@Html.Raw(item.Title)</a>
+                    </h2>
+                </header>
+                <p class="meta">
+                    <span class="posttime">@item.SubTime</span>
+                    <span class="category">@item.CategoryName</span>
+                    <span class="viewnum">浏览(<a href="#">@item.ViewCount</a>)</span>
+                    <span class="praisebtn"><img class="praisenum" src="/Content/images/ico_praise.png" />(<a data-id="@item.Id" praise-flag="0" href="#">@item.Digg</a>)</span>
+                </p>
+                <p class="note">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; @Html.Raw(item.Contents)....</p>
+                <footer class="entry-footer">
+                    <span itemprop="keywords" class="tags-links">
+                        @foreach (string word in item.Keywords)
+                        {
+                            <a rel="tag" href="/">@word</a>
+                        }
+                    </span>
+                    <a class="more-link gotoArchive" rel="nofollow" href="@Url.RouteUrl("Default", new { controller = "Archives", action = "Index", id = @item.Id })">继续阅读 »</a>
+                </footer>
+            </article>
+                        i++;
+        }
+    }
+    else
+    {
+        <span>暂没有相关内容!换个关键词试试~</span>
+    }
+
+</div>
+
+@section aside{
+    @{Html.RenderPartial("~/Views/Shared/_CareForMe.cshtml");}@*加载分部视图（关注我）*@
+    @{Html.RenderAction("HotArticles", "Home");}  @*加载分部视图（热门文章）*@
+    @{Html.RenderAction("NewComments", "Home");}  @*加载分部视图（最新评论）*@
+    @{Html.RenderAction("TagCloud", "Home");}@*加载分部视图（.标签云或友情链接）*@
+}

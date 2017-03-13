@@ -1,0 +1,10 @@
+G:\个人博客项目\ZYN.BLOG\ZYN.BLOG.IDAL\bin\Release\ZYN.BLOG.IDAL.dll
+G:\个人博客项目\ZYN.BLOG\ZYN.BLOG.IDAL\bin\Release\ZYN.BLOG.IDAL.pdb
+G:\个人博客项目\ZYN.BLOG\ZYN.BLOG.IDAL\bin\Release\EntityFramework.dll
+G:\个人博客项目\ZYN.BLOG\ZYN.BLOG.IDAL\bin\Release\ZYN.BLOG.Model.dll
+G:\个人博客项目\ZYN.BLOG\ZYN.BLOG.IDAL\bin\Release\ZYN.BLOG.Model.pdb
+G:\个人博客项目\ZYN.BLOG\ZYN.BLOG.IDAL\bin\Release\EntityFramework.xml
+G:\个人博客项目\ZYN.BLOG\ZYN.BLOG.IDAL\bin\Release\zh-Hans\EntityFramework.resources.dll
+G:\个人博客项目\ZYN.BLOG\ZYN.BLOG.IDAL\obj\Release\ZYN.BLOG.IDAL.csprojResolveAssemblyReference.cache
+G:\个人博客项目\ZYN.BLOG\ZYN.BLOG.IDAL\obj\Release\ZYN.BLOG.IDAL.dll
+G:\个人博客项目\ZYN.BLOG\ZYN.BLOG.IDAL\obj\Release\ZYN.BLOG.IDAL.pdb

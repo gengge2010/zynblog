@@ -1,0 +1,61 @@
+﻿ <!--sidebar-menu-->
+<div id="sidebar" >
+    <a href="@Url.RouteUrl("Admin_default",new{controller="AdminHome",action="Index"})"
+       class="visible-phone">
+        <i class="icon icon-home"></i> <span>首页</span>
+    </a>
+    <ul>
+        <li id="AdminHome">
+            <a href="@Url.RouteUrl("Admin_default",new{controller="AdminHome",action="Index"})">
+                <i class="icon icon-home"></i> <span>首页</span>
+            </a>
+        </li>
+        <li id="AdminCategory">
+            <a href="@Url.RouteUrl("Admin_default", new { controller = "AdminCategory", action = "Index" })">
+                <i class="icon icon-th"></i> <span>分类管理</span>
+            </a>
+        </li>
+        <li id="AdminArchives">
+            <a href="@Url.RouteUrl("Admin_default", new { controller = "AdminArchives", action = "Index" })">
+                <i class="icon icon-font"></i> <span>博文管理</span>
+            </a>
+        </li>
+        <li id="AdminComment">
+            <a href="@Url.RouteUrl("Admin_default", new { controller = "AdminComment", action = "Index" })">
+                <i class="icon icon-comments"></i> <span>评论管理</span>
+            </a>
+        </li>
+        <li id="AdminVisitor">
+            <a href="@Url.RouteUrl("Admin_default", new { controller = "AdminVisitor", action = "Index" })">
+
+                <i class="icon icon-user"></i> <span>游客管理</span>
+            </a>
+        </li>
+        <li id="AdminHeadIcon">
+            <a href="@Url.RouteUrl("Admin_default", new { controller = "AdminHeadIcon", action = "Index"})">
+                <i class="icon  icon-picture"></i> <span>头像管理</span>
+            </a>
+        </li>
+        <li id="AdminLeaveMsg">
+            <a href="@Url.RouteUrl("Admin_default", new { controller = "AdminLvMsg", action = "Index" })">
+                <i class="icon icon-comment"></i> <span>留言管理</span>
+            </a>
+        </li>
+        <li id="AdminTag">
+            <a href="@Url.RouteUrl("Admin_default", new { controller = "AdminTag", action = "Index" })">
+                <i class="icon icon-cloud"></i> <span>标签管理</span>
+            </a>
+        </li>
+        <li id="AdminPalLink">
+            <a href="@Url.RouteUrl("Admin_default", new { controller = "AdminPalLink", action = "Index" })">
+                <i class="icon icon-paper-clip"></i> <span>友链管理</span>
+            </a>
+        </li>
+        <li id="AdminSetting">
+            <a href="@Url.RouteUrl("Admin_default", new { controller = "AdminSetting", action = "Index" })">
+                <i class="icon icon-cog"></i> <span>系统设置</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<!--sidebar-menu-->

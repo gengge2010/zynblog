@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>@ViewBag.Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 设置关键词、描述结束 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="icon" href="~/Content/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="~/Content/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="~/Content_Admin/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content_Admin/css/bootstrap-responsive.min.css" />
+
+    <link rel="stylesheet" href="~/Content_Admin/css/uniform.css" />
+    <link rel="stylesheet" href="~/Content_Admin/css/select2.css" />
+    <link rel="stylesheet" href="~/Content_Admin/css/matrix-style.css" />
+    <link rel="stylesheet" href="~/Content_Admin/css/matrix-media.css" />
+
+    <link rel="stylesheet" href="~/Content_Admin/font-awesome/css/font-awesome.css" />
+    <link href='http://fonts.useso.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+
+    @RenderSection("headStyle", required: false)
+
+    <script type="text/javascript" src="~/Content_Admin/js/jquery.min.js"></script>
+    <script type="text/javascript" src="~/Content_Admin/js/jquery.ui.custom.js"></script>
+    <script type="text/javascript" src="~/Content_Admin/js/bootstrap.min.js"></script>
+
+
+    <script type="text/javascript" src="~/Content_Admin/js/jquery.uniform.js"></script>
+    <script type="text/javascript" src="~/Content_Admin/js/select2.min.js"></script>
+    <script type="text/javascript" src="~/Content_Admin/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="~/Content_Admin/js/matrix.js"></script>
+    <script type="text/javascript" src="~/Content_Admin/js/matrix.tables.js"></script>
+
+    <script type="text/javascript" src="~/Content_Admin/layer/layer.js"></script>
+
+
+    @RenderSection("headScript", required: false)
+
+</head>
+<body>
+    <!--1.0 Top -Header-part-->
+    @{Html.RenderPartial("~/Areas/Admin/Views/Shared/_AdminTopBar.cshtml");} @*加载静态顶部meta*@
+    <!--Close-Top-Part-->
+    <!--2.0 Sidebar-NavMenu-->
+    @{Html.RenderPartial("~/Areas/Admin/Views/Shared/_AdminSideBar.cshtml");} @*加载静态导航条*@
+    <!--Close-Sidebar-NavMenu-->
+    <!--3.0 Main-container-part-->
+    <div id="content">
+        @RenderBody()
+    </div>
+    <!--End-main-container-part-->
+    <!--footer-->
+    @{Html.RenderPartial("~/Areas/Admin/Views/Shared/_AdminFooterBar.cshtml");}
+    <!--End-footer-->
+</body>
+</html>

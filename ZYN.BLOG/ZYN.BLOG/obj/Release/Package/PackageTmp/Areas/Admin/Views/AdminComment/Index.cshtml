@@ -1,0 +1,240 @@
+﻿@{
+    ViewBag.Title = "后台 | 评论管理";
+}
+
+@section headScript{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#AdminComment').addClass('active');
+
+            $('#comment-table').dataTable({
+                "oLanguage": {
+                    //国际化
+                    "sProcessing": "<img src='/Content_Admin/img/spinner.gif'>  努力加载数据中...",
+                    "sLengthMenu": "显示_MENU_ 条结果",
+                    "sZeroRecords": "没有匹配结果",
+                    "sInfo": "从第_START_至_END_条数据  | （共_TOTAL_ 条）",
+                    "sInfoEmpty": "没有数据",
+                    "sInfoFiltered": "(从_MAX_条数据中检索)",
+                    "sZeroRecords": "没有检索到数据",
+                    "sSearch": "模糊查询:"
+                },
+
+                "bServerSide": true,  //第二种场景:服务端处理分页后数据,客户端呈现,此时为true.但此时aoColumns要变,将'sName'换成mDataProp,同时自定义列也要有对应的数据
+                "sServerMethod": "GET",
+                "sAjaxSource": "/Admin/AdminComment/GetCommentsJson", //ajax Url地址
+                "bProcessing": true,
+
+                "bPaginate": true,
+                "sPaginationType": "full_numbers",
+                "bJQueryUI": true,  //客户端传给服务器的参数为sSearch
+                'bFilter': false,
+                'bLengthChange': true,
+                'aLengthMenu': [
+                     [10, 15, 20, -1],
+                     [10, 15, 20, "全部"] // change per page values here
+                ],
+
+                'iDisplayLength': 10,  //每页显示7条记录
+                'bAutoWidth': true,
+                "scrollX": true,
+
+                "aoColumns": [
+                     { "sWidth": "5%", "mDataProp": "Id" },
+                     { "sWidth": "5%", "mDataProp": "ArticleId" },
+                     { "sWidth": "25%", "mDataProp": "CmtText" },
+                     { "sWidth": "5%", "mDataProp": "CmterName", "bStorable": false },
+                     { "sWidth": "10%", "mDataProp": "CmterEmail", "bStorable": false },
+                     { "sWidth": "10%", "mDataProp": "SubTime", "bStorable": false },
+                     {
+                         "sWidth": "6%",
+                         "mDataProp": "Status",
+                         "mRender": function (data, type, row) {
+                             var value = "正常";
+                             if (data == "0")
+                                 value = "禁用";
+                             return value;
+                         }
+                     },
+                     { //自定义列 : 启用/禁用
+                         "mDataProp": "null",
+                         "sWidth": "6%",
+                         "bSearchable": false,
+                         "bStorable": false,
+                         "mRender": function (data, type, row) {
+                             var actionstr = '<a id="publiccomment" class="publicaction" target-id="' + row.Id + '" href="#">启 用</a>';
+                             if (row.Status == "1")
+                                 actionstr = '<a id="delcomment" class="delaction" target-id="' + row.Id + '" href="#">禁 用</a>';
+                             return actionstr;
+                         }
+                     },
+                    { //自定义列：回复
+                        "mDataProp": "null",
+                        "sWidth": "6%",
+                        "bSearchable": false,
+                        "bStorable": false,
+                        "mRender": function (data, type, row) {
+                            return '<a id="replycomment" class="editaction" target-id="' + row.Id + '" href="#">回 复</a>';
+                        }
+                    },
+                     { //自定义列：编辑
+                         "mDataProp": "null",
+                         "sWidth": "6%",
+                         "bSearchable": false,
+                         "bStorable": false,
+                         "mRender": function (data, type, row) {
+                             return '<a id="editcomment" class="tip" target-id="' + row.Id + '" href="#"><i class="icon-pencil"></i></a>';
+                         }
+                     }
+                ],
+
+                "aoColumnDefs": [
+                    {
+                        //DataTables warning : Requested unknown parameter '1' from the data source for row 0
+                        //加上这段定义就不出错了。
+                        sDefaultContent: '',
+                        aTargets: ['_all']
+                    }
+                ]
+            });
+
+            //2.0 注册删除事件
+            $('#comment-table').on('click', '#delcomment', function (e) {
+                //异步软删除
+                e.preventDefault();
+
+                var curelement = $(this);  //ajax 闭包
+                var id = curelement.attr('target-id');
+
+                $.post("/Admin/AdminComment/DeleteComment/" + id, function (data) {
+                    if (data == 1) {
+                        layer.alert('禁用成功', {
+                            time: 2000
+                        });
+                        //重新加载本页数据
+                        $('#comment-table').dataTable().fnDraw(false);
+                    } else if (data) {
+                        layer.alert('禁用失败', 8);
+                    }
+                });
+            });
+
+            //3.0 为启用<a id='publiccomment'>标签注册启用事件
+            $('#comment-table').on('click', '#publiccomment', function (e) {
+                //异步发布
+                e.preventDefault();
+
+                var curElement = $(this);
+                var id = curElement.attr('target-id');
+
+                $.post("/Admin/AdminComment/PublicComment/" + id, function (data) {
+                    if (data == 1) {
+                        layer.alert('启用成功', {
+                            time: 2000
+                        });
+                        //重新加载本页数据
+                        $('#comment-table').dataTable().fnDraw(false);
+                    } else if (data) {
+                        layer.alert('启用失败', 8);
+                    }
+                });
+            });
+
+            //4.0 回复  replycomment
+            $('#comment-table').on('click', '#replycomment', function (e) {
+                e.preventDefault();
+                var curelement = $(this);  //ajax 闭包
+                var cmtId = curelement.attr('target-id');  //评论id
+                //获取当前tr
+                var curtr = curelement.parent().parent(); //curelement.parents('tr')
+                //获取第三个td
+                var edittd = curtr.children('td').eq(1);
+                var artId = edittd.text(); //所属文章ID
+
+                curtr.after("<tr><td>回复:</td><td colspan='7'><input id='replyinput' type='text' value='' /></td><td colspan='2'><input type='button' value='提交' onclick='reply(" + cmtId + " , " + artId + ")' /></td></tr>");
+            });
+
+            //5.0 行内编辑"评论"td
+            $('#comment-table').on('click', '#editcomment', function (e) {
+                e.preventDefault();
+                var curelement = $(this);  //ajax 闭包
+                var id = curelement.attr('target-id');
+                //获取当前tr
+                var curtr = curelement.parent().parent(); //curelement.parents('tr')
+                //获取第三个td
+                var edittd = curtr.children('td').eq(2);
+
+                var editvalue = edittd.text();
+                edittd.html('<input type="text" id="editedinput" value="' + editvalue + '" />  <input type="button" value="确定" onclick="saveedited(' + id + ')" />');
+            });
+        });
+
+        function reply(cmtId, artId) {
+            var replyinput = $('#replyinput').val();
+            $.post("/Admin/AdminComment/ReplyComment/" + cmtId, { "artId": artId, "replyinput": $('#replyinput').val() }, function (data) {
+                if (data == "1") {
+                    layer.msg('博主回复成功', { time: 3000, icon: 6 });
+                    //重新加载本页数据
+                    $('#comment-table').dataTable().fnDraw(false);
+                } else {
+                    layer.msg('博主回复,请重试', { time: 2500, icon: 5 });
+                }
+            });
+        };
+
+        function saveedited(curId) {
+            var editinput = $('#editedinput').val();
+            $.post("/Admin/AdminComment/SetEditedEntity/" + curId, { "editinput": editinput }, function (data) {
+                if (data == "1") {
+                    layer.msg('修改成功', { time: 3000, icon: 6 });
+                    //重新加载本页数据
+                    $('#comment-table').dataTable().fnDraw(false);
+                } else {
+                    layer.msg('修改失败,请重试', { time: 2500, icon: 5 });
+                }
+            });
+        };
+    </script>
+}
+
+
+<div id="content-header">
+    <div id="breadcrumb">
+        <a href="@Url.RouteUrl("Admin_default",new{controller="AdminHome",action="Index"})" title="Go to Home" class="tip-bottom">
+            <i class="icon-home"></i> Home
+        </a>
+        <a href="#" class="current">评论管理</a>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row-fluid" id="wraplist">
+        <div class="span12">
+            <div class="widget-box">
+                <div class="widget-title">
+                    <span class="icon"><i class="icon-th"></i></span>
+                    <h5>评论列表</h5>
+                </div>
+                <div class="widget-content nopadding">
+                    <table id="comment-table" class="table table-bordered data-table mydatatable">
+                        <thead>
+                            <tr>
+                                <th>评论编号</th>
+                                <th>隶属文章</th>
+                                <th>内容</th>
+                                <th>游客</th>
+                                <th>邮箱</th>
+                                <th>评论时间</th>
+                                <th>状态</th>
+                                <th>操作</th>
+                                <th>操作</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

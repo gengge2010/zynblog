@@ -1,0 +1,238 @@
+﻿@{
+    ViewBag.Title = "后台 | 系统设置";
+}
+
+@section headScript{
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#AdminSetting').addClass('active');
+
+            $('#setting-table').dataTable({
+                "oLanguage": {
+                    //国际化
+                    "sProcessing": "<img src='/Content_Admin/img/spinner.gif'>  努力加载数据中...",
+                    "sLengthMenu": "显示_MENU_ 条结果",
+                    "sZeroRecords": "没有匹配结果",
+                    "sInfo": "从第_START_至_END_条数据  | （共_TOTAL_ 条）",
+                    "sInfoEmpty": "没有数据",
+                    "sInfoFiltered": "(从_MAX_条数据中检索)",
+                    "sZeroRecords": "没有检索到数据",
+                    "sSearch": "模糊查询:"
+                },
+
+                "bServerSide": true,  
+                "sServerMethod": "GET",
+                "sAjaxSource": "/Admin/AdminSetting/GetSettingsJson", //ajax Url地址
+                "bProcessing": true,
+
+                "bPaginate": true,
+                "sPaginationType": "full_numbers",
+                "bJQueryUI": true,  //客户端传给服务器的参数为sSearch
+                'bFilter': false,
+                'bLengthChange': true,
+                'aLengthMenu': [
+                     [10, 15, 20, -1],
+                     [10, 15, 20, "全部"] // change per page values here
+                ],
+
+                'iDisplayLength': 10,  //每页显示7条记录
+                'bAutoWidth': true,
+                "scrollX": true,
+
+                "aoColumns": [
+                     { "sWidth": "5%", "mDataProp": "Id" },
+                     { "sWidth": "6%", "mDataProp": "ConfigKey", "bStorable": false },
+                     { "sWidth": "15%", "mDataProp": "ConfigValue", "bStorable": false },
+                     { "sWidth": "15%", "mDataProp": "Description", "bStorable": false },
+                     { "sWidth": "7%", "mDataProp": "BuildTime", "bStorable": false },
+
+                   //自定义列：编辑
+                     { 
+                         "mDataProp": "null",
+                         "sWidth": "6%",
+                         "bSearchable": false,
+                         "bStorable": false,
+                         "mRender": function (data, type, row) {
+                             return '<a id="editsetting" class="tip" target-id="' + row.Id + '" href="#"><i class="icon-pencil"></i></a>';
+                         }
+                     }
+                ],
+
+                "aoColumnDefs": [
+                    {
+                        sDefaultContent: '',
+                        aTargets: ['_all']
+                    }
+                ]
+            });
+
+            //4.0 添加设置   layer弹出层
+            $('#addSetting').click(function () {
+                //捕获页
+                layer.open({
+                    type: 1,  //1表示页面层
+                    area: ['auto', 'auto'],
+                    shade: [0.5, '#000', true],
+                    title: ['新增设置',true], //不显示标题
+                    content: $('#setting-add'), //捕获的元素
+                    btn: ['确定', '取消'],
+                    yes: function (index, layero) {
+                        var postdata = $('#addForm').serialize();
+                        $.post("/Admin/AdminSetting/AddSetting", postdata, function (data) {
+                            if (data == "1") {
+                                $('#addForm')[0].reset(); //清空表单
+                                layer.close(index);
+                                layer.msg('新增成功', { time: 1000, icon: 6 });
+                                //重新加载本页数据
+                                $('#setting-table').dataTable().fnDraw(false);
+                            } else {
+                                layer.msg('新增失败,请重试', { time: 1000, icon: 5 });
+                            }
+                        });
+                    },
+                    btn2: function (index, layero) {
+                        layer.close(index);
+                        layer.msg('您已取消', { time: 1000, icon: 7 });
+                    },
+                    cancel: function (index) {
+                        layer.close(index);
+                        layer.msg('您已取消', { time: 1000, icon: 7 });
+                    }
+                });
+            });
+
+            //4.0 编辑
+            $('#setting-table').on('click', '#editsetting', function (e) {
+                e.preventDefault();
+                var curelement = $(this);  //ajax 闭包
+                var id = curelement.attr('target-id');
+
+                $.getJSON("/Admin/AdminSetting/GetEditedEntity/" + id, function (data) {
+                    $('#Id').val(data.Id);
+                    $('#ConfigKey').val(data.ConfigKey);
+                    $('#CKey').val(data.ConfigKey);
+                    $('#ConfigValue').val(data.ConfigValue);
+                    $('#Description').val(data.Description);
+                    $('#BuildTime').val(data.BuildTime);
+
+                    //捕获页
+                    layer.open({
+                        type: 1,  //1表示页面层
+                        shift: 'left', //从左动画弹出
+                        area: ['auto', 'auto'],
+                        shade: [0.5, '#000', true],
+                        title: ['修改设置：' + data.Id, true], //不显示标题
+                        content: $('#setting-editor'), //捕获的元素
+                        btn: ['确定', '取消'],
+                        yes: function (index, layero) {
+                            var postdata = $('#editForm').serialize();
+                            $.post("/Admin/AdminSetting/SetEditedEntity", postdata, function (data) {
+                                if (data == "1") {
+                                    layer.close(index);
+                                    layer.msg('修改成功', { time: 1000, icon: 6 });
+                                    //重新加载本页数据
+                                    $('#setting-table').dataTable().fnDraw(false);
+                                } else {
+                                    layer.msg('修改失败,请重试', { time: 1000, icon: 5 });
+                                }
+                            });
+                        },
+                        btn2: function (index, layero) {
+                            layer.close(index);
+                            layer.msg('您已取消修改', { time: 1000, icon: 7 });
+                        },
+                        cancel: function (index) {
+                            layer.close(index);
+                            layer.msg('您已取消修改', { time: 1000, icon: 7 });
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+}
+
+<div id="content-header">
+    <div id="breadcrumb">
+        <a href="@Url.RouteUrl("Admin_default",new{controller="AdminHome",action="Index"})" title="Go to Home" class="tip-bottom">
+            <i class="icon-home"></i> Home
+        </a>
+        <a href="#" class="current">系统设置</a>
+    </div>
+</div>
+<button id="addSetting" class="btn btn-info newbuild">添加设置</button>
+
+<div class="container-fluid">
+    <div class="row-fluid" id="wraplist">
+        <div class="span12">
+            <div class="widget-box">
+                <div class="widget-title">
+                    <span class="icon"><i class="icon-th"></i></span>
+                    <h5>设置列表</h5>
+
+                </div>
+                <div class="widget-content nopadding">
+                    <table id="setting-table" class="table table-bordered data-table mydatatable">
+                        <thead>
+                            <tr>
+                                <th>编号</th>
+                                <th>KEY</th>
+                                <th>VALUE</th>
+                                <th>解释</th>
+                                <th>创建时间</th>
+                                <th>操作</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@*编辑区域*@
+<div id="setting-editor" style="display:none">
+    <form id="editForm" class="">
+        <table>
+            <tr>
+                <td>键名:</td>
+                <td>
+                    <input type="hidden" id="Id" name="Id" />
+                    <input type="hidden" id="BuildTime" name="BuildTime" />
+                    <input type="hidden" id="ConfigKey" name="ConfigKey" />
+                    <input type="text" disabled id="CKey" name="CKey" />
+                </td>
+            </tr>
+            <tr>
+                <td>值：</td>
+                <td><input type="text" id="ConfigValue" name="ConfigValue" /></td>
+            </tr>
+            <tr>
+                <td>描述：</td>
+                <td><input type="text" id="Description" name="Description" /></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+@*新增区域*@
+<div id="setting-add" style="display:none">
+    <form id="addForm">
+        <table>
+            <tr>
+                <td>键：</td>
+                <td><input type="text" id="ConfigKey" name="ConfigKey" /></td>
+            </tr>
+            <tr>
+                <td>值：</td>
+                <td><input type="text" id="ConfigValue" name="ConfigValue" /></td>
+            </tr>
+            <tr>
+                <td>描述：</td>
+                <td><input type="text" id="Description" name="Description" /></td>
+            </tr>
+        </table>
+    </form>
+</div>

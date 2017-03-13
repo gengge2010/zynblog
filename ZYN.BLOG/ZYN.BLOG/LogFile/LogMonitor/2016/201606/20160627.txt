@@ -1,0 +1,544 @@
+
+ 
+记录时间：2016-06-27 20:30:40,807 
+线程ID:[3] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:Index
+            开始时间：2016/6/27 20:30:40
+            结束时间：2016/6/27 20:30:40
+            总 时 间：0.0120368秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:30:41,414 
+线程ID:[3] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2016/6/27 20:30:41
+            结束时间：2016/6/27 20:30:41
+            总 时 间：0.213953秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:30:41,435 
+线程ID:[3] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2016/6/27 20:30:41
+            结束时间：2016/6/27 20:30:41
+            总 时 间：0.0195248秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:30:41,481 
+线程ID:[3] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2016/6/27 20:30:41
+            结束时间：2016/6/27 20:30:41
+            总 时 间：0.0451041秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:30:41,510 
+线程ID:[3] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2016/6/27 20:30:41
+            结束时间：2016/6/27 20:30:41
+            总 时 间：0.0280245秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:30:41,678 
+线程ID:[3] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2016/6/27 20:30:41
+            结束时间：2016/6/27 20:30:41
+            总 时 间：0.1666922秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:30:41,700 
+线程ID:[3] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2016/6/27 20:30:41
+            结束时间：2016/6/27 20:30:41
+            总 时 间：0.0220143秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:30:41,703 
+线程ID:[3] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2016/6/27 20:30:41
+            结束时间：2016/6/27 20:30:41
+            总 时 间：0.0020089秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:30:41,730 
+线程ID:[3] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2016/6/27 20:30:41
+            结束时间：2016/6/27 20:30:41
+            总 时 间：0.0265122秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:30:41,731 
+线程ID:[3] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:Index
+            开始时间：2016/6/27 20:30:40
+            结束时间：2016/6/27 20:30:41
+            总 时 间：0.8896235秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:30:42,841 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2016/6/27 20:30:42
+            结束时间：2016/6/27 20:30:42
+            总 时 间：0.0853336秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=8&_=1467030642358
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:30:42,846 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2016/6/27 20:30:42
+            结束时间：2016/6/27 20:30:42
+            总 时 间：0.0045029秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=8&_=1467030642358
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:36:58,673 
+线程ID:[25] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:ViewStatic
+            开始时间：2016/6/27 20:36:58
+            结束时间：2016/6/27 20:36:58
+            总 时 间：0.1651927秒
+            Form表单数据：artId=1
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:36:58,673 
+线程ID:[25] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:ViewStatic
+            开始时间：2016/6/27 20:36:58
+            结束时间：2016/6/27 20:36:58
+            总 时 间：0秒
+            Form表单数据：artId=1
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:36:58,817 
+线程ID:[26] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:Index
+            开始时间：2016/6/27 20:36:58
+            结束时间：2016/6/27 20:36:58
+            总 时 间：0.1300931秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:36:59,153 
+线程ID:[26] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2016/6/27 20:36:59
+            结束时间：2016/6/27 20:36:59
+            总 时 间：0.0090383秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:36:59,156 
+线程ID:[26] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2016/6/27 20:36:59
+            结束时间：2016/6/27 20:36:59
+            总 时 间：0.0025011秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:36:59,157 
+线程ID:[26] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2016/6/27 20:36:59
+            结束时间：2016/6/27 20:36:59
+            总 时 间：0.0015425秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:36:59,159 
+线程ID:[26] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2016/6/27 20:36:59
+            结束时间：2016/6/27 20:36:59
+            总 时 间：0.0015002秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:36:59,159 
+线程ID:[26] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2016/6/27 20:36:59
+            结束时间：2016/6/27 20:36:59
+            总 时 间：4.39E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:36:59,160 
+线程ID:[26] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2016/6/27 20:36:59
+            结束时间：2016/6/27 20:36:59
+            总 时 间：0.0010013秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:36:59,161 
+线程ID:[26] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:Index
+            开始时间：2016/6/27 20:36:58
+            结束时间：2016/6/27 20:36:59
+            总 时 间：0.3437537秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:36:59,531 
+线程ID:[24] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:WrapComment
+            开始时间：2016/6/27 20:36:59
+            结束时间：2016/6/27 20:36:59
+            总 时 间：0.025097秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1467031019263
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:36:59,532 
+线程ID:[24] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:WrapComment
+            开始时间：2016/6/27 20:36:59
+            结束时间：2016/6/27 20:36:59
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1467031019263
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:37:01,990 
+线程ID:[22] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2016/6/27 20:37:01
+            结束时间：2016/6/27 20:37:01
+            总 时 间：0.1081378秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=8&_=1467031021802
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:37:01,991 
+线程ID:[22] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2016/6/27 20:37:01
+            结束时间：2016/6/27 20:37:01
+            总 时 间：0.0010009秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=8&_=1467031021802
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:37:05,218 
+线程ID:[26] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2016/6/27 20:37:05
+            结束时间：2016/6/27 20:37:05
+            总 时 间：0.0610729秒
+            Form表单数据：
+            URL参数：pageIndex=2&pageSize=8&_=1467031021803
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:37:05,220 
+线程ID:[26] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2016/6/27 20:37:05
+            结束时间：2016/6/27 20:37:05
+            总 时 间：0.0015007秒
+            Form表单数据：
+            URL参数：pageIndex=2&pageSize=8&_=1467031021803
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:37:07,414 
+线程ID:[22] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2016/6/27 20:37:07
+            结束时间：2016/6/27 20:37:07
+            总 时 间：0.0305662秒
+            Form表单数据：
+            URL参数：pageIndex=3&pageSize=8&_=1467031021804
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:37:07,415 
+线程ID:[22] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2016/6/27 20:37:07
+            结束时间：2016/6/27 20:37:07
+            总 时 间：0.0010009秒
+            Form表单数据：
+            URL参数：pageIndex=3&pageSize=8&_=1467031021804
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:37:11,537 
+线程ID:[24] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2016/6/27 20:37:11
+            结束时间：2016/6/27 20:37:11
+            总 时 间：0.0336073秒
+            Form表单数据：
+            URL参数：pageIndex=2&pageSize=8&_=1467031021805
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:37:11,537 
+线程ID:[24] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2016/6/27 20:37:11
+            结束时间：2016/6/27 20:37:11
+            总 时 间：0.0004971秒
+            Form表单数据：
+            URL参数：pageIndex=2&pageSize=8&_=1467031021805
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:37:13,523 
+线程ID:[26] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2016/6/27 20:37:13
+            结束时间：2016/6/27 20:37:13
+            总 时 间：0.0705886秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=8&_=1467031021806
+                    
+ 
+
+ 
+记录时间：2016-06-27 20:37:13,525 
+线程ID:[26] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2016/6/27 20:37:13
+            结束时间：2016/6/27 20:37:13
+            总 时 间：0.0014997秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=8&_=1467031021806
+                    
+ 

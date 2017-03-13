@@ -1,0 +1,195 @@
+﻿@using ZYN.BLOG.Model;
+@model ZYN.BLOG.Model.Article
+
+@{
+    ViewBag.Title = "后台 | 编辑文章";
+}
+
+@*引入编辑页所需的css和js,包括form相关的和百度编辑器相关的*@
+@section headStyle{
+    <link rel="stylesheet" href="~/Content_Admin/ueditor/themes/iframe.css" />
+}
+
+@section headScript{
+    <script type="text/javascript" src="~/Content_Admin/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="~/Content_Admin/ueditor/ueditor.all.js"></script>
+    <script type="text/javascript" src="~/Content_Admin/ueditor/lang/zh-cn/zh-cn.js"></script>
+    <script type="text/javascript" src="~/Content_Admin/ueditor/ueditor.parse.js"></script>
+
+    <script type="text/javascript">
+    $(function () {
+        @*$('#editor').val('@Html.Raw(this.Model.Contents)');*@  
+    });
+    var editor = new baidu.editor.ui.Editor({
+        UEDITOR_HOME_URL: '/Content_Admin/ueditor/',//配置编辑器路径
+        iframeCssUrl: '/Content_Admin/ueditor/themes/iframe.css',//样式路径
+        initialContent: '欢迎使用ueditor',//初始化编辑器内容
+        autoHeightEnabled: true,//高度自动增长
+        minFrameHeight: 500//最小高度
+    });
+    editor.render('editor');  //render('selector')响应的id
+
+    editor.ready(function () {
+        var content = '@ViewData["json"]';
+        content = content.replace(/\\r\\n/g, '\\n');
+        editor.setContent(content);   //这种方式会导致在编辑器body内的样式style、图片等带路径的内容转义"显示错误;
+                                      //在后台将C#的\"替换为''后就可以了。例：style='width:50px' src='';
+    });
+
+    //UE.getEditor('editor').getContentTxt()  获取编辑器内容纯文本格式
+
+    $(document).on('submit', '#archiveform', function () {
+        $.post("/Admin/AdminArchives/EditArchive", $(this).serialize(), function (data) {
+            if (data.Status == "1") {
+                layer.confirm(data.Message, {
+                    btn: ['去博客首页', '回到博客管理']
+                }, function () {
+                    window.location.href = "/Home/Index";
+                }, function () {
+                    window.location.href = '/Admin/AdminArchives/Index';
+                });
+            } else {
+                layer.alert(data.Message);
+            }
+        });
+        return false;
+    });
+
+    //取消事件
+    $(document).on('click', '#btnCancle', function () {
+        layer.confirm('确定放弃修改？', {
+            btn: ['是的', '继续修改']
+        }, function () {
+            window.location.href = '/Admin/AdminArchives/Index';
+        })
+    });
+    </script>
+}
+
+<div id="content-header">
+    <div id="breadcrumb">
+        <a href="Admin/AdminArchives/Inedx" title="Go to Home" class="tip-bottom">
+            <i class="icon-home"></i> Home
+        </a>
+        <a href="#" class="current">编辑博文</a>
+    </div>
+</div>
+
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12">
+            <div class="widget-box">
+                <div class="widget-title">
+                    <span class="icon"> <i class="icon-align-justify"></i> </span>
+                    <h5>编辑文章</h5>
+                </div>
+                <div class="widget-content nopadding">
+                    <form action="" method="post" id="archiveform" name="archiveform" class="form-horizontal">
+                        <div class="control-group">
+
+                            <label class="control-label span4">标题:</label>
+                            <div class="controls">
+                                @Html.HiddenFor(a => a.Id)
+                                @Html.TextBoxFor(a => a.Title, new { @class = "span8", placeholder = "文章标题" })
+
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label">作者:</label>
+                            <div class="controls">
+                                @Html.TextBoxFor(a => a.Author, new { @class = "span4", placeholder = "作者" })
+                            </div>
+                        </div>
+                        <div class="row-fluid">
+                            <div class="control-group">
+                                <div class="controls mytextarea">
+                                    <textarea id="editor" name="Contents" class="span12" style="width:100%"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label">文章类别:</label>
+                            <div class="controls">
+                                @Html.DropDownListFor(a => a.CategoryId, ViewBag.SelList as IEnumerable<SelectListItem>)
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label">摘要:</label>
+                            <div class="controls">
+                                @Html.TextAreaFor(a => a.Abstract, new { @class = "span12" })
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label">关键词:</label>
+                            <div class="controls">
+                                @Html.TextBoxFor(a => a.Keywords)
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label">状态</label>
+                            <div class="controls">
+                                <label>
+                                    @Html.RadioButtonFor(a => a.Status, 1) 正常
+                                </label>
+                                <label>
+                                    @Html.RadioButtonFor(a => a.Status, 0) 禁用
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label">标签选择(没做)</label>
+                            <div class="controls">
+                                <label>
+                                    <input type="checkbox" name="radios" />
+                                    Python
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="radios" />
+                                    机器学习
+                                </label>
+                                <label>
+                                    <input type="checkbox" name="radios" />
+                                    .NET
+                                </label>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label">浏览量：</label>
+                            <div class="controls">
+                                @Html.TextBoxFor(a => a.ViewCount, new { @class = "span4", placeholder = "共...人阅读此文章" })
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label">点赞量：</label>
+                            <div class="controls">
+                                @Html.TextBoxFor(a => a.Digg, new { @class = "span4", placeholder = "共...人点赞" })
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label">发布时间:</label>
+                            <div class="controls">
+                                @Html.TextBoxFor(a => a.SubTime, new { @class = "span4", placeholder = "发布时间" })
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" id="btnSure" class="btn btn-success">保存修改</button>
+                            &nbsp;&nbsp;
+                            <button type="button" id="btnCancle" class="btn btn-warning">取消</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+﻿@using ZYN.BLOG.Model;
+@model List<Article>
+
+@if (this.Model != null && this.Model.Count != 0)
+{
+    <aside id="hot_article">
+        <div class="panel panel-zyn hidden-xs">
+            <div class="panel-heading">
+                <span class="glyphicon glyphicon-leaf newicon"></span> 炙手可热
+                <span class="panel-remove glyphicon glyphicon-remove-circle"></span>
+                <span class="panel-toggle glyphicon glyphicon-upload"></span>
+            </div>
+          
+              <ul class="list-group list-group-flush">
+
+                @foreach (Article item in this.Model)
+                {
+                    <li class="list-group-item">
+                        <span class="post-title">
+                            <a href="@Url.RouteUrl("Default", new { controller = "Archives", action = "Index", id = @item.Id })" title="@item.Title">
+                                @item.Title
+                            </a>
+                        </span>
+                        <span class="badge">@item.ViewCount</span>
+                    </li>
+                }
+                </ul>
+            </div>
+        </aside>
+        }

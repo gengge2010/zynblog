@@ -1,0 +1,7600 @@
+
+ 
+记录时间：2017-02-25 20:20:48,773 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:Index
+            开始时间：2017/2/25 20:20:48
+            结束时间：2017/2/25 20:20:48
+            总 时 间：0.0570883秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:20:53,002 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 20:20:52
+            结束时间：2017/2/25 20:20:53
+            总 时 间：0.827622秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:20:53,009 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 20:20:53
+            结束时间：2017/2/25 20:20:53
+            总 时 间：0.0060049秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:20:53,090 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 20:20:53
+            结束时间：2017/2/25 20:20:53
+            总 时 间：0.079607秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:20:53,096 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 20:20:53
+            结束时间：2017/2/25 20:20:53
+            总 时 间：0.0065047秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:20:53,718 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 20:20:53
+            结束时间：2017/2/25 20:20:53
+            总 时 间：0.6216661秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:20:53,724 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 20:20:53
+            结束时间：2017/2/25 20:20:53
+            总 时 间：0.0055025秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:20:53,725 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 20:20:53
+            结束时间：2017/2/25 20:20:53
+            总 时 间：0.0005695秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:20:53,729 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 20:20:53
+            结束时间：2017/2/25 20:20:53
+            总 时 间：0.0045038秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:20:53,730 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:Index
+            开始时间：2017/2/25 20:20:48
+            结束时间：2017/2/25 20:20:53
+            总 时 间：4.9396689秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:04,709 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:Index
+            开始时间：2017/2/25 20:21:04
+            结束时间：2017/2/25 20:21:04
+            总 时 间：4.4E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:05,196 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 20:21:04
+            结束时间：2017/2/25 20:21:05
+            总 时 间：0.4802849秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:05,198 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 20:21:05
+            结束时间：2017/2/25 20:21:05
+            总 时 间：0.0020018秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:05,242 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 20:21:05
+            结束时间：2017/2/25 20:21:05
+            总 时 间：0.0436157秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:05,244 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 20:21:05
+            结束时间：2017/2/25 20:21:05
+            总 时 间：0.0020027秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:05,637 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 20:21:05
+            结束时间：2017/2/25 20:21:05
+            总 时 间：0.3931826秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:05,645 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 20:21:05
+            结束时间：2017/2/25 20:21:05
+            总 时 间：0.0019995秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:05,645 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 20:21:05
+            结束时间：2017/2/25 20:21:05
+            总 时 间：8.75E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:05,654 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 20:21:05
+            结束时间：2017/2/25 20:21:05
+            总 时 间：0.0080054秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:05,654 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:Index
+            开始时间：2017/2/25 20:21:04
+            结束时间：2017/2/25 20:21:05
+            总 时 间：0.9449504秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:53,230 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:Index
+            开始时间：2017/2/25 20:21:53
+            结束时间：2017/2/25 20:21:53
+            总 时 间：0.0010454秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:53,661 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 20:21:53
+            结束时间：2017/2/25 20:21:53
+            总 时 间：0.426273秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:53,662 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 20:21:53
+            结束时间：2017/2/25 20:21:53
+            总 时 间：0.0010004秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:53,691 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 20:21:53
+            结束时间：2017/2/25 20:21:53
+            总 时 间：0.0280922秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:53,693 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 20:21:53
+            结束时间：2017/2/25 20:21:53
+            总 时 间：0.0020018秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:54,024 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 20:21:53
+            结束时间：2017/2/25 20:21:54
+            总 时 间：0.3310774秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:54,025 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 20:21:54
+            结束时间：2017/2/25 20:21:54
+            总 时 间：0.001秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:54,025 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 20:21:54
+            结束时间：2017/2/25 20:21:54
+            总 时 间：7.74E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:54,026 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 20:21:54
+            结束时间：2017/2/25 20:21:54
+            总 时 间：0.001秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:21:54,027 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:Index
+            开始时间：2017/2/25 20:21:53
+            结束时间：2017/2/25 20:21:54
+            总 时 间：0.7972329秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:30:06,060 
+线程ID:[4] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:Index
+            开始时间：2017/2/25 20:30:06
+            结束时间：2017/2/25 20:30:06
+            总 时 间：0.0260257秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:30:09,406 
+线程ID:[4] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 20:30:08
+            结束时间：2017/2/25 20:30:09
+            总 时 间：0.6354244秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:30:09,412 
+线程ID:[4] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 20:30:09
+            结束时间：2017/2/25 20:30:09
+            总 时 间：0.0060036秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:30:09,460 
+线程ID:[4] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 20:30:09
+            结束时间：2017/2/25 20:30:09
+            总 时 间：0.0480601秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:30:09,469 
+线程ID:[4] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 20:30:09
+            结束时间：2017/2/25 20:30:09
+            总 时 间：0.0080062秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:30:09,900 
+线程ID:[4] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 20:30:09
+            结束时间：2017/2/25 20:30:09
+            总 时 间：0.4308781秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:30:09,905 
+线程ID:[4] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 20:30:09
+            结束时间：2017/2/25 20:30:09
+            总 时 间：0.0050018秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:30:09,906 
+线程ID:[4] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 20:30:09
+            结束时间：2017/2/25 20:30:09
+            总 时 间：0.0010807秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:30:09,910 
+线程ID:[4] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 20:30:09
+            结束时间：2017/2/25 20:30:09
+            总 时 间：0.0040023秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:30:09,910 
+线程ID:[4] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:Index
+            开始时间：2017/2/25 20:30:06
+            结束时间：2017/2/25 20:30:09
+            总 时 间：3.8356417秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:02,584 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:Index
+            开始时间：2017/2/25 20:32:02
+            结束时间：2017/2/25 20:32:02
+            总 时 间：0.0180893秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:05,605 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 20:32:05
+            结束时间：2017/2/25 20:32:05
+            总 时 间：0.4767289秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:05,611 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 20:32:05
+            结束时间：2017/2/25 20:32:05
+            总 时 间：0.0060044秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:05,648 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 20:32:05
+            结束时间：2017/2/25 20:32:05
+            总 时 间：0.0360574秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:05,654 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 20:32:05
+            结束时间：2017/2/25 20:32:05
+            总 时 间：0.0060045秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:06,072 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 20:32:05
+            结束时间：2017/2/25 20:32:06
+            总 时 间：0.4184032秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:06,077 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 20:32:06
+            结束时间：2017/2/25 20:32:06
+            总 时 间：0.0050058秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:06,078 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 20:32:06
+            结束时间：2017/2/25 20:32:06
+            总 时 间：0.001009秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:06,082 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 20:32:06
+            结束时间：2017/2/25 20:32:06
+            总 时 间：0.0040036秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:06,083 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:Index
+            开始时间：2017/2/25 20:32:02
+            结束时间：2017/2/25 20:32:06
+            总 时 间：3.4878108秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:07,398 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2017/2/25 20:32:06
+            结束时间：2017/2/25 20:32:07
+            总 时 间：0.4953847秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488025926634
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:07,442 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2017/2/25 20:32:07
+            结束时间：2017/2/25 20:32:07
+            总 时 间：0.0439808秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488025926634
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:12,925 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2017/2/25 20:32:12
+            结束时间：2017/2/25 20:32:12
+            总 时 间：0.2642962秒
+            Form表单数据：
+            URL参数：pageIndex=2&pageSize=7&_=1488025926637
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:12,925 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2017/2/25 20:32:12
+            结束时间：2017/2/25 20:32:12
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：pageIndex=2&pageSize=7&_=1488025926637
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:16,012 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2017/2/25 20:32:15
+            结束时间：2017/2/25 20:32:16
+            总 时 间：0.2546575秒
+            Form表单数据：
+            URL参数：pageIndex=3&pageSize=7&_=1488025926639
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:16,013 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2017/2/25 20:32:16
+            结束时间：2017/2/25 20:32:16
+            总 时 间：0.001秒
+            Form表单数据：
+            URL参数：pageIndex=3&pageSize=7&_=1488025926639
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:22,160 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：LeaveMsgController
+            ActionName:Index
+            开始时间：2017/2/25 20:32:21
+            结束时间：2017/2/25 20:32:22
+            总 时 间：1.0239256秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:24,482 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：LeaveMsgController
+            ViewName:Index
+            开始时间：2017/2/25 20:32:22
+            结束时间：2017/2/25 20:32:24
+            总 时 间：2.244457秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:30,487 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：LeaveMsgController
+            ActionName:WrapLeaveMsg
+            开始时间：2017/2/25 20:32:25
+            结束时间：2017/2/25 20:32:30
+            总 时 间：5.477509秒
+            Form表单数据：
+            URL参数：_=1488025944720
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:30,492 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：LeaveMsgController
+            ViewName:WrapLeaveMsg
+            开始时间：2017/2/25 20:32:30
+            结束时间：2017/2/25 20:32:30
+            总 时 间：0.0050054秒
+            Form表单数据：
+            URL参数：_=1488025944720
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:47,685 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AboutController
+            ActionName:Index
+            开始时间：2017/2/25 20:32:47
+            结束时间：2017/2/25 20:32:47
+            总 时 间：0.0010393秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:48,804 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 20:32:48
+            结束时间：2017/2/25 20:32:48
+            总 时 间：0.3346871秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:48,805 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 20:32:48
+            结束时间：2017/2/25 20:32:48
+            总 时 间：0.0009937秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:48,806 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 20:32:48
+            结束时间：2017/2/25 20:32:48
+            总 时 间：8.75E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:48,807 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 20:32:48
+            结束时间：2017/2/25 20:32:48
+            总 时 间：0.0010009秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:48,807 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AboutController
+            ViewName:Index
+            开始时间：2017/2/25 20:32:47
+            结束时间：2017/2/25 20:32:48
+            总 时 间：1.1219491秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:52,710 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:Index
+            开始时间：2017/2/25 20:32:52
+            结束时间：2017/2/25 20:32:52
+            总 时 间：4.96E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:53,152 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 20:32:52
+            结束时间：2017/2/25 20:32:53
+            总 时 间：0.4352995秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:53,153 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 20:32:53
+            结束时间：2017/2/25 20:32:53
+            总 时 间：0.0010018秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:53,184 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 20:32:53
+            结束时间：2017/2/25 20:32:53
+            总 时 间：0.0300191秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:53,186 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 20:32:53
+            结束时间：2017/2/25 20:32:53
+            总 时 间：0.0020031秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:53,527 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 20:32:53
+            结束时间：2017/2/25 20:32:53
+            总 时 间：0.3411115秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:53,528 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 20:32:53
+            结束时间：2017/2/25 20:32:53
+            总 时 间：0.0010004秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:53,528 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 20:32:53
+            结束时间：2017/2/25 20:32:53
+            总 时 间：1.19E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:53,529 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 20:32:53
+            结束时间：2017/2/25 20:32:53
+            总 时 间：0.0010009秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:53,529 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:Index
+            开始时间：2017/2/25 20:32:52
+            结束时间：2017/2/25 20:32:53
+            总 时 间：0.8183632秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:54,208 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2017/2/25 20:32:53
+            结束时间：2017/2/25 20:32:54
+            总 时 间：0.2662671秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488025973706
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:32:54,209 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2017/2/25 20:32:54
+            结束时间：2017/2/25 20:32:54
+            总 时 间：0.0010004秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488025973706
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:07,222 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:ViewStatic
+            开始时间：2017/2/25 20:33:07
+            结束时间：2017/2/25 20:33:07
+            总 时 间：0.1725796秒
+            Form表单数据：artId=4
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:07,222 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:ViewStatic
+            开始时间：2017/2/25 20:33:07
+            结束时间：2017/2/25 20:33:07
+            总 时 间：0秒
+            Form表单数据：artId=4
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:07,984 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:Index
+            开始时间：2017/2/25 20:33:07
+            结束时间：2017/2/25 20:33:07
+            总 时 间：0.7140818秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:11,099 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 20:33:10
+            结束时间：2017/2/25 20:33:11
+            总 时 间：0.402495秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:11,100 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 20:33:11
+            结束时间：2017/2/25 20:33:11
+            总 时 间：0.0010013秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:11,131 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 20:33:11
+            结束时间：2017/2/25 20:33:11
+            总 时 间：0.031116秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:11,133 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 20:33:11
+            结束时间：2017/2/25 20:33:11
+            总 时 间：0.0020036秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:11,458 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 20:33:11
+            结束时间：2017/2/25 20:33:11
+            总 时 间：0.3257786秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:11,460 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 20:33:11
+            结束时间：2017/2/25 20:33:11
+            总 时 间：0.001秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:11,460 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 20:33:11
+            结束时间：2017/2/25 20:33:11
+            总 时 间：7.99E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:11,461 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 20:33:11
+            结束时间：2017/2/25 20:33:11
+            总 时 间：0.0010009秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:11,461 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:Index
+            开始时间：2017/2/25 20:33:07
+            结束时间：2017/2/25 20:33:11
+            总 时 间：3.477199秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:12,082 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:WrapComment
+            开始时间：2017/2/25 20:33:12
+            结束时间：2017/2/25 20:33:12
+            总 时 间：0.0700868秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488025991713
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:12,082 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:WrapComment
+            开始时间：2017/2/25 20:33:12
+            结束时间：2017/2/25 20:33:12
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488025991713
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:22,705 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:PraiseStatic
+            开始时间：2017/2/25 20:33:22
+            结束时间：2017/2/25 20:33:22
+            总 时 间：0.0531292秒
+            Form表单数据：artId=4
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:22,705 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:PraiseStatic
+            开始时间：2017/2/25 20:33:22
+            结束时间：2017/2/25 20:33:22
+            总 时 间：0秒
+            Form表单数据：artId=4
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:24,872 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:Index
+            开始时间：2017/2/25 20:33:24
+            结束时间：2017/2/25 20:33:24
+            总 时 间：6.32E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:25,305 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 20:33:24
+            结束时间：2017/2/25 20:33:25
+            总 时 间：0.4298026秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:25,306 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 20:33:25
+            结束时间：2017/2/25 20:33:25
+            总 时 间：0.0010009秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:25,337 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 20:33:25
+            结束时间：2017/2/25 20:33:25
+            总 时 间：0.031024秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:25,339 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 20:33:25
+            结束时间：2017/2/25 20:33:25
+            总 时 间：0.0020009秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:25,685 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 20:33:25
+            结束时间：2017/2/25 20:33:25
+            总 时 间：0.3461713秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:25,687 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 20:33:25
+            结束时间：2017/2/25 20:33:25
+            总 时 间：0.0019991秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:25,687 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 20:33:25
+            结束时间：2017/2/25 20:33:25
+            总 时 间：7.04E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:25,688 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 20:33:25
+            结束时间：2017/2/25 20:33:25
+            总 时 间：0.0010009秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:25,688 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:Index
+            开始时间：2017/2/25 20:33:24
+            结束时间：2017/2/25 20:33:25
+            总 时 间：0.8159081秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:26,352 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2017/2/25 20:33:26
+            结束时间：2017/2/25 20:33:26
+            总 时 间：0.2661809秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488026005884
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:26,353 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2017/2/25 20:33:26
+            结束时间：2017/2/25 20:33:26
+            总 时 间：0.001秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488026005884
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:27,348 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:ViewStatic
+            开始时间：2017/2/25 20:33:27
+            结束时间：2017/2/25 20:33:27
+            总 时 间：0.034509秒
+            Form表单数据：artId=4
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:27,348 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:ViewStatic
+            开始时间：2017/2/25 20:33:27
+            结束时间：2017/2/25 20:33:27
+            总 时 间：0秒
+            Form表单数据：artId=4
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:27,497 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:Index
+            开始时间：2017/2/25 20:33:27
+            结束时间：2017/2/25 20:33:27
+            总 时 间：0.0950686秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:27,940 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 20:33:27
+            结束时间：2017/2/25 20:33:27
+            总 时 间：0.4192917秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:27,942 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 20:33:27
+            结束时间：2017/2/25 20:33:27
+            总 时 间：0.0020031秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:27,972 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 20:33:27
+            结束时间：2017/2/25 20:33:27
+            总 时 间：0.0301135秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:27,974 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 20:33:27
+            结束时间：2017/2/25 20:33:27
+            总 时 间：0.0020014秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:28,314 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 20:33:27
+            结束时间：2017/2/25 20:33:28
+            总 时 间：0.3400738秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:28,316 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 20:33:28
+            结束时间：2017/2/25 20:33:28
+            总 时 间：0.0020009秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:28,317 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 20:33:28
+            结束时间：2017/2/25 20:33:28
+            总 时 间：7.38E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:28,318 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 20:33:28
+            结束时间：2017/2/25 20:33:28
+            总 时 间：0.0010009秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:28,319 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:Index
+            开始时间：2017/2/25 20:33:27
+            结束时间：2017/2/25 20:33:28
+            总 时 间：0.8223061秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:28,805 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:WrapComment
+            开始时间：2017/2/25 20:33:28
+            结束时间：2017/2/25 20:33:28
+            总 时 间：0.0431秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488026008502
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:28,805 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:WrapComment
+            开始时间：2017/2/25 20:33:28
+            结束时间：2017/2/25 20:33:28
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488026008502
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:51,243 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:PostCmt
+            开始时间：2017/2/25 20:33:47
+            结束时间：2017/2/25 20:33:51
+            总 时 间：3.9354517秒
+            Form表单数据：VId=&VName=23213asd&VEmail=23erf@23.como&CmtText=sfadgf讽德诵功&CmtArtId=4&ParentId=0&PageSize=5
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:33:51,243 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:PostCmt
+            开始时间：2017/2/25 20:33:51
+            结束时间：2017/2/25 20:33:51
+            总 时 间：0.0009465秒
+            Form表单数据：VId=&VName=23213asd&VEmail=23erf@23.como&CmtText=sfadgf讽德诵功&CmtArtId=4&ParentId=0&PageSize=5
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:36:17,762 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:Index
+            开始时间：2017/2/25 20:36:17
+            结束时间：2017/2/25 20:36:17
+            总 时 间：0.0190907秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:36:18,693 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 20:36:18
+            结束时间：2017/2/25 20:36:18
+            总 时 间：0.500534秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:36:18,702 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 20:36:18
+            结束时间：2017/2/25 20:36:18
+            总 时 间：0.0090036秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:36:18,743 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 20:36:18
+            结束时间：2017/2/25 20:36:18
+            总 时 间：0.0390652秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:36:18,750 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 20:36:18
+            结束时间：2017/2/25 20:36:18
+            总 时 间：0.0070049秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:36:19,171 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 20:36:18
+            结束时间：2017/2/25 20:36:19
+            总 时 间：0.419752秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:36:19,177 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 20:36:19
+            结束时间：2017/2/25 20:36:19
+            总 时 间：0.0060031秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:36:19,178 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 20:36:19
+            结束时间：2017/2/25 20:36:19
+            总 时 间：5.55E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:36:19,184 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 20:36:19
+            结束时间：2017/2/25 20:36:19
+            总 时 间：0.0060041秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:36:19,184 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:Index
+            开始时间：2017/2/25 20:36:17
+            结束时间：2017/2/25 20:36:19
+            总 时 间：1.4087546秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:36:19,975 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2017/2/25 20:36:19
+            结束时间：2017/2/25 20:36:19
+            总 时 间：0.3432826秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488026179421
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:36:19,979 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2017/2/25 20:36:19
+            结束时间：2017/2/25 20:36:19
+            总 时 间：0.0040022秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488026179421
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:36:29,906 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminHomeController
+            ActionName:Index
+            开始时间：2017/2/25 20:36:29
+            结束时间：2017/2/25 20:36:29
+            总 时 间：4E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:36:32,902 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminHomeController
+            ViewName:Index
+            开始时间：2017/2/25 20:36:29
+            结束时间：2017/2/25 20:36:32
+            总 时 间：2.9960624秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:36:32,948 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:Index
+            开始时间：2017/2/25 20:36:32
+            结束时间：2017/2/25 20:36:32
+            总 时 间：3.14E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:36:33,899 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:Index
+            开始时间：2017/2/25 20:36:32
+            结束时间：2017/2/25 20:36:33
+            总 时 间：0.9513695秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:40:49,907 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:Index
+            开始时间：2017/2/25 20:40:49
+            结束时间：2017/2/25 20:40:49
+            总 时 间：0.0221028秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:40:50,809 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 20:40:50
+            结束时间：2017/2/25 20:40:50
+            总 时 间：0.4807754秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:40:50,816 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 20:40:50
+            结束时间：2017/2/25 20:40:50
+            总 时 间：0.0070049秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:40:50,854 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 20:40:50
+            结束时间：2017/2/25 20:40:50
+            总 时 间：0.0361049秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:40:50,861 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 20:40:50
+            结束时间：2017/2/25 20:40:50
+            总 时 间：0.007004秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:40:51,269 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 20:40:50
+            结束时间：2017/2/25 20:40:51
+            总 时 间：0.4079509秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:40:51,276 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 20:40:51
+            结束时间：2017/2/25 20:40:51
+            总 时 间：0.0060045秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:40:51,277 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 20:40:51
+            结束时间：2017/2/25 20:40:51
+            总 时 间：0.0010567秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:40:51,285 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 20:40:51
+            结束时间：2017/2/25 20:40:51
+            总 时 间：0.0080049秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:40:51,286 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:Index
+            开始时间：2017/2/25 20:40:49
+            结束时间：2017/2/25 20:40:51
+            总 时 间：1.3633462秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:40:52,140 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2017/2/25 20:40:51
+            结束时间：2017/2/25 20:40:52
+            总 时 间：0.3183087秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488026451550
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:40:52,146 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2017/2/25 20:40:52
+            结束时间：2017/2/25 20:40:52
+            总 时 间：0.0060031秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488026451550
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:41:06,256 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminHomeController
+            ActionName:Index
+            开始时间：2017/2/25 20:41:06
+            结束时间：2017/2/25 20:41:06
+            总 时 间：0.0010614秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:41:06,671 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminHomeController
+            ViewName:Index
+            开始时间：2017/2/25 20:41:06
+            结束时间：2017/2/25 20:41:06
+            总 时 间：0.4153369秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:41:06,696 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:Index
+            开始时间：2017/2/25 20:41:06
+            结束时间：2017/2/25 20:41:06
+            总 时 间：1.57E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:41:06,918 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:Index
+            开始时间：2017/2/25 20:41:06
+            结束时间：2017/2/25 20:41:06
+            总 时 间：0.2216413秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:41:58,853 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:Index
+            开始时间：2017/2/25 20:41:58
+            结束时间：2017/2/25 20:41:58
+            总 时 间：8.73E-05秒
+            Form表单数据：UserName=海原星宿&PassWord=zyn_1234
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:41:58,905 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:Index
+            开始时间：2017/2/25 20:41:58
+            结束时间：2017/2/25 20:41:58
+            总 时 间：0.0520335秒
+            Form表单数据：UserName=海原星宿&PassWord=zyn_1234
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:42:31,055 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:Index
+            开始时间：2017/2/25 20:42:31
+            结束时间：2017/2/25 20:42:31
+            总 时 间：8.12E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:42:31,519 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 20:42:31
+            结束时间：2017/2/25 20:42:31
+            总 时 间：0.4570433秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:42:31,521 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 20:42:31
+            结束时间：2017/2/25 20:42:31
+            总 时 间：0.0020009秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:42:31,550 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 20:42:31
+            结束时间：2017/2/25 20:42:31
+            总 时 间：0.0290629秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:42:31,552 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 20:42:31
+            结束时间：2017/2/25 20:42:31
+            总 时 间：0.0020032秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:42:31,888 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 20:42:31
+            结束时间：2017/2/25 20:42:31
+            总 时 间：0.3348947秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:42:31,890 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 20:42:31
+            结束时间：2017/2/25 20:42:31
+            总 时 间：0.0020014秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:42:31,890 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 20:42:31
+            结束时间：2017/2/25 20:42:31
+            总 时 间：9.61E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:42:31,892 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 20:42:31
+            结束时间：2017/2/25 20:42:31
+            总 时 间：0.0020013秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:42:31,892 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:Index
+            开始时间：2017/2/25 20:42:31
+            结束时间：2017/2/25 20:42:31
+            总 时 间：0.8368162秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:42:32,618 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2017/2/25 20:42:32
+            结束时间：2017/2/25 20:42:32
+            总 时 间：0.268234秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488026552125
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:42:32,619 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2017/2/25 20:42:32
+            结束时间：2017/2/25 20:42:32
+            总 时 间：0.001秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488026552125
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:42:39,812 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminHomeController
+            ActionName:Index
+            开始时间：2017/2/25 20:42:39
+            结束时间：2017/2/25 20:42:39
+            总 时 间：1.3E-06秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:42:39,822 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminHomeController
+            ViewName:Index
+            开始时间：2017/2/25 20:42:39
+            结束时间：2017/2/25 20:42:39
+            总 时 间：0.0090058秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:42:39,858 
+线程ID:[22] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:Index
+            开始时间：2017/2/25 20:42:39
+            结束时间：2017/2/25 20:42:39
+            总 时 间：3.25E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:42:39,899 
+线程ID:[22] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:Index
+            开始时间：2017/2/25 20:42:39
+            结束时间：2017/2/25 20:42:39
+            总 时 间：0.0410254秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:45:19,411 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:Index
+            开始时间：2017/2/25 20:45:19
+            结束时间：2017/2/25 20:45:19
+            总 时 间：0.0210509秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:45:20,350 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 20:45:19
+            结束时间：2017/2/25 20:45:20
+            总 时 间：0.5172564秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:45:20,373 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 20:45:20
+            结束时间：2017/2/25 20:45:20
+            总 时 间：0.0230165秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:45:20,414 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 20:45:20
+            结束时间：2017/2/25 20:45:20
+            总 时 间：0.0390997秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:45:20,423 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 20:45:20
+            结束时间：2017/2/25 20:45:20
+            总 时 间：0.0090054秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:45:20,931 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 20:45:20
+            结束时间：2017/2/25 20:45:20
+            总 时 间：0.5083478秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:45:20,939 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 20:45:20
+            结束时间：2017/2/25 20:45:20
+            总 时 间：0.0070049秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:45:20,940 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 20:45:20
+            结束时间：2017/2/25 20:45:20
+            总 时 间：0.0010518秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:45:20,946 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 20:45:20
+            结束时间：2017/2/25 20:45:20
+            总 时 间：0.0060027秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:45:20,947 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:Index
+            开始时间：2017/2/25 20:45:19
+            结束时间：2017/2/25 20:45:20
+            总 时 间：1.5239911秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:45:22,456 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2017/2/25 20:45:21
+            结束时间：2017/2/25 20:45:22
+            总 时 间：0.7462633秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488026721338
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:45:22,507 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2017/2/25 20:45:22
+            结束时间：2017/2/25 20:45:22
+            总 时 间：0.0510335秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488026721338
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:45:49,887 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminHomeController
+            ActionName:Index
+            开始时间：2017/2/25 20:45:49
+            结束时间：2017/2/25 20:45:49
+            总 时 间：7.47E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:45:50,311 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminHomeController
+            ViewName:Index
+            开始时间：2017/2/25 20:45:49
+            结束时间：2017/2/25 20:45:50
+            总 时 间：0.4239599秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:45:50,332 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:Index
+            开始时间：2017/2/25 20:45:50
+            结束时间：2017/2/25 20:45:50
+            总 时 间：0.0010497秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:45:50,547 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:Index
+            开始时间：2017/2/25 20:45:50
+            结束时间：2017/2/25 20:45:50
+            总 时 间：0.213959秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:48:14,131 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:Login
+            开始时间：2017/2/25 20:48:13
+            结束时间：2017/2/25 20:48:14
+            总 时 间：0.1720162秒
+            Form表单数据：UserName=海原星宿&PassWord=zyn_1234
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:48:14,132 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:Login
+            开始时间：2017/2/25 20:48:14
+            结束时间：2017/2/25 20:48:14
+            总 时 间：0.0010013秒
+            Form表单数据：UserName=海原星宿&PassWord=zyn_1234
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:48:14,296 
+线程ID:[22] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminHomeController
+            ActionName:Index
+            开始时间：2017/2/25 20:48:14
+            结束时间：2017/2/25 20:48:14
+            总 时 间：2.06E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:48:14,306 
+线程ID:[22] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminHomeController
+            ViewName:Index
+            开始时间：2017/2/25 20:48:14
+            结束时间：2017/2/25 20:48:14
+            总 时 间：0.0100058秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:49:18,978 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminArchivesController
+            ActionName:Index
+            开始时间：2017/2/25 20:49:18
+            结束时间：2017/2/25 20:49:18
+            总 时 间：1.73E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:49:20,133 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminArchivesController
+            ViewName:Index
+            开始时间：2017/2/25 20:49:18
+            结束时间：2017/2/25 20:49:20
+            总 时 间：1.1543856秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:50:15,421 
+线程ID:[23] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminArchivesController
+            ActionName:GetArchivesJson
+            开始时间：2017/2/25 20:50:15
+            结束时间：2017/2/25 20:50:15
+            总 时 间：0.411327秒
+            Form表单数据：
+            URL参数：sEcho=1&iColumns=10&sColumns=&iDisplayStart=0&iDisplayLength=10&mDataProp_0=Id&mDataProp_1=Title&mDataProp_2=CategoryName&mDataProp_3=ViewCount&mDataProp_4=CommentCount&mDataProp_5=Digg&mDataProp_6=Status&mDataProp_7=null&mDataProp_8=null&mDataProp_9=null&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=true&bSortable_6=true&bSortable_7=true&bSortable_8=true&bSortable_9=true&_=1488027014947
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:50:15,424 
+线程ID:[23] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminArchivesController
+            ViewName:GetArchivesJson
+            开始时间：2017/2/25 20:50:15
+            结束时间：2017/2/25 20:50:15
+            总 时 间：0.0030023秒
+            Form表单数据：
+            URL参数：sEcho=1&iColumns=10&sColumns=&iDisplayStart=0&iDisplayLength=10&mDataProp_0=Id&mDataProp_1=Title&mDataProp_2=CategoryName&mDataProp_3=ViewCount&mDataProp_4=CommentCount&mDataProp_5=Digg&mDataProp_6=Status&mDataProp_7=null&mDataProp_8=null&mDataProp_9=null&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=true&bSortable_6=true&bSortable_7=true&bSortable_8=true&bSortable_9=true&_=1488027014947
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:50:24,199 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminArchivesController
+            ActionName:EditArchive
+            开始时间：2017/2/25 20:50:24
+            结束时间：2017/2/25 20:50:24
+            总 时 间：0.1462244秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:50:24,639 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminArchivesController
+            ViewName:EditArchive
+            开始时间：2017/2/25 20:50:24
+            结束时间：2017/2/25 20:50:24
+            总 时 间：0.4405886秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:51:36,100 
+线程ID:[23] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminArchivesController
+            ActionName:Index
+            开始时间：2017/2/25 20:51:36
+            结束时间：2017/2/25 20:51:36
+            总 时 间：5.78E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:51:36,109 
+线程ID:[23] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminArchivesController
+            ViewName:Index
+            开始时间：2017/2/25 20:51:36
+            结束时间：2017/2/25 20:51:36
+            总 时 间：0.009008秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:51:43,716 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminArchivesController
+            ActionName:EditArchive
+            开始时间：2017/2/25 20:51:43
+            结束时间：2017/2/25 20:51:43
+            总 时 间：0.0500713秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:51:43,731 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminArchivesController
+            ViewName:EditArchive
+            开始时间：2017/2/25 20:51:43
+            结束时间：2017/2/25 20:51:43
+            总 时 间：0.0150107秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:51:43,788 
+线程ID:[23] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:Index
+            开始时间：2017/2/25 20:51:43
+            结束时间：2017/2/25 20:51:43
+            总 时 间：2.04E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:51:43,840 
+线程ID:[23] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:Index
+            开始时间：2017/2/25 20:51:43
+            结束时间：2017/2/25 20:51:43
+            总 时 间：0.0520339秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:52:49,474 
+线程ID:[28] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminArchivesController
+            ActionName:GetArchivesJson
+            开始时间：2017/2/25 20:52:49
+            结束时间：2017/2/25 20:52:49
+            总 时 间：0.3283106秒
+            Form表单数据：
+            URL参数：sEcho=1&iColumns=10&sColumns=&iDisplayStart=0&iDisplayLength=10&mDataProp_0=Id&mDataProp_1=Title&mDataProp_2=CategoryName&mDataProp_3=ViewCount&mDataProp_4=CommentCount&mDataProp_5=Digg&mDataProp_6=Status&mDataProp_7=null&mDataProp_8=null&mDataProp_9=null&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=true&bSortable_6=true&bSortable_7=true&bSortable_8=true&bSortable_9=true&_=1488027169070
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:52:49,475 
+线程ID:[28] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminArchivesController
+            ViewName:GetArchivesJson
+            开始时间：2017/2/25 20:52:49
+            结束时间：2017/2/25 20:52:49
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：sEcho=1&iColumns=10&sColumns=&iDisplayStart=0&iDisplayLength=10&mDataProp_0=Id&mDataProp_1=Title&mDataProp_2=CategoryName&mDataProp_3=ViewCount&mDataProp_4=CommentCount&mDataProp_5=Digg&mDataProp_6=Status&mDataProp_7=null&mDataProp_8=null&mDataProp_9=null&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=true&bSortable_6=true&bSortable_7=true&bSortable_8=true&bSortable_9=true&_=1488027169070
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:57:39,442 
+线程ID:[26] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AccountController
+            ActionName:Login
+            开始时间：2017/2/25 20:57:05
+            结束时间：2017/2/25 20:57:39
+            总 时 间：33.9033181秒
+            Form表单数据：UserName=海原星宿&PassWord=123456zyn
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 20:57:39,445 
+线程ID:[26] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AccountController
+            ViewName:Login
+            开始时间：2017/2/25 20:57:39
+            结束时间：2017/2/25 20:57:39
+            总 时 间：0.0030014秒
+            Form表单数据：UserName=海原星宿&PassWord=123456zyn
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:17:34,440 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:Index
+            开始时间：2017/2/25 21:17:34
+            结束时间：2017/2/25 21:17:34
+            总 时 间：0.0220861秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:17:37,664 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 21:17:37
+            结束时间：2017/2/25 21:17:37
+            总 时 间：0.5264046秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:17:37,670 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 21:17:37
+            结束时间：2017/2/25 21:17:37
+            总 时 间：0.0060045秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:17:37,716 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 21:17:37
+            结束时间：2017/2/25 21:17:37
+            总 时 间：0.0450394秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:17:37,723 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 21:17:37
+            结束时间：2017/2/25 21:17:37
+            总 时 间：0.006004秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:17:38,165 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 21:17:37
+            结束时间：2017/2/25 21:17:38
+            总 时 间：0.4422911秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:17:38,170 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 21:17:38
+            结束时间：2017/2/25 21:17:38
+            总 时 间：0.0050027秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:17:38,170 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 21:17:38
+            结束时间：2017/2/25 21:17:38
+            总 时 间：9.38E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:17:38,175 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 21:17:38
+            结束时间：2017/2/25 21:17:38
+            总 时 间：0.0050031秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:17:38,175 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:Index
+            开始时间：2017/2/25 21:17:34
+            结束时间：2017/2/25 21:17:38
+            总 时 间：3.7217952秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:17:39,070 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2017/2/25 21:17:38
+            结束时间：2017/2/25 21:17:39
+            总 时 间：0.3912966秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488028658471
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:17:39,103 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2017/2/25 21:17:39
+            结束时间：2017/2/25 21:17:39
+            总 时 间：0.0330223秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488028658471
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:17:57,408 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminHomeController
+            ActionName:Index
+            开始时间：2017/2/25 21:17:57
+            结束时间：2017/2/25 21:17:57
+            总 时 间：4.18E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:18:00,003 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminHomeController
+            ViewName:Index
+            开始时间：2017/2/25 21:17:57
+            结束时间：2017/2/25 21:18:00
+            总 时 间：2.5949581秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:19:38,644 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminArchivesController
+            ActionName:Index
+            开始时间：2017/2/25 21:19:38
+            结束时间：2017/2/25 21:19:38
+            总 时 间：2.73E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:19:39,538 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminArchivesController
+            ViewName:Index
+            开始时间：2017/2/25 21:19:38
+            结束时间：2017/2/25 21:19:39
+            总 时 间：0.8940192秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:20:34,664 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminArchivesController
+            ActionName:GetArchivesJson
+            开始时间：2017/2/25 21:20:34
+            结束时间：2017/2/25 21:20:34
+            总 时 间：0.3402735秒
+            Form表单数据：
+            URL参数：sEcho=1&iColumns=10&sColumns=&iDisplayStart=0&iDisplayLength=10&mDataProp_0=Id&mDataProp_1=Title&mDataProp_2=CategoryName&mDataProp_3=ViewCount&mDataProp_4=CommentCount&mDataProp_5=Digg&mDataProp_6=Status&mDataProp_7=null&mDataProp_8=null&mDataProp_9=null&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=true&bSortable_6=true&bSortable_7=true&bSortable_8=true&bSortable_9=true&_=1488028834150
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:20:34,667 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminArchivesController
+            ViewName:GetArchivesJson
+            开始时间：2017/2/25 21:20:34
+            结束时间：2017/2/25 21:20:34
+            总 时 间：0.0030027秒
+            Form表单数据：
+            URL参数：sEcho=1&iColumns=10&sColumns=&iDisplayStart=0&iDisplayLength=10&mDataProp_0=Id&mDataProp_1=Title&mDataProp_2=CategoryName&mDataProp_3=ViewCount&mDataProp_4=CommentCount&mDataProp_5=Digg&mDataProp_6=Status&mDataProp_7=null&mDataProp_8=null&mDataProp_9=null&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=true&bSortable_6=true&bSortable_7=true&bSortable_8=true&bSortable_9=true&_=1488028834150
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:20:41,279 
+线程ID:[22] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminArchivesController
+            ActionName:RealDelArchive
+            开始时间：2017/2/25 21:20:40
+            结束时间：2017/2/25 21:20:41
+            总 时 间：0.9499325秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:20:41,279 
+线程ID:[22] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminArchivesController
+            ViewName:RealDelArchive
+            开始时间：2017/2/25 21:20:41
+            结束时间：2017/2/25 21:20:41
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:20:41,586 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：AdminArchivesController
+            ActionName:GetArchivesJson
+            开始时间：2017/2/25 21:20:41
+            结束时间：2017/2/25 21:20:41
+            总 时 间：0.2658531秒
+            Form表单数据：
+            URL参数：sEcho=2&iColumns=10&sColumns=&iDisplayStart=0&iDisplayLength=10&mDataProp_0=Id&mDataProp_1=Title&mDataProp_2=CategoryName&mDataProp_3=ViewCount&mDataProp_4=CommentCount&mDataProp_5=Digg&mDataProp_6=Status&mDataProp_7=null&mDataProp_8=null&mDataProp_9=null&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=true&bSortable_6=true&bSortable_7=true&bSortable_8=true&bSortable_9=true&_=1488028841300
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:20:41,587 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：AdminArchivesController
+            ViewName:GetArchivesJson
+            开始时间：2017/2/25 21:20:41
+            结束时间：2017/2/25 21:20:41
+            总 时 间：0.0010027秒
+            Form表单数据：
+            URL参数：sEcho=2&iColumns=10&sColumns=&iDisplayStart=0&iDisplayLength=10&mDataProp_0=Id&mDataProp_1=Title&mDataProp_2=CategoryName&mDataProp_3=ViewCount&mDataProp_4=CommentCount&mDataProp_5=Digg&mDataProp_6=Status&mDataProp_7=null&mDataProp_8=null&mDataProp_9=null&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&bSortable_2=true&bSortable_3=true&bSortable_4=true&bSortable_5=true&bSortable_6=true&bSortable_7=true&bSortable_8=true&bSortable_9=true&_=1488028841300
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:16,579 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:Index
+            开始时间：2017/2/25 21:38:16
+            结束时间：2017/2/25 21:38:16
+            总 时 间：0.0250554秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:19,894 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 21:38:19
+            结束时间：2017/2/25 21:38:19
+            总 时 间：0.1381562秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:19,909 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 21:38:19
+            结束时间：2017/2/25 21:38:19
+            总 时 间：0.0150112秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:19,931 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 21:38:19
+            结束时间：2017/2/25 21:38:19
+            总 时 间：0.0210816秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:19,942 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 21:38:19
+            结束时间：2017/2/25 21:38:19
+            总 时 间：0.0110063秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:20,144 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 21:38:19
+            结束时间：2017/2/25 21:38:20
+            总 时 间：0.2022271秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:20,153 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 21:38:20
+            结束时间：2017/2/25 21:38:20
+            总 时 间：0.0090067秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:20,154 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 21:38:20
+            结束时间：2017/2/25 21:38:20
+            总 时 间：3.47E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:20,160 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 21:38:20
+            结束时间：2017/2/25 21:38:20
+            总 时 间：0.0060027秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:20,160 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:Index
+            开始时间：2017/2/25 21:38:16
+            结束时间：2017/2/25 21:38:20
+            总 时 间：3.5686323秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:21,129 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2017/2/25 21:38:21
+            结束时间：2017/2/25 21:38:21
+            总 时 间：0.0960866秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488029900705
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:21,134 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2017/2/25 21:38:21
+            结束时间：2017/2/25 21:38:21
+            总 时 间：0.0050032秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488029900705
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:31,502 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:ViewStatic
+            开始时间：2017/2/25 21:38:31
+            结束时间：2017/2/25 21:38:31
+            总 时 间：0.1269879秒
+            Form表单数据：artId=13
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:31,502 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:ViewStatic
+            开始时间：2017/2/25 21:38:31
+            结束时间：2017/2/25 21:38:31
+            总 时 间：0秒
+            Form表单数据：artId=13
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:31,583 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:Index
+            开始时间：2017/2/25 21:38:31
+            结束时间：2017/2/25 21:38:31
+            总 时 间：0.0380405秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:32,676 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 21:38:32
+            结束时间：2017/2/25 21:38:32
+            总 时 间：0.0127217秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:32,677 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 21:38:32
+            结束时间：2017/2/25 21:38:32
+            总 时 间：0.0010004秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:32,681 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 21:38:32
+            结束时间：2017/2/25 21:38:32
+            总 时 间：0.0030239秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:32,683 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 21:38:32
+            结束时间：2017/2/25 21:38:32
+            总 时 间：0.0020022秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:32,697 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 21:38:32
+            结束时间：2017/2/25 21:38:32
+            总 时 间：0.0140368秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:32,699 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 21:38:32
+            结束时间：2017/2/25 21:38:32
+            总 时 间：0.0020005秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:32,699 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 21:38:32
+            结束时间：2017/2/25 21:38:32
+            总 时 间：3.73E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:32,700 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 21:38:32
+            结束时间：2017/2/25 21:38:32
+            总 时 间：0.0010004秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:32,700 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:Index
+            开始时间：2017/2/25 21:38:31
+            结束时间：2017/2/25 21:38:32
+            总 时 间：1.1172972秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:33,478 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:WrapComment
+            开始时间：2017/2/25 21:38:33
+            结束时间：2017/2/25 21:38:33
+            总 时 间：0.0400993秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488029912974
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:33,478 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:WrapComment
+            开始时间：2017/2/25 21:38:33
+            结束时间：2017/2/25 21:38:33
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488029912974
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:46,409 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:PostCmt
+            开始时间：2017/2/25 21:38:45
+            结束时间：2017/2/25 21:38:46
+            总 时 间：0.6236626秒
+            Form表单数据：VId=176&CmtText=测试邮箱&CmtArtId=13&ParentId=0&PageSize=5
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:38:46,409 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:PostCmt
+            开始时间：2017/2/25 21:38:46
+            结束时间：2017/2/25 21:38:46
+            总 时 间：0秒
+            Form表单数据：VId=176&CmtText=测试邮箱&CmtArtId=13&ParentId=0&PageSize=5
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:41:05,659 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:Index
+            开始时间：2017/2/25 21:41:05
+            结束时间：2017/2/25 21:41:05
+            总 时 间：0.0260855秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:41:05,690 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 21:41:05
+            结束时间：2017/2/25 21:41:05
+            总 时 间：0.0211069秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:41:05,693 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 21:41:05
+            结束时间：2017/2/25 21:41:05
+            总 时 间：0.0030009秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:41:05,697 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 21:41:05
+            结束时间：2017/2/25 21:41:05
+            总 时 间：0.0040101秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:41:05,701 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 21:41:05
+            结束时间：2017/2/25 21:41:05
+            总 时 间：0.0040035秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:41:05,716 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 21:41:05
+            结束时间：2017/2/25 21:41:05
+            总 时 间：0.0150235秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:41:05,718 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 21:41:05
+            结束时间：2017/2/25 21:41:05
+            总 时 间：0.0020008秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:41:05,719 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 21:41:05
+            结束时间：2017/2/25 21:41:05
+            总 时 间：2.43E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:41:05,720 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 21:41:05
+            结束时间：2017/2/25 21:41:05
+            总 时 间：0.001秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:41:05,720 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:Index
+            开始时间：2017/2/25 21:41:05
+            结束时间：2017/2/25 21:41:05
+            总 时 间：0.0610411秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:41:06,991 
+线程ID:[24] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:WrapComment
+            开始时间：2017/2/25 21:41:06
+            结束时间：2017/2/25 21:41:06
+            总 时 间：0.0320766秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488030066393
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:41:06,991 
+线程ID:[24] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:WrapComment
+            开始时间：2017/2/25 21:41:06
+            结束时间：2017/2/25 21:41:06
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488030066393
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:42:30,624 
+线程ID:[27] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:Index
+            开始时间：2017/2/25 21:42:30
+            结束时间：2017/2/25 21:42:30
+            总 时 间：0.0070627秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:42:30,657 
+线程ID:[27] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 21:42:30
+            结束时间：2017/2/25 21:42:30
+            总 时 间：0.0220859秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:42:30,659 
+线程ID:[27] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 21:42:30
+            结束时间：2017/2/25 21:42:30
+            总 时 间：0.0020023秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:42:30,663 
+线程ID:[27] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 21:42:30
+            结束时间：2017/2/25 21:42:30
+            总 时 间：0.004089秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:42:30,666 
+线程ID:[27] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 21:42:30
+            结束时间：2017/2/25 21:42:30
+            总 时 间：0.0030032秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:42:30,685 
+线程ID:[27] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 21:42:30
+            结束时间：2017/2/25 21:42:30
+            总 时 间：0.0191042秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:42:30,689 
+线程ID:[27] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 21:42:30
+            结束时间：2017/2/25 21:42:30
+            总 时 间：0.0040036秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:42:30,690 
+线程ID:[27] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 21:42:30
+            结束时间：2017/2/25 21:42:30
+            总 时 间：0.0010082秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:42:30,693 
+线程ID:[27] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 21:42:30
+            结束时间：2017/2/25 21:42:30
+            总 时 间：0.0030027秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:42:30,694 
+线程ID:[27] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:Index
+            开始时间：2017/2/25 21:42:30
+            结束时间：2017/2/25 21:42:30
+            总 时 间：0.0700478秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:42:31,326 
+线程ID:[25] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:WrapComment
+            开始时间：2017/2/25 21:42:31
+            结束时间：2017/2/25 21:42:31
+            总 时 间：0.005033秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488030150993
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:42:31,326 
+线程ID:[25] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:WrapComment
+            开始时间：2017/2/25 21:42:31
+            结束时间：2017/2/25 21:42:31
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488030150993
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:16,807 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:PostCmt
+            开始时间：2017/2/25 21:42:54
+            结束时间：2017/2/25 21:43:16
+            总 时 间：22.347578秒
+            Form表单数据：VId=&VName=我是来测试的&VEmail=1271681297@qq.com&CmtText=我是来测试的&CmtArtId=15&ParentId=0&PageSize=5
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:16,807 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:PostCmt
+            开始时间：2017/2/25 21:43:16
+            结束时间：2017/2/25 21:43:16
+            总 时 间：0秒
+            Form表单数据：VId=&VName=我是来测试的&VEmail=1271681297@qq.com&CmtText=我是来测试的&CmtArtId=15&ParentId=0&PageSize=5
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:31,514 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:Index
+            开始时间：2017/2/25 21:43:31
+            结束时间：2017/2/25 21:43:31
+            总 时 间：0.0180829秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:34,771 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 21:43:34
+            结束时间：2017/2/25 21:43:34
+            总 时 间：0.4957711秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:34,777 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 21:43:34
+            结束时间：2017/2/25 21:43:34
+            总 时 间：0.0060035秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:34,819 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 21:43:34
+            结束时间：2017/2/25 21:43:34
+            总 时 间：0.0411014秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:34,828 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 21:43:34
+            结束时间：2017/2/25 21:43:34
+            总 时 间：0.0090076秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:35,227 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 21:43:34
+            结束时间：2017/2/25 21:43:35
+            总 时 间：0.3972741秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:35,232 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 21:43:35
+            结束时间：2017/2/25 21:43:35
+            总 时 间：0.0050022秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:35,233 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 21:43:35
+            结束时间：2017/2/25 21:43:35
+            总 时 间：7.85E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:35,238 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 21:43:35
+            结束时间：2017/2/25 21:43:35
+            总 时 间：0.0050027秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:35,238 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:Index
+            开始时间：2017/2/25 21:43:31
+            结束时间：2017/2/25 21:43:35
+            总 时 间：3.710784秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:36,079 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2017/2/25 21:43:35
+            结束时间：2017/2/25 21:43:36
+            总 时 间：0.3532439秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488030215502
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:36,084 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2017/2/25 21:43:36
+            结束时间：2017/2/25 21:43:36
+            总 时 间：0.0050036秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488030215502
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:49,544 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:ViewStatic
+            开始时间：2017/2/25 21:43:49
+            结束时间：2017/2/25 21:43:49
+            总 时 间：0.0903075秒
+            Form表单数据：artId=8
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:49,544 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:ViewStatic
+            开始时间：2017/2/25 21:43:49
+            结束时间：2017/2/25 21:43:49
+            总 时 间：0秒
+            Form表单数据：artId=8
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:50,501 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:Index
+            开始时间：2017/2/25 21:43:49
+            结束时间：2017/2/25 21:43:50
+            总 时 间：0.8656051秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:53,884 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 21:43:53
+            结束时间：2017/2/25 21:43:53
+            总 时 间：0.4340854秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:53,886 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 21:43:53
+            结束时间：2017/2/25 21:43:53
+            总 时 间：0.002秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:53,915 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 21:43:53
+            结束时间：2017/2/25 21:43:53
+            总 时 间：0.0291055秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:53,917 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 21:43:53
+            结束时间：2017/2/25 21:43:53
+            总 时 间：0.0020013秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:54,213 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 21:43:53
+            结束时间：2017/2/25 21:43:54
+            总 时 间：0.2960987秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:54,214 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 21:43:54
+            结束时间：2017/2/25 21:43:54
+            总 时 间：0.0010027秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:54,215 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 21:43:54
+            结束时间：2017/2/25 21:43:54
+            总 时 间：1.9E-06秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:54,216 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 21:43:54
+            结束时间：2017/2/25 21:43:54
+            总 时 间：0.0010008秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:54,216 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:Index
+            开始时间：2017/2/25 21:43:50
+            结束时间：2017/2/25 21:43:54
+            总 时 间：3.7152976秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:55,340 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:WrapComment
+            开始时间：2017/2/25 21:43:54
+            结束时间：2017/2/25 21:43:55
+            总 时 间：0.565452秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488030234466
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:43:55,341 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:WrapComment
+            开始时间：2017/2/25 21:43:55
+            结束时间：2017/2/25 21:43:55
+            总 时 间：0.0010013秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488030234466
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:44:09,084 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:PostCmt
+            开始时间：2017/2/25 21:44:06
+            结束时间：2017/2/25 21:44:09
+            总 时 间：2.2610232秒
+            Form表单数据：VId=&VName=我是来测试的&VEmail=1271681297@qq.com&CmtText=我是来测试的&CmtArtId=8&ParentId=0&PageSize=5
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:44:09,084 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:PostCmt
+            开始时间：2017/2/25 21:44:09
+            结束时间：2017/2/25 21:44:09
+            总 时 间：0秒
+            Form表单数据：VId=&VName=我是来测试的&VEmail=1271681297@qq.com&CmtText=我是来测试的&CmtArtId=8&ParentId=0&PageSize=5
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:41,475 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:Index
+            开始时间：2017/2/25 21:47:41
+            结束时间：2017/2/25 21:47:41
+            总 时 间：0.0200928秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:43,461 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 21:47:42
+            结束时间：2017/2/25 21:47:43
+            总 时 间：0.5174318秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:43,468 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 21:47:43
+            结束时间：2017/2/25 21:47:43
+            总 时 间：0.0070031秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:43,514 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 21:47:43
+            结束时间：2017/2/25 21:47:43
+            总 时 间：0.0440652秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:43,523 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 21:47:43
+            结束时间：2017/2/25 21:47:43
+            总 时 间：0.0090063秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:43,887 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 21:47:43
+            结束时间：2017/2/25 21:47:43
+            总 时 间：0.3627283秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:43,895 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 21:47:43
+            结束时间：2017/2/25 21:47:43
+            总 时 间：0.0080049秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:43,896 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 21:47:43
+            结束时间：2017/2/25 21:47:43
+            总 时 间：0.0010355秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:43,903 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 21:47:43
+            结束时间：2017/2/25 21:47:43
+            总 时 间：0.0070017秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:43,903 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:Index
+            开始时间：2017/2/25 21:47:41
+            结束时间：2017/2/25 21:47:43
+            总 时 间：2.4143284秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:44,841 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2017/2/25 21:47:44
+            结束时间：2017/2/25 21:47:44
+            总 时 间：0.3232642秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488030464184
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:44,844 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2017/2/25 21:47:44
+            结束时间：2017/2/25 21:47:44
+            总 时 间：0.0030018秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488030464184
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:52,308 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:ViewStatic
+            开始时间：2017/2/25 21:47:52
+            结束时间：2017/2/25 21:47:52
+            总 时 间：0.130022秒
+            Form表单数据：artId=13
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:52,308 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:ViewStatic
+            开始时间：2017/2/25 21:47:52
+            结束时间：2017/2/25 21:47:52
+            总 时 间：0秒
+            Form表单数据：artId=13
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:53,170 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:Index
+            开始时间：2017/2/25 21:47:52
+            结束时间：2017/2/25 21:47:53
+            总 时 间：0.8095649秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:55,823 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 21:47:55
+            结束时间：2017/2/25 21:47:55
+            总 时 间：0.4428056秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:55,824 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 21:47:55
+            结束时间：2017/2/25 21:47:55
+            总 时 间：0.001秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:55,864 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 21:47:55
+            结束时间：2017/2/25 21:47:55
+            总 时 间：0.0400337秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:55,866 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 21:47:55
+            结束时间：2017/2/25 21:47:55
+            总 时 间：0.0020009秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:56,141 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 21:47:55
+            结束时间：2017/2/25 21:47:56
+            总 时 间：0.2748418秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:56,143 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 21:47:56
+            结束时间：2017/2/25 21:47:56
+            总 时 间：0.0020014秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:56,143 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 21:47:56
+            结束时间：2017/2/25 21:47:56
+            总 时 间：4.32E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:56,144 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 21:47:56
+            结束时间：2017/2/25 21:47:56
+            总 时 间：0.0010009秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:56,144 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:Index
+            开始时间：2017/2/25 21:47:53
+            结束时间：2017/2/25 21:47:56
+            总 时 间：2.9726792秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:57,388 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:WrapComment
+            开始时间：2017/2/25 21:47:57
+            结束时间：2017/2/25 21:47:57
+            总 时 间：0.2521736秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488030476798
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:47:57,389 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:WrapComment
+            开始时间：2017/2/25 21:47:57
+            结束时间：2017/2/25 21:47:57
+            总 时 间：0.0010013秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488030476798
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:49:52,120 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:PostCmt
+            开始时间：2017/2/25 21:48:02
+            结束时间：2017/2/25 21:49:52
+            总 时 间：109.4434214秒
+            Form表单数据：VId=177&CmtText=申达股份&CmtArtId=13&ParentId=0&PageSize=5
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:49:52,120 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:PostCmt
+            开始时间：2017/2/25 21:49:52
+            结束时间：2017/2/25 21:49:52
+            总 时 间：0秒
+            Form表单数据：VId=177&CmtText=申达股份&CmtArtId=13&ParentId=0&PageSize=5
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:50:38,295 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:Index
+            开始时间：2017/2/25 21:50:38
+            结束时间：2017/2/25 21:50:38
+            总 时 间：0.1301179秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:50:38,797 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 21:50:38
+            结束时间：2017/2/25 21:50:38
+            总 时 间：0.4743521秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:50:38,799 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 21:50:38
+            结束时间：2017/2/25 21:50:38
+            总 时 间：0.0020018秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:50:38,829 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 21:50:38
+            结束时间：2017/2/25 21:50:38
+            总 时 间：0.0290744秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:50:38,833 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 21:50:38
+            结束时间：2017/2/25 21:50:38
+            总 时 间：0.0030018秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:50:39,063 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 21:50:38
+            结束时间：2017/2/25 21:50:39
+            总 时 间：0.2302333秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:50:39,066 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 21:50:39
+            结束时间：2017/2/25 21:50:39
+            总 时 间：0.0030004秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:50:39,066 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 21:50:39
+            结束时间：2017/2/25 21:50:39
+            总 时 间：3.37E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:50:39,069 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 21:50:39
+            结束时间：2017/2/25 21:50:39
+            总 时 间：0.0030018秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:50:39,070 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:Index
+            开始时间：2017/2/25 21:50:38
+            结束时间：2017/2/25 21:50:39
+            总 时 间：0.774518秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:50:41,156 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:WrapComment
+            开始时间：2017/2/25 21:50:40
+            结束时间：2017/2/25 21:50:41
+            总 时 间：0.5574188秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488030639826
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:50:41,157 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:WrapComment
+            开始时间：2017/2/25 21:50:41
+            结束时间：2017/2/25 21:50:41
+            总 时 间：0.0010005秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488030639826
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:50:45,008 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:WrapComment
+            开始时间：2017/2/25 21:50:44
+            结束时间：2017/2/25 21:50:45
+            总 时 间：0.5053574秒
+            Form表单数据：
+            URL参数：pageIndex=2&pageSize=5&_=1488030639827
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:50:45,008 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:WrapComment
+            开始时间：2017/2/25 21:50:45
+            结束时间：2017/2/25 21:50:45
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：pageIndex=2&pageSize=5&_=1488030639827
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:51:21,407 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:Index
+            开始时间：2017/2/25 21:51:20
+            结束时间：2017/2/25 21:51:21
+            总 时 间：0.8383483秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMx&AnchorCmtParentId=MA==&AnchorCmtId=MjMx&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:51:22,064 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 21:51:21
+            结束时间：2017/2/25 21:51:22
+            总 时 间：0.6214874秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMx&AnchorCmtParentId=MA==&AnchorCmtId=MjMx&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:51:22,066 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 21:51:22
+            结束时间：2017/2/25 21:51:22
+            总 时 间：0.0020009秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMx&AnchorCmtParentId=MA==&AnchorCmtId=MjMx&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:51:22,097 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 21:51:22
+            结束时间：2017/2/25 21:51:22
+            总 时 间：0.0311088秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMx&AnchorCmtParentId=MA==&AnchorCmtId=MjMx&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:51:22,100 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 21:51:22
+            结束时间：2017/2/25 21:51:22
+            总 时 间：0.0030022秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMx&AnchorCmtParentId=MA==&AnchorCmtId=MjMx&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:51:22,325 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 21:51:22
+            结束时间：2017/2/25 21:51:22
+            总 时 间：0.2251605秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMx&AnchorCmtParentId=MA==&AnchorCmtId=MjMx&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:51:22,327 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 21:51:22
+            结束时间：2017/2/25 21:51:22
+            总 时 间：0.0020014秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMx&AnchorCmtParentId=MA==&AnchorCmtId=MjMx&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:51:22,327 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 21:51:22
+            结束时间：2017/2/25 21:51:22
+            总 时 间：6.19E-05秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMx&AnchorCmtParentId=MA==&AnchorCmtId=MjMx&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:51:22,328 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 21:51:22
+            结束时间：2017/2/25 21:51:22
+            总 时 间：0.0010004秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMx&AnchorCmtParentId=MA==&AnchorCmtId=MjMx&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:51:22,328 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:Index
+            开始时间：2017/2/25 21:51:21
+            结束时间：2017/2/25 21:51:22
+            总 时 间：0.920614秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMx&AnchorCmtParentId=MA==&AnchorCmtId=MjMx&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:51:23,265 
+线程ID:[22] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:WrapComment
+            开始时间：2017/2/25 21:51:22
+            结束时间：2017/2/25 21:51:23
+            总 时 间：0.2841915秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488030682619
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:51:23,265 
+线程ID:[22] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:WrapComment
+            开始时间：2017/2/25 21:51:23
+            结束时间：2017/2/25 21:51:23
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488030682619
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:51:37,468 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:PostCmt
+            开始时间：2017/2/25 21:51:28
+            结束时间：2017/2/25 21:51:37
+            总 时 间：9.1700646秒
+            Form表单数据：VId=1&CmtText=？？？？？？？？？？？？？&CmtArtId=13&ParentId=0&PageSize=5
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:51:37,468 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:PostCmt
+            开始时间：2017/2/25 21:51:37
+            结束时间：2017/2/25 21:51:37
+            总 时 间：0秒
+            Form表单数据：VId=1&CmtText=？？？？？？？？？？？？？&CmtArtId=13&ParentId=0&PageSize=5
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:15,083 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:Index
+            开始时间：2017/2/25 21:56:15
+            结束时间：2017/2/25 21:56:15
+            总 时 间：0.0180755秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:18,029 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 21:56:17
+            结束时间：2017/2/25 21:56:18
+            总 时 间：0.4992203秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:18,035 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 21:56:18
+            结束时间：2017/2/25 21:56:18
+            总 时 间：0.0060031秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:18,072 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 21:56:18
+            结束时间：2017/2/25 21:56:18
+            总 时 间：0.036048秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:18,079 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 21:56:18
+            结束时间：2017/2/25 21:56:18
+            总 时 间：0.0070049秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:18,364 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 21:56:18
+            结束时间：2017/2/25 21:56:18
+            总 时 间：0.2847762秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:18,368 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 21:56:18
+            结束时间：2017/2/25 21:56:18
+            总 时 间：0.0040009秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:18,369 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 21:56:18
+            结束时间：2017/2/25 21:56:18
+            总 时 间：7.93E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:18,374 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 21:56:18
+            结束时间：2017/2/25 21:56:18
+            总 时 间：0.0050031秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:18,374 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:Index
+            开始时间：2017/2/25 21:56:15
+            结束时间：2017/2/25 21:56:18
+            总 时 间：3.2784921秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:19,184 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2017/2/25 21:56:18
+            结束时间：2017/2/25 21:56:19
+            总 时 间：0.3182242秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488030978644
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:19,188 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2017/2/25 21:56:19
+            结束时间：2017/2/25 21:56:19
+            总 时 间：0.0040018秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488030978644
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:24,725 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2017/2/25 21:56:24
+            结束时间：2017/2/25 21:56:24
+            总 时 间：0.232208秒
+            Form表单数据：
+            URL参数：pageIndex=2&pageSize=7&_=1488030978647
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:24,726 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2017/2/25 21:56:24
+            结束时间：2017/2/25 21:56:24
+            总 时 间：0.0010004秒
+            Form表单数据：
+            URL参数：pageIndex=2&pageSize=7&_=1488030978647
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:27,729 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:ViewStatic
+            开始时间：2017/2/25 21:56:27
+            结束时间：2017/2/25 21:56:27
+            总 时 间：0.0855816秒
+            Form表单数据：artId=21
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:27,729 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:ViewStatic
+            开始时间：2017/2/25 21:56:27
+            结束时间：2017/2/25 21:56:27
+            总 时 间：0秒
+            Form表单数据：artId=21
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:28,569 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:Index
+            开始时间：2017/2/25 21:56:27
+            结束时间：2017/2/25 21:56:28
+            总 时 间：0.7882274秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:31,907 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 21:56:31
+            结束时间：2017/2/25 21:56:31
+            总 时 间：0.4140907秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:31,909 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 21:56:31
+            结束时间：2017/2/25 21:56:31
+            总 时 间：0.0020027秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:31,948 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 21:56:31
+            结束时间：2017/2/25 21:56:31
+            总 时 间：0.0391184秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:31,950 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 21:56:31
+            结束时间：2017/2/25 21:56:31
+            总 时 间：0.0020035秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:32,152 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 21:56:31
+            结束时间：2017/2/25 21:56:32
+            总 时 间：0.2021549秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:32,154 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 21:56:32
+            结束时间：2017/2/25 21:56:32
+            总 时 间：0.0020027秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:32,154 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 21:56:32
+            结束时间：2017/2/25 21:56:32
+            总 时 间：5.76E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:32,155 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 21:56:32
+            结束时间：2017/2/25 21:56:32
+            总 时 间：0.0010004秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:32,155 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:Index
+            开始时间：2017/2/25 21:56:28
+            结束时间：2017/2/25 21:56:32
+            总 时 间：3.5864306秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:32,983 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:WrapComment
+            开始时间：2017/2/25 21:56:32
+            结束时间：2017/2/25 21:56:32
+            总 时 间：0.053045秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488030992630
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:56:32,983 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:WrapComment
+            开始时间：2017/2/25 21:56:32
+            结束时间：2017/2/25 21:56:32
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488030992630
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:57:42,685 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:Index
+            开始时间：2017/2/25 21:57:42
+            结束时间：2017/2/25 21:57:42
+            总 时 间：0.1013507秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:57:43,186 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 21:57:42
+            结束时间：2017/2/25 21:57:43
+            总 时 间：0.478293秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:57:43,190 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 21:57:43
+            结束时间：2017/2/25 21:57:43
+            总 时 间：0.0040031秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:57:43,224 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 21:57:43
+            结束时间：2017/2/25 21:57:43
+            总 时 间：0.0341184秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:57:43,228 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 21:57:43
+            结束时间：2017/2/25 21:57:43
+            总 时 间：0.0040022秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:57:43,449 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 21:57:43
+            结束时间：2017/2/25 21:57:43
+            总 时 间：0.2203638秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:57:43,451 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 21:57:43
+            结束时间：2017/2/25 21:57:43
+            总 时 间：0.0020018秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:57:43,451 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 21:57:43
+            结束时间：2017/2/25 21:57:43
+            总 时 间：6.56E-05秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:57:43,453 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 21:57:43
+            结束时间：2017/2/25 21:57:43
+            总 时 间：0.0020009秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:57:43,453 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:Index
+            开始时间：2017/2/25 21:57:42
+            结束时间：2017/2/25 21:57:43
+            总 时 间：0.7676158秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:57:45,082 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:WrapComment
+            开始时间：2017/2/25 21:57:45
+            结束时间：2017/2/25 21:57:45
+            总 时 间：0.0800926秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488031064578
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:57:45,083 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:WrapComment
+            开始时间：2017/2/25 21:57:45
+            结束时间：2017/2/25 21:57:45
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488031064578
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:58:12,537 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:PostCmt
+            开始时间：2017/2/25 21:58:11
+            结束时间：2017/2/25 21:58:12
+            总 时 间：0.6863905秒
+            Form表单数据：VId=&VName=测试1&VEmail=yananz_1@tujia.com&CmtText=评论者1&CmtArtId=21&ParentId=0&PageSize=5
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 21:58:12,537 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:PostCmt
+            开始时间：2017/2/25 21:58:12
+            结束时间：2017/2/25 21:58:12
+            总 时 间：0秒
+            Form表单数据：VId=&VName=测试1&VEmail=yananz_1@tujia.com&CmtText=评论者1&CmtArtId=21&ParentId=0&PageSize=5
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:12:57,283 
+线程ID:[42] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:Index
+            开始时间：2017/2/25 22:12:56
+            结束时间：2017/2/25 22:12:57
+            总 时 间：0.9577366秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==(系统通知,请勿回复)
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:12:57,765 
+线程ID:[42] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 22:12:57
+            结束时间：2017/2/25 22:12:57
+            总 时 间：0.4449058秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==(系统通知,请勿回复)
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:12:57,767 
+线程ID:[42] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 22:12:57
+            结束时间：2017/2/25 22:12:57
+            总 时 间：0.0020032秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==(系统通知,请勿回复)
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:12:57,798 
+线程ID:[42] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 22:12:57
+            结束时间：2017/2/25 22:12:57
+            总 时 间：0.0300286秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==(系统通知,请勿回复)
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:12:57,801 
+线程ID:[42] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 22:12:57
+            结束时间：2017/2/25 22:12:57
+            总 时 间：0.0030018秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==(系统通知,请勿回复)
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:12:58,069 
+线程ID:[42] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 22:12:57
+            结束时间：2017/2/25 22:12:58
+            总 时 间：0.267917秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==(系统通知,请勿回复)
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:12:58,071 
+线程ID:[42] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 22:12:58
+            结束时间：2017/2/25 22:12:58
+            总 时 间：0.0020014秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==(系统通知,请勿回复)
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:12:58,072 
+线程ID:[42] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 22:12:58
+            结束时间：2017/2/25 22:12:58
+            总 时 间：2.02E-05秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==(系统通知,请勿回复)
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:12:58,073 
+线程ID:[42] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 22:12:58
+            结束时间：2017/2/25 22:12:58
+            总 时 间：0.0010008秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==(系统通知,请勿回复)
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:12:58,074 
+线程ID:[42] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:Index
+            开始时间：2017/2/25 22:12:57
+            结束时间：2017/2/25 22:12:58
+            总 时 间：0.791784秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==(系统通知,请勿回复)
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:12:58,847 
+线程ID:[40] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:WrapComment
+            开始时间：2017/2/25 22:12:58
+            结束时间：2017/2/25 22:12:58
+            总 时 间：0.1381075秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488031978442
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:12:58,848 
+线程ID:[40] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:WrapComment
+            开始时间：2017/2/25 22:12:58
+            结束时间：2017/2/25 22:12:58
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488031978442
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:13:39,719 
+线程ID:[45] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:Index
+            开始时间：2017/2/25 22:13:39
+            结束时间：2017/2/25 22:13:39
+            总 时 间：0.0791369秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:13:40,185 
+线程ID:[45] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 22:13:39
+            结束时间：2017/2/25 22:13:40
+            总 时 间：0.4413484秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:13:40,188 
+线程ID:[45] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 22:13:40
+            结束时间：2017/2/25 22:13:40
+            总 时 间：0.0020013秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:13:40,222 
+线程ID:[45] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 22:13:40
+            结束时间：2017/2/25 22:13:40
+            总 时 间：0.0330725秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:13:40,224 
+线程ID:[45] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 22:13:40
+            结束时间：2017/2/25 22:13:40
+            总 时 间：0.0020013秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:13:40,493 
+线程ID:[45] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 22:13:40
+            结束时间：2017/2/25 22:13:40
+            总 时 间：0.2682425秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:13:40,495 
+线程ID:[45] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 22:13:40
+            结束时间：2017/2/25 22:13:40
+            总 时 间：0.0010013秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:13:40,495 
+线程ID:[45] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 22:13:40
+            结束时间：2017/2/25 22:13:40
+            总 时 间：4.34E-05秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:13:40,496 
+线程ID:[45] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 22:13:40
+            结束时间：2017/2/25 22:13:40
+            总 时 间：0.0010009秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:13:40,496 
+线程ID:[45] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:Index
+            开始时间：2017/2/25 22:13:39
+            结束时间：2017/2/25 22:13:40
+            总 时 间：0.7775074秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:13:41,218 
+线程ID:[44] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:WrapComment
+            开始时间：2017/2/25 22:13:41
+            结束时间：2017/2/25 22:13:41
+            总 时 间：0.1221262秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488032020753
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:13:41,218 
+线程ID:[44] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:WrapComment
+            开始时间：2017/2/25 22:13:41
+            结束时间：2017/2/25 22:13:41
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488032020753
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:14:29,095 
+线程ID:[41] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:PostCmt
+            开始时间：2017/2/25 22:14:07
+            结束时间：2017/2/25 22:14:29
+            总 时 间：21.8128102秒
+            Form表单数据：VId=1&CmtText=回复你&CmtArtId=21&ParentId=233&PageSize=5
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:14:29,095 
+线程ID:[41] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:PostCmt
+            开始时间：2017/2/25 22:14:29
+            结束时间：2017/2/25 22:14:29
+            总 时 间：0秒
+            Form表单数据：VId=1&CmtText=回复你&CmtArtId=21&ParentId=233&PageSize=5
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:07,606 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:Index
+            开始时间：2017/2/25 22:16:07
+            结束时间：2017/2/25 22:16:07
+            总 时 间：0.0241107秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:10,313 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 22:16:10
+            结束时间：2017/2/25 22:16:10
+            总 时 间：0.0941028秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:10,320 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 22:16:10
+            结束时间：2017/2/25 22:16:10
+            总 时 间：0.0070045秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:10,329 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 22:16:10
+            结束时间：2017/2/25 22:16:10
+            总 时 间：0.0080122秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:10,337 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 22:16:10
+            结束时间：2017/2/25 22:16:10
+            总 时 间：0.0080067秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:10,433 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 22:16:10
+            结束时间：2017/2/25 22:16:10
+            总 时 间：0.0960845秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:10,439 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 22:16:10
+            结束时间：2017/2/25 22:16:10
+            总 时 间：0.0060022秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:10,440 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 22:16:10
+            结束时间：2017/2/25 22:16:10
+            总 时 间：0.001088秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:10,446 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 22:16:10
+            结束时间：2017/2/25 22:16:10
+            总 时 间：0.0060031秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:10,446 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:Index
+            开始时间：2017/2/25 22:16:07
+            结束时间：2017/2/25 22:16:10
+            总 时 间：2.828867秒
+            Form表单数据：
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:11,041 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:WrapArtList
+            开始时间：2017/2/25 22:16:10
+            结束时间：2017/2/25 22:16:11
+            总 时 间：0.0470553秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488032170774
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:11,045 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:WrapArtList
+            开始时间：2017/2/25 22:16:11
+            结束时间：2017/2/25 22:16:11
+            总 时 间：0.0040014秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=7&_=1488032170774
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:35,077 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:Index
+            开始时间：2017/2/25 22:16:35
+            结束时间：2017/2/25 22:16:35
+            总 时 间：0.0760694秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:36,078 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 22:16:36
+            结束时间：2017/2/25 22:16:36
+            总 时 间：0.0137828秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:36,079 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 22:16:36
+            结束时间：2017/2/25 22:16:36
+            总 时 间：0.001005秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:36,083 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 22:16:36
+            结束时间：2017/2/25 22:16:36
+            总 时 间：0.00309秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:36,085 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 22:16:36
+            结束时间：2017/2/25 22:16:36
+            总 时 间：0.0020009秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:36,097 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 22:16:36
+            结束时间：2017/2/25 22:16:36
+            总 时 间：0.0120998秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:36,099 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 22:16:36
+            结束时间：2017/2/25 22:16:36
+            总 时 间：0.0020009秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:36,099 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 22:16:36
+            结束时间：2017/2/25 22:16:36
+            总 时 间：7E-07秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:36,100 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 22:16:36
+            结束时间：2017/2/25 22:16:36
+            总 时 间：0.0010013秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:36,100 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:Index
+            开始时间：2017/2/25 22:16:35
+            结束时间：2017/2/25 22:16:36
+            总 时 间：1.0229326秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:36,713 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:WrapComment
+            开始时间：2017/2/25 22:16:36
+            结束时间：2017/2/25 22:16:36
+            总 时 间：0.0260175秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488032196351
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:16:36,713 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:WrapComment
+            开始时间：2017/2/25 22:16:36
+            结束时间：2017/2/25 22:16:36
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488032196351
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:17:05,785 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:PostCmt
+            开始时间：2017/2/25 22:17:04
+            结束时间：2017/2/25 22:17:05
+            总 时 间：0.8787871秒
+            Form表单数据：VId=1&CmtText=再次回复&CmtArtId=21&ParentId=233&PageSize=5
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:17:05,786 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:PostCmt
+            开始时间：2017/2/25 22:17:05
+            结束时间：2017/2/25 22:17:05
+            总 时 间：0秒
+            Form表单数据：VId=1&CmtText=再次回复&CmtArtId=21&ParentId=233&PageSize=5
+            URL参数：
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:20:40,293 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:Index
+            开始时间：2017/2/25 22:20:40
+            结束时间：2017/2/25 22:20:40
+            总 时 间：0.0070724秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:20:40,319 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:DocArchiving
+            开始时间：2017/2/25 22:20:40
+            结束时间：2017/2/25 22:20:40
+            总 时 间：0.0130889秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:20:40,321 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:DocArchiving
+            开始时间：2017/2/25 22:20:40
+            结束时间：2017/2/25 22:20:40
+            总 时 间：0.0020022秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:20:40,325 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:HotArticles
+            开始时间：2017/2/25 22:20:40
+            结束时间：2017/2/25 22:20:40
+            总 时 间：0.0030942秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:20:40,327 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:HotArticles
+            开始时间：2017/2/25 22:20:40
+            结束时间：2017/2/25 22:20:40
+            总 时 间：0.0020005秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:20:40,340 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:NewComments
+            开始时间：2017/2/25 22:20:40
+            结束时间：2017/2/25 22:20:40
+            总 时 间：0.0131054秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:20:40,342 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:NewComments
+            开始时间：2017/2/25 22:20:40
+            结束时间：2017/2/25 22:20:40
+            总 时 间：0.0019991秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:20:40,342 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：HomeController
+            ActionName:TagCloud
+            开始时间：2017/2/25 22:20:40
+            结束时间：2017/2/25 22:20:40
+            总 时 间：4.5E-06秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:20:40,344 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：HomeController
+            ViewName:TagCloud
+            开始时间：2017/2/25 22:20:40
+            结束时间：2017/2/25 22:20:40
+            总 时 间：0.0020013秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:20:40,344 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：ArchivesController
+            ViewName:Index
+            开始时间：2017/2/25 22:20:40
+            结束时间：2017/2/25 22:20:40
+            总 时 间：0.0500317秒
+            Form表单数据：
+            URL参数：Flag=MQ==&AnchorIndex=MQ==&AnchorSize=NQ==&AnchorCmtRootId=MjMz&AnchorCmtParentId=MA==&AnchorCmtId=MjMz&Vid=MQ==
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:20:41,213 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：CommentController
+            ActionName:WrapComment
+            开始时间：2017/2/25 22:20:41
+            结束时间：2017/2/25 22:20:41
+            总 时 间：0.0140386秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488032440840
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:20:41,213 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            View视图生成时间监控：
+            ControllerName：CommentController
+            ViewName:WrapComment
+            开始时间：2017/2/25 22:20:41
+            结束时间：2017/2/25 22:20:41
+            总 时 间：0秒
+            Form表单数据：
+            URL参数：pageIndex=1&pageSize=5&_=1488032440840
+                    
+ 
+
+ 
+记录时间：2017-02-25 22:20:58,744 
+线程ID:[22] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ArchivesController
+            ActionName:Index
+            开始时间：2017/2/25 22:20:58
+            结束时间：2017/2/25 22:20:58
+            总 时 间：0.006085秒
+            Form表单数据：
+            URL参数：
+                    
+ 
